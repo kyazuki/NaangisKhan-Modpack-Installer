@@ -1,0 +1,198 @@
+Profile:
+  name: NaangisKhan
+  icon: Furnace
+  versionId: 1.20.1-forge-47.2.20
+  javaArgs: -Xms4G -Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+ModLoader:
+  name: Minecraft Forge
+  url: https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-installer.jar
+CurseForgeMods:
+# 建築/装飾
+- name: Supplementaries
+  modId: 412082
+  fileId: 5075373
+- name: Create Deco
+  modId: 509285
+  fileId: 5050588
+- name: Handcrafted
+  modId: 538214
+  fileId: 4818087
+- name: "Create: Bells & Whistles"
+  modId: 905040
+  fileId: 4860141
+- name: Beautify!
+  modId: 633252
+  fileId: 4781709
+# 工業/回路
+- name: Botania
+  modId: 225643
+  fileId: 5002307
+- name: Create
+  modId: 328085
+  fileId: 4835191
+- name: "Create: Steam 'n' Rails"
+  modId: 688231
+  fileId: 4836196
+- name: Create Enchantment Industry
+  modId: 688768
+  fileId: 4962850
+- name: Create Enchantment Industry Plus
+  modId: 776497
+  fileId: 4845267
+# 農業/料理
+- name: TofuCraftReload
+  modId: 317469
+  fileId: 5068953
+- name: Farmer's Delight
+  modId: 398521
+  fileId: 5051242
+- name: Tofu Delight
+  modId: 835619
+  fileId: 4826573
+- name: Maturi Delight
+  modId: 850610
+  fileId: 4676200
+- name: Twilight's Flavors & Delight
+  modId: 871735
+  fileId: 4988263
+- name: Ender's Delight
+  modId: 827163
+  fileId: 4760462
+- name: Nether's Delight
+  modId: 496394
+  fileId: 4736227
+- name: Create Confectionery
+  modId: 531834
+  fileId: 4835793
+- name: Aether Delight
+  modId: 961108
+  fileId: 5029396
+# 探検/移動
+- name: JourneyMap
+  modId: 32274
+  fileId: 4873848
+- name: Artifacts
+  modId: 312353
+  fileId: 5089743
+- name: The Aether
+  modId: 255308
+  fileId: 5068019
+- name: The Twilight Forest
+  modId: 227639
+  fileId: 5071019
+- name: Horse Pouch
+  modId: 910745
+  fileId: 4782633
+- name: Friends&Foes
+  modId: 602059
+  fileId: 5073597
+- name: Nether Depths Upgrade
+  modId: 670011
+  fileId: 5090095
+- name: Shiny Horses
+  modId: 674456
+  fileId: 4757027
+- name: RideableRavagers
+  modId: 928703
+  fileId: 4867501
+- name: RideablePolarBears
+  modId: 932424
+  fileId: 4840106
+- name: Deep Aether
+  modId: 852465
+  fileId: 5076616
+- name: "The Aether: Redux"
+  modId: 867237
+  fileId: 4990922
+# 戦闘/魔法
+- name: Immersive Armors
+  modId: 580681
+  fileId: 4664264
+- name: Ars Nouveau
+  modId: 401955
+  fileId: 5048144
+- name: Ars Creo
+  modId: 575698
+  fileId: 4681546
+# QOL
+- name: Simple Voice Chat
+  modId: 416089
+  fileId: 5069050
+- name: Carry On
+  modId: 274259
+  fileId: 4882500
+- name: Just Enough Items
+  modId: 238222
+  fileId: 5074448
+- name: Just Enough Resources
+  modId: 240630
+  fileId: 5057220
+- name: Just Enough Breeding
+  modId: 899386
+  fileId: 4975756
+- name: Just Enough Archaeology
+  modId: 890755
+  fileId: 4749194
+- name: Cloud Storage
+  modId: 606618
+  fileId: 4578808
+- name: Ride Along
+  modId: 517147
+  fileId: 4943807
+- name: Quark
+  modId: 243121
+  fileId: 5084013
+# Client Only Mods
+- name: Controlling
+  modId: 250398
+  fileId: 4646682
+- name: AppleSkin
+  modId: 248787
+  fileId: 4770828
+- name: Timestamp Chat
+  modId: 373235
+  fileId: 4665206
+- name: Not Enough Animations
+  modId: 433760
+  fileId: 5008760
+# Required Dependencies
+- name: GeckoLib
+  modId: 388172
+  fileId: 5060416
+- name: Patchouli
+  modId: 306770
+  fileId: 4966125
+- name: TerraBlender
+  modId: 563928
+  fileId: 5068218
+- name: Citadel
+  modId: 331936
+  fileId: 5075402
+- name: Cloth Config API
+  modId: 348521
+  fileId: 4973441
+- name: Resourceful Lib
+  modId: 570073
+  fileId: 5081677
+- name: Moonlight Lib
+  modId: 499980
+  fileId: 5068161
+- name: Architectury API
+  modId: 419699
+  fileId: 5084452
+- name: Zeta
+  modId: 968868
+  fileId: 5078215
+- name: Searchables
+  modId: 858542
+  fileId: 4779110
+- name: AeroBlender
+  modId: 879879
+  fileId: 4789008
+# Optional Dependencies
+- name: YUNG's API
+  modId: 421850
+  fileId: 5070641
+- name: Curios API
+  modId: 309927
+  fileId: 5086821
