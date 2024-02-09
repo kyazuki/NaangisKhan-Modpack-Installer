@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip"]
+resourcePacks:["vanilla","mod_resources","file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip","file/Naangiskhan"]
 incompatibleResourcePacks:["file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip"]
 lastServer:
 lang:ja_jp
