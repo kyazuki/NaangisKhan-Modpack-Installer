@@ -6,14 +6,31 @@
             "type": "shell",
             "command": "zip",
             "args": [
-                "-u",
                 "-r",
-                "client.zip",
-                "${workspaceFolder}/client"
+                "../client.zip",
+                ".",
+                "-x",
+                "Installer.bat",
+                "Installer.sh",
+                "run.bat",
+                "run.sh",
+                "serversDat.ps1",
             ],
             "group": "build",
             "options": {
                 "cwd": "${workspaceFolder}/client"
+            },
+            "dependsOn": "Clean",
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "client.zip",
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
             },
         }
     ]
