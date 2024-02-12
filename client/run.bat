@@ -17,7 +17,7 @@ if errorlevel 1 (
 )
 REM "設定ファイル・リソースをダウンロードして展開"
 echo リソースをダウンロード中...
-bitsadmin /transfer resources /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.2/client.zip "%CD%\client.zip" > nul
+bitsadmin /transfer resources /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.3/client.zip "%CD%\client.zip" > nul
 if errorlevel 1 (
     echo リソースのダウンロードに失敗しました。 1>&2
     pause
