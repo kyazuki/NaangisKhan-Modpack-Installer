@@ -25,7 +25,7 @@ jar xf client.zip > nul 2>&1
 if errorlevel 1 (
     tar -xf client.zip > nul 2>&1
     if errorlevel 1 (
-        call powershell -command "Expand-Archive -Force client.zip | Out-Null" > nul 2>&1
+        call powershell -command "Expand-Archive -Force -Path client.zip -DestinationPath .\ | Out-Null" > nul 2>&1
         if errorlevel 1 (
             echo ƒŠƒ\[ƒX‚Ì“WŠJ‚É¸”s‚µ‚Ü‚µ‚½B 1>&2
             pause
