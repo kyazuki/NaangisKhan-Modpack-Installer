@@ -21,11 +21,17 @@ if errorlevel 1 (
     pause
     exit 1
 )
-jar xf client.zip
+jar xf client.zip > nul 2>&1
 if errorlevel 1 (
-    echo リソースの展開に失敗しました。 1>&2
-    pause
-    exit 1
+    tar -xf client.zip > nul 2>&1
+    if errorlevel 1 (
+        call powershell -command "Expand-Archive -Force client.zip | Out-Null" > nul 2>&1
+        if errorlevel 1 (
+            echo リソースの展開に失敗しました。 1>&2
+            pause
+            exit 1
+        )
+    )
 )
 del client.zip
 REM "インストーラーをダウンロードして実行"
