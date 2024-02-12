@@ -16,7 +16,7 @@ if [ $? -ne 0 ]; then
 fi
 # 設定ファイル・リソースをダウンロードして展開
 echo リソースをダウンロード中...
-curl -OsSf https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.3/client.zip 2>/dev/null
+curl -OsSf https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.4/client.zip 2>/dev/null
 if [ $? -ne 0 ]; then
     echo リソースのダウンロードに失敗しました。 1>&2
     exit 1

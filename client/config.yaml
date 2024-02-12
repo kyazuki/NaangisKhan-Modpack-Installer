@@ -279,7 +279,7 @@ CurseForgeMods:
   modId: 309927
   fileId: 5086821
 Resources:
-- name: Conditional Tips v1.0.0
+- name: Conditional Tips v1.0.1
   # https://github.com/kyazuki/ConditionalTips/releases
-  url: https://github.com/kyazuki/ConditionalTips/releases/download/v1.0.0/conditional_tips-1.0.0.jar
+  url: https://github.com/kyazuki/ConditionalTips/releases/download/v1.0.1/conditional_tips-1.0.1.jar
   directory: mods
