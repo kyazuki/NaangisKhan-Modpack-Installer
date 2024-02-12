@@ -1,0 +1,19 @@
+{
+  "advancement.create.andesite_alloy.desc": "クリエイトで最も重要な素材、安山岩合金を手に入れる。",
+  "advancement.create.root": "クリエイトへようこそ",
+  "itemGroup.create.base": "クリエイト",
+  "itemGroup.create.palettes": "クリエイトの 建築ブロック",
+  "item.create.filter.tooltip.summary": "アイテムや他のフィルターに_マッチするアイテム_。クリエイトの機械の_フィルタースロット_に使える。",
+  "item.create.attribute_filter.tooltip.summary": "_属性_や_カテゴリ_のセットに_マッチするアイテム_。クリエイトの機械の_フィルタースロット_に使える。",
+  "create.ponder.tag.recently_updated.description": "クリエイトの最新バージョンで追加または大幅に変更された機械",
+  "create.ponder.categories": "クリエイトで閲覧できるカテゴリ",
+  "create.command.killTPSCommand.status.slowed_by.0": "[クリエイト]:サーバーティックは現在 %s ms 遅くなっています :o",
+  "create.command.killTPSCommand.status.slowed_by.1": "[クリエイト]: サーバーティックが %s ms 遅くなりました >:)",
+  "create.command.killTPSCommand.status.slowed_by.2": "[クリエイト]: サーバーティックが通常の速度に戻りました:D",
+  "create.command.killTPSCommand.status.usage.0": "[クリエイト]: /killtps stopを使用してサーバーのティックを通常の速度に戻します",
+  "create.command.killTPSCommand.status.usage.1": "[クリエイト]: /killtps start <tickTime>を使用して、サーバーのティックを意図的に遅くします",
+  "fluid.create.honey": "ハチミツ",
+  "create.schematic.tool.flip.description.1": "概略図を置きたい場所に向けながら、 [Ctrl]-スクロールして反転します",
+  "create.command.debuginfo.saved_to_clipboard": "デバッグ情報がクリップボードにコピーされました。ナンギスカンのDiscordで報告してください。",
+  "create.command.debuginfo.sending": "デバッグ情報を収集中・・・"
+}
