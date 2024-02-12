@@ -43,5 +43,5 @@
   "gamerule.artifacts.scarfOfInvisibility.enabled": "アーティファクト: 透明スカーフの有効化",
   "artifacts.tooltip.item.flame_pendant.fire_resistance": "攻撃されると火をつけて反撃し、自身は火炎耐性を得る",
   "artifacts.tooltip.item.flame_pendant.strike_chance": "攻撃者されると火をつけて反撃することがある",
-  "gamerule.artifacts.snorkel.waterBreathingDuration": "アーティファクト: シュノーケルの水中呼吸持続時間",
+  "gamerule.artifacts.snorkel.waterBreathingDuration": "アーティファクト: シュノーケルの水中呼吸持続時間"
 }

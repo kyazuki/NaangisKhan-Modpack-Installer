@@ -219,6 +219,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   modId: 60089
   fileId: 4581240
+- name: Toast Control v8.0.3
+  # https://www.curseforge.com/minecraft/mc-mods/toast-control/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  modId: 271740
+  fileId: 4711316
 # Tweaks
 - name: CraftTweaker v14.0.33
   # https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
