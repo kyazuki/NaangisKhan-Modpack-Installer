@@ -1,42 +1,40 @@
 @echo off
-REM "æ–‡å­—ã‚³ãƒ¼ãƒ‰ã‚’UTF-8ã«è¨­å®š"
-chcp 65001 > nul
-REM "JavaãŒãªã‘ã‚Œã°ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«"
+REM "Java‚ª‚È‚¯‚ê‚ÎƒCƒ“ƒXƒg[ƒ‹"
 java --version > nul 2>&1
 if errorlevel 1 (
-    echo Javaã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ä¸­...
+    echo Java‚ğƒCƒ“ƒXƒg[ƒ‹’†...
     winget install --id Microsoft.OpenJDK.17 > nul 2>&1
     if errorlevel 1 (
-        echo Javaã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ 1>&2
+        echo Java‚ÌƒCƒ“ƒXƒg[ƒ‹‚É¸”s‚µ‚Ü‚µ‚½B 1>&2
         pause
         exit 1
     )
-    echo Javaã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒå®Œäº†ã—ã¾ã—ãŸã€‚å†åº¦å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
+    echo Java‚ÌƒCƒ“ƒXƒg[ƒ‹‚ªŠ®—¹‚µ‚Ü‚µ‚½BÄ“xÀs‚µ‚Ä‚­‚¾‚³‚¢B
     pause
     exit 0
 )
-REM "è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒªã‚½ãƒ¼ã‚¹ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦å±•é–‹"
-echo ãƒªã‚½ãƒ¼ã‚¹ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ä¸­...
-bitsadmin /transfer resources /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.4/client.zip "%CD%\client.zip" > nul
+REM "İ’èƒtƒ@ƒCƒ‹EƒŠƒ\[ƒX‚ğƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä“WŠJ"
+echo ƒŠƒ\[ƒX‚ğƒ_ƒEƒ“ƒ[ƒh’†...
+bitsadmin /transfer resources /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.5/client.zip "%CD%\client.zip" > nul
 if errorlevel 1 (
-    echo ãƒªã‚½ãƒ¼ã‚¹ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ 1>&2
+    echo ƒŠƒ\[ƒX‚Ìƒ_ƒEƒ“ƒ[ƒh‚É¸”s‚µ‚Ü‚µ‚½B 1>&2
     pause
     exit 1
 )
 jar xf client.zip
 if errorlevel 1 (
-    echo ãƒªã‚½ãƒ¼ã‚¹ã®å±•é–‹ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ 1>&2
+    echo ƒŠƒ\[ƒX‚Ì“WŠJ‚É¸”s‚µ‚Ü‚µ‚½B 1>&2
     pause
     exit 1
 )
 del client.zip
-REM "ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦å®Ÿè¡Œ"
-echo ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ä¸­...
+REM "ƒCƒ“ƒXƒg[ƒ‰[‚ğƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄÀs"
+echo ƒCƒ“ƒXƒg[ƒ‰[‚ğƒ_ƒEƒ“ƒ[ƒh’†...
 bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/Minecraft-Modpack-Installer/releases/download/v1.1.2/minecraft-modpack-installer-1.1.2.jar "%CD%\minecraft-modpack-installer.jar" > nul
 if errorlevel 1 (
-    echo ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ 1>&2
+    echo ƒCƒ“ƒXƒg[ƒ‰[‚Ìƒ_ƒEƒ“ƒ[ƒh‚É¸”s‚µ‚Ü‚µ‚½B 1>&2
     pause
     exit 1
 )
-echo ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ä¸­...
+echo ƒCƒ“ƒXƒg[ƒ‹’†...
 java -jar minecraft-modpack-installer.jar
