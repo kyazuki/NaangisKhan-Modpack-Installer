@@ -1,0 +1,11 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botania"
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.botania.flowers"
+    }
+}

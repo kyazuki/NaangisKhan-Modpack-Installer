@@ -1,0 +1,19 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+    "type": "conditional_tips:conditional_tip",
+    "tip_conditions": [
+        {
+            "unarchivedAdvancements": [
+                "ars_nouveau:novice_spell_book"
+            ]
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.ars_nouveau.worn_notebook"
+    }
+}

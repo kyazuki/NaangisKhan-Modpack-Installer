@@ -1,0 +1,11 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cloudstorage"
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.cloudstorage.introduction"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.create.train"
+    }
+}
