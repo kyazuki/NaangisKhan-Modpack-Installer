@@ -191,10 +191,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/geckoanimfix/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   modId: 959388
   fileId: 5018199
-- name: Iris & Oculus Flywheel Compat v1.0.1
-  # https://www.curseforge.com/minecraft/mc-mods/iris-flywheel-compat/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 659897
-  fileId: 4631093
+- name: Oculus Flywheel Compat - One Off Fix v1
+  # https://www.curseforge.com/minecraft/mc-mods/oculus-flywheel-compat-one-off-fix/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  modId: 972317
+  fileId: 5090519
 - name: Timestamp Chat v2.4.0
   # https://www.curseforge.com/minecraft/mc-mods/timestamp-chat/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   modId: 373235
