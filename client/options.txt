@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","file/Twilight Forest Patch","mod_resources","file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip","file/Naangiskhan"]
-incompatibleResourcePacks:["file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip"]
+resourcePacks:["vanilla","file/Twilight Forest Patch","mod_resources","file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip","Moonlight Mods Dynamic Assets","builtin/DAGoldenSwetBallFixClient","builtin/aether_tips","builtin/overrides_pack","file/Naangiskhan"]
+incompatibleResourcePacks:["file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip","builtin/DAGoldenSwetBallFixClient"]
 lastServer:
 lang:ja_jp
 soundDevice:""
