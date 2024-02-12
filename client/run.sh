@@ -34,9 +34,9 @@ fi
 rm client.zip
 # インストーラーをダウンロードして実行
 echo インストーラーをダウンロード中...
-curl -OsSf https://github.com/kyazuki/Minecraft-Modpack-Installer/releases/download/v1.1.1/minecraft-modpack-installer-1.1.1.jar 2>/dev/null
+curl -o minecraft-modpack-installer.jar -sSf https://github.com/kyazuki/Minecraft-Modpack-Installer/releases/download/v1.1.2/minecraft-modpack-installer-1.1.2.jar 2>/dev/null
 if [ $? -ne 0 ]; then
     echo インストーラーのダウンロードに失敗しました。 1>&2
 fi
 echo インストール中...
-java -jar minecraft-modpack-installer-1.1.1.jar
+java -jar minecraft-modpack-installer.jar

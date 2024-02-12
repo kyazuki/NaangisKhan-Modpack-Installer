@@ -278,3 +278,8 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   modId: 309927
   fileId: 5086821
+Resources:
+- name: Conditional Tips v1.0.0
+  # https://github.com/kyazuki/ConditionalTips/releases
+  url: https://github.com/kyazuki/ConditionalTips/releases/download/v1.0.0/conditional_tips-1.0.0.jar
+  directory: mods
