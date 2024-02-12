@@ -16,7 +16,7 @@ if [ $? -ne 0 ]; then
 fi
 # 設定ファイル・リソースをダウンロードして展開
 echo リソースをダウンロード中...
-curl -OsSf https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.9/client.zip 2>/dev/null
+curl -OsSf https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.10/client.zip 2>/dev/null
 if [ $? -ne 0 ]; then
     echo リソースのダウンロードに失敗しました。 1>&2
     exit 1
@@ -34,7 +34,7 @@ fi
 rm client.zip
 # インストーラーをダウンロードして実行
 echo インストーラーをダウンロード中...
-curl -o minecraft-modpack-installer.jar -sSf https://github.com/kyazuki/Minecraft-Modpack-Installer/releases/download/v1.1.3/minecraft-modpack-installer-1.1.3.jar 2>/dev/null
+curl -o minecraft-modpack-installer.jar -sSf https://github.com/kyazuki/Minecraft-Modpack-Installer/releases/download/v2.0.0/minecraft-modpack-installer-2.0.0.jar 2>/dev/null
 if [ $? -ne 0 ]; then
     echo インストーラーのダウンロードに失敗しました。 1>&2
 fi

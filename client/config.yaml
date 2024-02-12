@@ -11,287 +11,297 @@ CurseForgeMods:
 # 建築/装飾
 - name: Supplementaries v2.7.35
   # https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 412082
+  projectId: 412082
   fileId: 5097848
 - name: Create Deco v2.0.1
   # https://www.curseforge.com/minecraft/mc-mods/create-deco/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 509285
+  projectId: 509285
   fileId: 5050588
 - name: Handcrafted v3.0.5
   # https://www.curseforge.com/minecraft/mc-mods/handcrafted/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 538214
+  projectId: 538214
   fileId: 4818087
 - name: "Create: Bells & Whistles v0.4.3"
   # https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 905040
+  projectId: 905040
   fileId: 4860141
 - name: Beautify! v2.0.2
   # https://www.curseforge.com/minecraft/mc-mods/beautify-decorate/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 633252
+  projectId: 633252
   fileId: 4781709
 # 工業/回路
 - name: Botania v443
   # https://www.curseforge.com/minecraft/mc-mods/botania/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 225643
+  projectId: 225643
   fileId: 5002307
 - name: Create v0.5.1f
   # https://www.curseforge.com/minecraft/mc-mods/create/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 328085
+  projectId: 328085
   fileId: 4835191
 - name: "Create: Steam 'n' Rails v1.5.3"
   # https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 688231
+  projectId: 688231
   fileId: 4836196
 - name: Create Enchantment Industry v0.5.1.f
   # https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 688768
+  projectId: 688768
   fileId: 4962850
 - name: Create Enchantment Industry Plus v1.1.0
   # https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry-plus/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 776497
+  projectId: 776497
   fileId: 4845267
 # 農業/料理
 - name: TofuCraftReload v5.9.0.1
   # https://www.curseforge.com/minecraft/mc-mods/tofucraftreload/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 317469
+  projectId: 317469
   fileId: 5097811
 - name: Farmer's Delight v1.2.4
   # https://www.curseforge.com/minecraft/mc-mods/farmers-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 398521
+  projectId: 398521
   fileId: 5051242
 - name: Tofu Delight v2.4.1
   # https://www.curseforge.com/minecraft/mc-mods/tofu-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 835619
+  projectId: 835619
   fileId: 4826573
 - name: Maturi Delight v3.0.0
   # https://www.curseforge.com/minecraft/mc-mods/maturi-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 850610
+  projectId: 850610
   fileId: 5092519
 - name: Twilight's Flavors & Delight v2.0.4
   # https://www.curseforge.com/minecraft/mc-mods/twilights-flavors-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 871735
+  projectId: 871735
   fileId: 4988263
 - name: Ender's Delight v1.0.3
   # https://www.curseforge.com/minecraft/mc-mods/enders-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 827163
+  projectId: 827163
   fileId: 4760462
 - name: Nether's Delight v4.0
   # https://www.curseforge.com/minecraft/mc-mods/nethers-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 496394
+  projectId: 496394
   fileId: 4736227
 - name: Create Confectionery v1.1.0
   # https://www.curseforge.com/minecraft/mc-mods/create-confectionery/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 531834
+  projectId: 531834
   fileId: 4835793
 - name: Aether Delight v1.0.0
   # https://www.curseforge.com/minecraft/mc-mods/aether-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 961108
+  projectId: 961108
   fileId: 5029396
 # 探検/移動
 - name: JourneyMap v5.9.18
   # https://www.curseforge.com/minecraft/mc-mods/journeymap/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 32274
+  projectId: 32274
   fileId: 4873848
 - name: Artifacts v9.2.2
   # https://www.curseforge.com/minecraft/mc-mods/artifacts/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 312353
+  projectId: 312353
   fileId: 5089743
 - name: The Aether v1.2.0
   # https://www.curseforge.com/minecraft/mc-mods/aether/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 255308
+  projectId: 255308
   fileId: 5068019
 - name: The Twilight Forest v4.3.2145
   # https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 227639
+  projectId: 227639
   fileId: 5071019
 - name: Friends&Foes v2.0.9
   # https://www.curseforge.com/minecraft/mc-mods/friends-and-foes-forge/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 602059
+  projectId: 602059
   fileId: 5073597
 - name: Nether Depths Upgrade v3.1.3
   # https://www.curseforge.com/minecraft/mc-mods/nether-depths-upgrade/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1s
-  modId: 670011
+  projectId: 670011
   fileId: 5090095
 - name: Shiny Horses v1.2
   # https://www.curseforge.com/minecraft/mc-mods/shiny-horses-forge-enchantable-horse-armor/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 674456
+  projectId: 674456
   fileId: 4757027
 - name: RideableRavagers v1.0.2
   # https://www.curseforge.com/minecraft/mc-mods/rideableravagers/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 928703
+  projectId: 928703
   fileId: 4867500
 - name: RideablePolarBears v1.0.0
   # https://www.curseforge.com/minecraft/mc-mods/rideablepolarbears/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 932424
+  projectId: 932424
   fileId: 4840105
 - name: Deep Aether v1.0.2
   # https://www.curseforge.com/minecraft/mc-mods/deep-aether/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 852465
+  projectId: 852465
   fileId: 5076616
 - name: "The Aether: Redux v1.3.4"
   # https://www.curseforge.com/minecraft/mc-mods/aether-redux/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 867237
+  projectId: 867237
   fileId: 4990922
 # 戦闘/魔法
 - name: Immersive Armors v1.6.1
   # https://www.curseforge.com/minecraft/mc-mods/immersive-armors/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 580681
+  projectId: 580681
   fileId: 4664264
 - name: Ars Nouveau v4.9.0
   # https://www.curseforge.com/minecraft/mc-mods/ars-nouveau/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 401955
+  projectId: 401955
   fileId: 5048144
 - name: Ars Creo v4.0.1
   # https://www.curseforge.com/minecraft/mc-mods/ars-creo/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 575698
+  projectId: 575698
   fileId: 4681546
 # QOL
 - name: Simple Voice Chat v2.5.2
   # https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 416089
+  projectId: 416089
   fileId: 5093322
 - name: Carry On v2.1.2.7
   # https://www.curseforge.com/minecraft/mc-mods/carry-on/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 274259
+  projectId: 274259
   fileId: 4882500
 - name: Just Enough Items v15.3.0.1
   # https://www.curseforge.com/minecraft/mc-mods/jei/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 238222
+  projectId: 238222
   fileId: 5074448
 - name: Just Enough Resources v1.4.0.247
   # https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 240630
+  projectId: 240630
   fileId: 5057220
 - name: Just Enough Archaeology v1.0.3
   # https://www.curseforge.com/minecraft/mc-mods/just-enough-archaeology/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 890755
+  projectId: 890755
   fileId: 4749194
 - name: Cloud Storage v1.4.0
   # https://www.curseforge.com/minecraft/mc-mods/alexs-cloud-storage/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 606618
+  projectId: 606618
   fileId: 4578808
 - name: Quark v436
   # https://www.curseforge.com/minecraft/mc-mods/quark/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 243121
+  projectId: 243121
   fileId: 5093415
 # Client Only Mods
 - name: Controlling v12.0.2
   # https://www.curseforge.com/minecraft/mc-mods/controlling/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 250398
+  projectId: 250398
   fileId: 4646682
 - name: AppleSkin v2.5.1
   # https://www.curseforge.com/minecraft/mc-mods/appleskin/files/4770828
-  modId: 248787
+  projectId: 248787
   fileId: 4770828
 - name: Oculus v1.6.15
   # https://www.curseforge.com/minecraft/mc-mods/oculus/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 581495
+  projectId: 581495
   fileId: 5080444
 - name: Iris/Oculus & GeckoLib Compat v1.0.1
   # https://www.curseforge.com/minecraft/mc-mods/geckoanimfix/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 959388
+  projectId: 959388
   fileId: 5018199
 - name: Oculus Flywheel Compat - One Off Fix v1
   # https://www.curseforge.com/minecraft/mc-mods/oculus-flywheel-compat-one-off-fix/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 972317
+  projectId: 972317
   fileId: 5090519
 - name: Timestamp Chat v2.4.0
   # https://www.curseforge.com/minecraft/mc-mods/timestamp-chat/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 373235
+  projectId: 373235
   fileId: 4665206
 - name: Not Enough Animations v1.7.1
   # https://www.curseforge.com/minecraft/mc-mods/not-enough-animations/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 433760
+  projectId: 433760
   fileId: 5093745
 - name: Tips v12.0.4
   # https://www.curseforge.com/minecraft/mc-mods/tips/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 306549
+  projectId: 306549
   fileId: 4844550
 - name: Better Advancements v0.3.2.162
   # https://www.curseforge.com/minecraft/mc-mods/better-advancements/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 272515
+  projectId: 272515
   fileId: 4985146
 - name: Crafting Tweaks v18.2.2
   # https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 233071
+  projectId: 233071
   fileId: 4939240
 - name: Mouse Tweaks v2.25
   # https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 60089
+  projectId: 60089
   fileId: 4581240
 - name: Toast Control v8.0.3
   # https://www.curseforge.com/minecraft/mc-mods/toast-control/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 271740
+  projectId: 271740
   fileId: 4711316
 # Tweaks
 - name: CraftTweaker v14.0.33
   # https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 239197
+  projectId: 239197
   fileId: 5094512
 # Required Dependencies
 - name: GeckoLib v4.4.2
   # https://www.curseforge.com/minecraft/mc-mods/geckolib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 388172
+  projectId: 388172
   fileId: 5060416
 - name: Patchouli v84
   # https://www.curseforge.com/minecraft/mc-mods/patchouli/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 306770
+  projectId: 306770
   fileId: 4966125
 - name: TerraBlender v3.0.1.4
   # https://www.curseforge.com/minecraft/mc-mods/terrablender/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 563928
+  projectId: 563928
   fileId: 5068218
 - name: Citadel v2.5.3
   # https://www.curseforge.com/minecraft/mc-mods/citadel/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 331936
+  projectId: 331936
   fileId: 5075402
 - name: Cloth Config API v11.1.118
   # https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 348521
+  projectId: 348521
   fileId: 4973441
 - name: Resourceful Lib v2.1.23
   # https://www.curseforge.com/minecraft/mc-mods/resourceful-lib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 570073
+  projectId: 570073
   fileId: 5093329
 - name: Moonlight Lib v2.9.12
   # https://www.curseforge.com/minecraft/mc-mods/selene/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 499980
+  projectId: 499980
   fileId: 5100886
 - name: Architectury API v9.1.13
   # https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 419699
+  projectId: 419699
   fileId: 5084452
 - name: Zeta v1.0-13
   # https://www.curseforge.com/minecraft/mc-mods/zeta/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 968868
+  projectId: 968868
   fileId: 5078215
 - name: Searchables v1.0.2
   # https://www.curseforge.com/minecraft/mc-mods/searchables/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 858542
+  projectId: 858542
   fileId: 4779110
 - name: AeroBlender v1.0.1
   # https://www.curseforge.com/minecraft/mc-mods/aeroblender/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 879879
+  projectId: 879879
   fileId: 4789008
 - name: Placebo v8.6.1
   # https://www.curseforge.com/minecraft/mc-mods/placebo/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 283644
+  projectId: 283644
   fileId: 5098182
 - name: Balm v7.2.1
   # https://www.curseforge.com/minecraft/mc-mods/balm/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 531761
+  projectId: 531761
   fileId: 4943500
 - name: Bookshelf v20.1.9
   # https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 228525
+  projectId: 228525
   fileId: 5084135
 # Optional Dependencies
 - name: Curios API v5.7.0
   # https://www.curseforge.com/minecraft/mc-mods/curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  modId: 309927
+  projectId: 309927
   fileId: 5086821
-Resources:
+OtherMods:
 - name: Conditional Tips v1.0.1
   # https://github.com/kyazuki/ConditionalTips/releases
   url: https://github.com/kyazuki/ConditionalTips/releases/download/v1.0.1/conditional_tips-1.0.1.jar
-  directory: mods
+CurseForgeResources:
+- name: BSL Shaders v8.2.08
+  # https://www.curseforge.com/minecraft/shaders/bsl-shaders/files/all?page=1&pageSize=20&version=Iris
+  projectId: 322506
+  fileId: 5077991
+  directory: shaderpacks
+- name: Sildur's Vibrant shaders v1.51
+  # https://www.curseforge.com/minecraft/shaders/sildurs-vibrant-shaders/files/all?page=1&pageSize=20&version=1.20.1
+  projectId: 544096
+  fileId: 4688976
+  directory: shaderpacks
