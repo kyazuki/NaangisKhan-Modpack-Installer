@@ -1,0 +1,19 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "twilightforest"
+        }
+    ],
+    "type": "conditional_tips:conditional_tip",
+    "tip_conditions": [
+        {
+            "dimensions": [
+                "twilightforest:twilight_forest"
+            ]
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.twilightforest.dimension"
+    }
+}

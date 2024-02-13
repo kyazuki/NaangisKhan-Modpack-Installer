@@ -1,0 +1,11 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "rideablepolarbears"
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.rideablepolarbears.tame"
+    }
+}

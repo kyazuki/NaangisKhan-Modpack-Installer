@@ -1,0 +1,11 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "rideableravagers"
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.rideableravagers.tame"
+    }
+}

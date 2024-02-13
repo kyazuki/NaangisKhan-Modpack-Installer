@@ -1,0 +1,11 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "jei"
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.jei.introduction"
+    }
+}
