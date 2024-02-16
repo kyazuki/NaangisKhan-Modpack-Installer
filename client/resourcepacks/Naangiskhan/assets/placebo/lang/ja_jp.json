@@ -1,0 +1,8 @@
+{
+    "key.categories.placebo": "プラセボ",
+    "placebo.toggleTrails": "支援者専用の足跡を表示",
+    "placebo.toggleWings": "支援者専用の羽を表示",
+    "placebo.cmd.serialize_success": "%sを%sに保存しました。",
+    "placebo.cmd.serialize_failure": "エラーが発生し、保存に失敗しました。",
+    "placebo.cmd.not_found": "%s は見つかりませんでした。"
+}

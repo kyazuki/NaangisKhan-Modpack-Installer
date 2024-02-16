@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "item:moonlight:placeable_item",
+        "item:create:copper_backtank_placeable",
+        "item:create:netherite_backtank_placeable",
+        "item:minecraft:light",
+        "item:minecraft:barrier",
+        "item:minecraft:structure_void",
+        "item:minecraft:jigsaw",
+        "item:minecraft:debug_stick",
+        "item:create:handheld_worldshaper",
+        "item:ars_nouveau:debug",
+        "item:minecraft:spawner",
+        "item:quark:monster_box"
+    ],
+    "filters": [
+        "/citadel:/",
+        "/creative/",
+        "/command_block/",
+        "/spawn_egg/",
+        "/lightmanscurrency:coin_chocolate/"
+    ]
+}

@@ -281,7 +281,7 @@
     "item.handcrafted.gray_sheet": "灰色の掛け布",
     "item.handcrafted.green_cushion": "緑色のクッション",
     "item.handcrafted.green_sheet": "緑色の掛け布",
-    "item.handcrafted.hammer": "ハンマー",
+    "item.handcrafted.hammer": "装飾ハンマー",
     "item.handcrafted.light_blue_cushion": "空色のクッション",
     "item.handcrafted.light_blue_sheet": "空色の掛け布",
     "item.handcrafted.light_gray_cushion": "薄灰色のクッション",
@@ -385,9 +385,9 @@
     "tooltip.handcrafted.crockery_combo": "右クリックしてアイテムを載せる",
     "tooltip.handcrafted.cushion": "クッションで右クリックして外見を変える",
     "tooltip.handcrafted.hammer": "家具の見た目を変える",
-    "tooltip.handcrafted.hammer_use_look": "ハンマーで右クリックして見た目を変える",
-    "tooltip.handcrafted.hammer_use_look_shift": "ハンマーで[Shift]を押しながら右クリックして見た目を変える",
-    "tooltip.handcrafted.hammer_use_shape": "ハンマーで右クリックして形を変える",
+    "tooltip.handcrafted.hammer_use_look": "装飾ハンマーで右クリックして見た目を変える",
+    "tooltip.handcrafted.hammer_use_look_shift": "装飾ハンマーで[Shift]を押しながら右クリックして見た目を変える",
+    "tooltip.handcrafted.hammer_use_shape": "装飾ハンマーで右クリックして形を変える",
     "tooltip.handcrafted.place_on_furniture": "家具の上に置ける",
     "tooltip.handcrafted.sheet": "掛け布で右クリックして見た目を変える"
 }

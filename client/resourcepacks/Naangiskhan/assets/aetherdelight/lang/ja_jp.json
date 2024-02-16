@@ -36,5 +36,10 @@
   "item_group.aetherdelight.aether_delight_tab_2": "エーテル・デライト (アドオン)",
   "item.aetherdelight.raw_aerfillet": "エアグロウフィッシュの切り身",
   "block.aetherdelight.goldenleaf_crate": "黄金の葉のベリー入りの木箱",
-  "item_group.aetherdelight.aether_delight_tab": "エーテル・デライト"
+  "item_group.aetherdelight.aether_delight_tab": "エーテル・デライト",
+  "tooltip.aetherdelight.holystone_knife": "生き物を倒すと希にアンブロシアの欠片をドロップする",
+  "tooltip.aetherdelight.zanite_knife": "ミミックに追加ダメージを与える",
+  "tooltip.aetherdelight.gravitite_knife": "§d一定確率で対象を浮遊させる",
+  "tooltip.aetherdelight.stratus_knife": "§d一定確率で対象を衰弱させる",
+  "tooltip.aetherdelight.veridium_knife": "§7魔力は注入できない"
 }
