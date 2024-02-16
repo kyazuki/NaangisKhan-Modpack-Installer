@@ -1,0 +1,9 @@
+{
+    "Use /locate structure betterdeserttemples:desert_temple instead!": "代わりに`/locate structure betterdeserttemples:desert_temple`を使用してください！",
+    "text.autoconfig.betterdeserttemples-fabric-1_20.title": "ヤンズ・ベター・デザート・テンプル",
+    "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.disableVanillaPyramids": "バニラの砂漠の寺院を無効化",
+    "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.disableVanillaPyramids.@Tooltip": "バニラの砂漠の寺院を生成させないようにするかどうか。",
+    "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue": "採掘速度低下を適用",
+    "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue.@Tooltip[0]": "まだ未踏破の場合に、寺院にいるプレイヤーに",
+    "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue.@Tooltip[1]": "採掘速度低下が適用されるかどうか。"
+}

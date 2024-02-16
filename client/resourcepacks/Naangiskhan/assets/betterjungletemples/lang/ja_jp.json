@@ -1,0 +1,13 @@
+{
+    "Use /locate structure betterjungletemples:jungle_temple instead!": "代わりに`/locate structure betterjungletemples:jungle_temple`を使用してください！",
+    "text.autoconfig.betterjungletemples-fabric-1_20.title": "ヤンズ・ベター・ジャングル・テンプル",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples": "ヤンズ・ベター・ジャングル・テンプル",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general": "一般",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.@Tooltip": "一般設定",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat": "MOD互換",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.@Tooltip": "MOD互換設定",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.disableVanillaJungleTemples": "バニラのジャングルの寺院を無効化",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.disableVanillaJungleTemples.@Tooltip": "バニラのジャングルの寺院を生成させないようにするかどうか。",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.pickYourPoisonEnabled": "ピック・ユア・ポイズン互換",
+    "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.pickYourPoisonEnabled.@Tooltip": "ピック・ユア・ポイズンの毒ダーツがベタージャングル寺院に生成するかどうか。"
+}
