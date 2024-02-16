@@ -1,0 +1,11 @@
+{
+    "fluid.moonlight.generic_fluid": "無名の液体",
+    "item.minecraft.potion_lingering": "残留ポーション",
+    "item.minecraft.potion_splash": "スプラッシュポーション",
+    "gui.moonlight.open_mod_page": " %s カースフォージのページを開く",
+    "message.moonlight.anti_repost": "You seem to have downloaded %1$s from a malicious site :( Get the real version %2$s.",
+    "message.moonlight.anti_repost_link": "here",
+    "wood_type.twilightforest.dark": "ダークウッド",
+    "leaves_type.twilightforest.dark": "ダークウッド",
+    "leaves_type.ulterlands.souldrained": "Petrified"
+}
