@@ -29,6 +29,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/beautify-decorate/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 633252
   fileId: 4781709
+- name: Rechiseled v2.0.2
+  # https://www.curseforge.com/minecraft/mc-mods/rechiseled/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 558998
+  fileId: 4872892
 # 工業/回路
 - name: Botania v443
   # https://www.curseforge.com/minecraft/mc-mods/botania/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
@@ -154,6 +158,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 416089
   fileId: 5093322
+- name: Lightman's Currency v2.2.0.3c
+  # https://www.curseforge.com/minecraft/mc-mods/lightmans-currency/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 472521
+  fileId: 5103933
 - name: Carry On v2.1.2.7
   # https://www.curseforge.com/minecraft/mc-mods/carry-on/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 274259
@@ -162,6 +170,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/jei/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 238222
   fileId: 5074448
+- name: EMI v1.1.1
+  # https://www.curseforge.com/minecraft/mc-mods/emi/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 580555
+  fileId: 5096955
 - name: Just Enough Resources v1.4.0.247
   # https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 240630
@@ -236,10 +248,6 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 239197
   fileId: 5094512
-- name: JEITweaker v8.0.6
-  # https://www.curseforge.com/minecraft/mc-mods/jeitweaker/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  projectId: 368718
-  fileId: 4781713
 - name: CreateTweaker v4.0.7
   # https://www.curseforge.com/minecraft/mc-mods/createtweaker/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 437717
@@ -301,6 +309,18 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 228525
   fileId: 5084135
+- name: Fusion (Connected Textures) v1.1.0c
+  # https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 854949
+  fileId: 5005130
+- name: SuperMartijn642's Config Lib v20.1.9
+  # https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 438332
+  fileId: 4715408
+- name: SuperMartijn642's Core Lib v20.1.9
+  # https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 454372
+  fileId: 5102258
 # Optional Dependencies
 - name: Curios API v5.7.0
   # https://www.curseforge.com/minecraft/mc-mods/curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
