@@ -13,7 +13,19 @@
   "create.command.killTPSCommand.status.usage.0": "[クリエイト]: /killtps stopを使用してサーバーのティックを通常の速度に戻します",
   "create.command.killTPSCommand.status.usage.1": "[クリエイト]: /killtps start <tickTime>を使用して、サーバーのティックを意図的に遅くします",
   "fluid.create.honey": "ハチミツ",
+  "fluid.create.chocolate": "チョコレート",
+  "item.create.honeyed_apple": "リンゴのハチミツかけ",
+  "advancement.create.foods.desc": "チョコレートベリー、リンゴのハチミツがけ、スイートロールを全て同じ注液口で作る",
   "create.schematic.tool.flip.description.1": "概略図を置きたい場所に向けながら、 [Ctrl]-スクロールして反転します",
   "create.command.debuginfo.saved_to_clipboard": "デバッグ情報がクリップボードにコピーされました。ナンギスカンのDiscordで報告してください。",
-  "create.command.debuginfo.sending": "デバッグ情報を収集中・・・"
+  "create.command.debuginfo.sending": "デバッグ情報を収集中・・・",
+  "block.create.andesite_bars": "安山岩の装飾格子",
+  "block.create.brass_bars": "真鍮の装飾格子",
+  "block.create.copper_bars": "銅の装飾格子",
+  "create.ponder.mechanical_roller_pave.text_7": "ローラーは列車に使うのに便利ですが、他のほとんどのからくりでも使えます",
+  "block.create.cyan_nixie_tube": "青緑色のニキシー管",
+  "block.create.cyan_sail": "青緑色の帆",
+  "block.create.cyan_seat": "青緑色のシート",
+  "block.create.cyan_toolbox": "青緑色の工具箱",
+  "block.create.cyan_valve_handle": "青緑色のバルブハンドル"
 }

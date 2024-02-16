@@ -1,0 +1,7 @@
+{
+    "crafttweaker.reload.complete": "アイテムレシピの再読み込みが完了しました",
+    "crafttweaker.reload.start": "アイテムレシピの再読み込みを開始します",
+    "crafttweaker.script.load.start": "スクリプトのロードを開始します：'%s'",
+    "crafttweaker.script.load.end.error": "スクリプトの読み込み中にエラーが発生しました：ナンギスカンのDiscordサーバーで報告してください。",
+    "crafttweaker.script.load.end.noerror": "スクリプトの読み込みが正常に完了しました。"
+}

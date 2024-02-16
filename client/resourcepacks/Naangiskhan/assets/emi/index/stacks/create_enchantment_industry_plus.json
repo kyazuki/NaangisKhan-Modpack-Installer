@@ -1,0 +1,12 @@
+{
+    "added": [
+        {
+            "stack": "item:create_enchantment_industry_plus:cut_leather",
+            "after": "item:minecraft:leather"
+        },
+        {
+            "stack": "item:create_enchantment_industry_plus:crushed_cut_leather",
+            "after": "item:create_enchantment_industry_plus:cut_leather"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "jearchaeology.recipe.brush": "発掘",
+    "jearchaeology.recipe.sniff": "スニッファー",
+    "jearchaeology.brush.structure.desert_well": "砂漠の井戸",
+    "jearchaeology.brush.structure.desert_pyramid": "砂漠の寺院",
+    "jearchaeology.brush.structure.trail_ruins": "旅路の遺跡",
+    "jearchaeology.brush.structure.warm_ocean_ruin": "暖かい海の海底遺跡",
+    "jearchaeology.brush.structure.cold_ocean_ruin": "冷たい海の海底遺跡",
+    "jearchaeology.brush.structure.bastion": "砦の遺跡",
+    "jearchaeology.brush.structure.ancient_city": "古代都市",
+    "jearchaeology.brush.structure.buried_ruins_or_obelist": "埋もれた遺跡または砂漠のオベリスク",
+    "jearchaeology.brush.structure.archeologist_camp_sand": "考古学者のキャンプ跡",
+    "jearchaeology.brush.structure.archeologist_camp_redsand": "考古学者のキャンプ跡",
+    "jearchaeology.brush.structure.archeologist_camp_grassy": "考古学者のキャンプ跡",
+    "jearchaeology.brush.structure.underwater": "海底",
+    "jearchaeology.brush.structure.plains_gravel": "ストーンヘンジ",
+    "jearchaeology.brush.structure.fossil_chicken": "ニワトリの化石",
+    "jearchaeology.brush.structure.fossil_creeper": "クリーパーの化石",
+    "jearchaeology.brush.structure.fossil_jungle": "ヤマネコの化石",
+    "jearchaeology.brush.structure.fossil_sheep": "ヒツジの化石",
+    "jearchaeology.brush.structure.fossil_villager": "村人の化石"
+}

@@ -35,9 +35,9 @@
   "advancement.deep_aether.transform_poison.desc": "毒に投げ入れてアイテムを変性する",
   "advancements.deep_aether.aether_champion.description": "一撃も受けずにエーテルのボスを全て倒す",
   "advancements.deep_aether.aether_champion.title": "エーテル界を制した者",
-  "deep_aether.item.disabled_item" : "無効化中",
+  "deep_aether.item.disabled_item": "無効化中",
   "gui.deep_aether.spooky_ring": "夜中に与えるダメージが最大2増加する、\n不気味な結果をもたらすかもしれない...",
-  "item.deep_aether.spooky_ring" : "不気味なリング",
+  "item.deep_aether.spooky_ring": "不気味なリング",
   "item.deep_aether.skyjade_chestplate": "スカイジェイドのチェストプレート",
   "lore.item.deep_aether.skyjade_chestplate": "スカイジェイド防具の一部。防御力は非常に高いが耐久値が低く、耐久値が下がると防御力が低下する。",
   "item.deep_aether.venomite_spawn_egg": "ベノマイトのスポーンエッグ",
@@ -71,9 +71,9 @@
   "lore.block.deep_aether.roseroot_fence": "ローズルートの板材とスカイルートの棒からクラフトされる。徘徊する外敵から家畜を守るのに最適だ！",
   "block.deep_aether.roseroot_fence_gate": "ローズルートのフェンスゲート",
   "lore.block.deep_aether.roseroot_fence_gate": "ローズルートの板材とスカイルートの棒からクラフトされる。大事な囲いの出入り口を家庭的な雰囲気に。",
-  "itemGroup.tabdeep_aether_blocks_tab": "Deep Aether - ブロック",
+  "itemGroup.tabdeep_aether_blocks_tab": "ディープエーテル - ブロック",
   "item.deep_aether.music_disc_nabooru": "レコード",
-  "lore.item.deep_aether.music_disc_nabooru":"Emile van Krieken作、Nabooruを再生するレコード。",
+  "lore.item.deep_aether.music_disc_nabooru": "Emile van Krieken作、Nabooruを再生するレコード。",
   "item.deep_aether.skyjade": "スカイジェイド宝石",
   "lore.item.deep_aether.skyjade": "ダイヤモンドよりも強力なツールを作ることができる鋭利な宝石だが、非常に壊れやすく、耐久性が落ちると砕け散って性能が落ちてします。。",
   "item.deep_aether.skyjade_pendant": "スカイジェイドのペンダント",
@@ -209,7 +209,6 @@
   "lore.block.deep_aether.aether_mud": "このブロックは主にヤグルートの森で生成されるが、作業台でエーテルの土と水入り瓶を組み合わせることでも入手できる。",
   "block.deep_aether.clorite_pillar": "クロライトの柱",
   "lore.block.deep_aether.clorite_pillar": "クロライトを柱状にしたもので、ドアのように2×3の形にクラフトして作ることができる。",
-
   "block.deep_aether.packed_aether_mud": "固めたエテールの泥",
   "lore.block.deep_aether.packed_aether_mud": "エーテルの泥をより乾燥させ、固めたもの。作業台でエアグロウフラワーと組み合わせることでこれを固めたものを作ることができる。",
   "block.deep_aether.aether_mud_bricks": "エーテル泥レンガ",
@@ -220,7 +219,6 @@
   "lore.block.deep_aether.aether_mud_bricks_stairs": "エーテル泥レンガからクラフトされる。階段は建物に垂直性を足す以外にも、装飾に使えるぞ！",
   "block.deep_aether.aether_mud_bricks_wall": "エーテル泥レンガの塀",
   "lore.block.deep_aether.aether_mud_bricks_wall": "エーテル泥レンガからクラフトされる。装飾的な囲いや防御塀に使える。嫌な侵入者を防ぐのに最適だ！",
-
   "block.deep_aether.polished_clorite": "磨かれたクロライト",
   "lore.block.deep_aether.polished_clorite": "エーテル固有の建材として使用される。クロライトから作られる。",
   "block.deep_aether.raw_clorite": "クロライト原石ブロック",
@@ -283,13 +281,11 @@
   "lore.item.deep_aether.stratus_ring": "グラビタイトのリングのアップグレード版。",
   "item.deep_aether.stratus_gloves": "層雲のグローブ",
   "lore.item.deep_aether.stratus_gloves": "グラビタイトのグローブのアップグレード版。層雲防具のフルセットを完成させるために必要。",
-  
   "item.deep_aether.smithing_template.stratus_upgrade.additions_slot_description": "グラビタイトインゴットを追加する",
   "item.deep_aether.smithing_template.stratus_upgrade.applies_to": "グラビタイト装備",
   "item.deep_aether.smithing_template.stratus_upgrade.base_slot_description": "グラビタイトの防具、武器、道具を追加する",
   "item.deep_aether.smithing_template.stratus_upgrade.ingredients": "層雲インゴット",
   "upgrade.deep_aether.stratus_upgrade": "層雲のアップグレード",
-
   "item.deep_aether.raw_oratie": "オラタイの原石",
   "item.deep_aether.oratie_ingot": "オラタイインゴット",
   "block.deep_Aether.clorite_pillar": "クロライトの柱",
@@ -392,7 +388,6 @@
   "lore.item.deep_aether.conberry_boat": "エーテルには大きな水域はあまりないが、氷の上を長距離横断する際にはボートが役に立つことがあるぞ！",
   "item.deep_aether.conberry_chest_boat": "チェスト付きのコンベリーのボート",
   "lore.item.deep_aether.conberry_chest_boat": "後部に便利なチェストが付いたコンベリーのボート。エーテルでは見つけるのが難しいと言われる、長い水路により多くのアイテムを運ぶのに役立つ。",
-
   "block.deep_aether.sunroot_log": "サンルートの原木",
   "lore.block.deep_aether.sunroot_log": "サンルートの木と一緒に生成される。スカイルートの斧を使うと二倍ドロップする。作業台に置くとサンルートの板材が4つ手に入る。",
   "block.deep_aether.sunroot_wood": "サンルートの木",
@@ -436,7 +431,6 @@
   "item.deep_aether.sunroot_chest_boat": "チェスト付きのサンルートのボート",
   "lore.item.deep_aether.sunroot_chest_boat": "後部に便利なチェストが付いたサンルートのボート。エーテルでは見つけるのが難しいと言われる、長い水路により多くのアイテムを運ぶのに役立つ。",
   "block.deep_aether.sunroot_hanger": "サンルートのハンガー",
-
   "item.deep_aether.raw_quail": "生のウズラ肉",
   "lore.item.deep_aether.raw_quail": "エーテル版のニワトリであるウズラを倒すと手に入る。",
   "item.deep_aether.cooked_quail": "焼きウズラ",
@@ -450,7 +444,6 @@
   "block.deep_aether.big_holystone_bricks_slab": "大きい聖石レンガのハーフブロック",
   "block.deep_aether.big_holystone_bricks_stairs": "大きい聖石レンガの階段",
   "block.deep_aether.big_holystone_bricks_wall": "大きい聖石レンガの塀",
-
   "block.deep_aether.chiseled_holystone": "模様入り聖石レンガ",
   "block.deep_aether.holystone_pillar": "聖石の柱",
   "block.deep_aether.holystone_pillar_up": "聖石の柱の上部",
@@ -459,7 +452,6 @@
   "lore.block.deep_aether.aether_cattails": "ヤグルートの沼地で見つかる青緑色の花。鉢植えで飾ったり、青緑色の染料を作るのに使うことができる。",
   "block.deep_aether.tall_aether_cattails": "背の高いエーテルガマ",
   "lore.block.deep_aether.tall_aether_cattails": "ヤグルートの沼地で見つかる青緑色の花。鉢植えで飾ったり、青緑色の染料を作るのに使うことができる。",
-
   "entity.deep_aether.chest_boat": "チェスト付きのボート",
   "block.deep_aether.holystone_bricks_slab": "聖石レンガのハーフブロック",
   "block.deep_aether.holystone_bricks_stairs": "聖石レンガの階段",
@@ -475,7 +467,6 @@
   "block.deep_aether.vertical_roseroot_planks": "縦のローズルートの板材",
   "block.deep_aether.aseterite_vertical_slab": "アセテライトの縦ハーフブロック",
   "block.deep_aether.polished_aseterite_vertical_slab": "磨かれたアセテライトの縦ハーフブロック",
-
   "block.deep_aether.holystone_bricks_vertical_slab": "聖石レンガの縦ハーフブロック",
   "block.deep_aether.aether_mud_bricks_vertical_slab": "エーテル泥レンガの縦ハーフブロック",
   "block.deep_aether.cruderoot_vertical_slab": "クルードルートの縦ハーフブロック",
@@ -538,19 +529,16 @@
   "lore.item.deep_aether.stratus_shovel": "強化されたグラビタイトのシャベル。このシャベルは土、または砂を浮遊させられる特殊な能力を持つぞ！効率強化のようなエンチャントと組み合わせると、一瞬でエーテルの土を破壊できる！",
   "item.deep_aether.gravitite_ring": "グラビタイトのリング",
   "lore.item.deep_aether.gravitite_ring": "層雲の防具のダッシュとグラビタイトの防具のジャンプを強化する強力なリング。",
-
   "block.deep_aether.blue_roseroot_leaves": "青いローズルートの葉",
   "lore.block.deep_aether.blue_roseroot_leaves": "青いローズルートの木と一緒に生成される葉。青いローズルートの苗木をドロップすることがある。",
   "block.deep_aether.flowering_blue_roseroot_leaves": "開花した青いローズルートの葉",
   "lore.block.deep_aether.flowering_blue_roseroot_leaves": "青いローズルートの木と一緒に生成される葉。腐るとエアグロウフラワーを落とす。また、発光する。",
   "block.deep_aether.blue_roseroot_sapling": "青いローズルートの苗木",
   "lore.block.deep_aether.blue_roseroot_sapling": "これらの小さな青色の苗木は青いローズルートの木に成長する。骨粉で成長を促進させられる。",
-
   "item.deep_aether.aerglow_fish_bucket": "エアグロウフィッシュ入りバケツ",
   "lore.item.deep_aether.aerglow_fish_bucket": "エアグロウフィッシュが入ったバケツ。水を常に補充しておかないと、新しいお友達は家までの旅路に耐えられないだろう。",
   "item.deep_aether.skyroot_aerglow_fish_bucket": "エアグロウフィッシュ入りスカイルートバケツ",
   "lore.item.deep_aether.skyroot_aerglow_fish_bucket": "エアグロウフィッシュが入ったスカイルートのバケツ。水を常に補充しておかないと、新しいお友達は家までの旅路に耐えられないだろう。",
-
   "itemGroup.deep_aether.deep_aether_blocks": "Deep Aether: ブロック",
   "itemGroup.deep_aether.deep_aether_items": "Deep Aether: アイテム",
   "item.deep_aether.roseroot_boat": "ローズルートのボート",
@@ -561,8 +549,6 @@
   "advancements.deep_aether.explore_aether.description": "すべての種類のエーテルのバイオームを探検する",
   "advancements.deep_aether.stratus_armor.title": "陽光で私を覆って",
   "advancements.deep_aether.stratus_armor.description": "層雲の防具一式を手に入れる",
-
-
   "block.deep_aether.holystone_tiles": "聖石タイル",
   "lore.block.deep_aether.holystone_tiles": "聖石のタイル。装飾に使える。",
   "block.deep_aether.holystone_tile_stairs": "聖石タイルの階段",
@@ -603,7 +589,6 @@
   "lore.block.deep_aether.frosted_holystone_brick_slab": "凍った聖石レンガ。ハーフブロックは様々な飾りや、滑らかなスロープを作るのに便利だ。建物の屋根に使ってみよう！",
   "block.deep_aether.frosted_holystone_brick_wall": "凍った聖石レンガの塀",
   "lore.block.deep_aether.frosted_holystone_brick_wall": "凍った聖石レンガ。装飾的な囲いや防御塀に使える。嫌な侵入者を防ぐのに最適だ！",
-
   "block.deep_aether.mossy_holystone_tiles": "苔むした聖石タイル",
   "lore.block.deep_aether.mossy_holystone_tiles": "苔むした聖石タイル。装飾に使える。",
   "block.deep_aether.mossy_holystone_tile_stairs": "苔むした聖石タイルの階段",
@@ -636,15 +621,12 @@
   "lore.block.deep_aether.frosted_holystone_tile_slab": "凍った聖石タイルクラフトされる。ハーフブロックは様々な飾りや、滑らかなスロープを作るのに便利だ。建物の屋根に使ってみよう！",
   "block.deep_aether.frosted_holystone_tile_wall": "凍った聖石タイルの塀",
   "lore.block.deep_aether.frosted_holystone_tile_wall": "凍った聖石タイルクラフトされる。装飾的な囲いや防御塀に使える。嫌な侵入者を防ぐのに最適だ！",
-
   "trim_material.deep_aether.skyjade": "スカイジェイド製装飾",
   "trim_material.deep_aether.stratus": "層雲製装飾",
-
   "block.deep_aether.feather_grass": "羽草",
   "lore.block.deep_aether.feather_grass": "羽草はエーテルの草の亜種である。これは通常の羽草だ。",
   "block.deep_aether.tall_feather_grass": "高い羽草",
   "lore.block.deep_aether.tall_feather_grass": "羽草はエーテルの草の亜種である。これは高い羽草だ。",
-
   "block.deep_aether.mini_golden_grass": "小さい黄金の草",
   "lore.block.deep_aether.mini_golden_grass": "黄金の草は黄金の高地バイオームに生成されるエーテルの草の亜種である。これは小さい黄金の草だ。",
   "block.deep_aether.short_golden_grass": "短い黄金の草",
@@ -674,20 +656,17 @@
   "lore.block.deep_aether.golden_aspess": "数あるエーテルの花のひとつ。食べると良い効果があると言われている。",
   "block.deep_aether.echaisy": "エチャイシー",
   "lore.block.deep_aether.echaisy": "O数あるエーテルの花のひとつ。食べると良い効果があると言われている。",
-
   "item.deep_aether.squash_seeds": "カボチャの種",
   "block.deep_aether.blue_squash": "青いカボチャ",
   "block.deep_aether.green_squash": "緑のカボチャ",
   "block.deep_aether.purple_squash": "紫のカボチャ",
-  "item.deep_aether.blue_squash_slice": "青いカボチャのスライス",
-  "item.deep_aether.green_squash_slice": "緑のカボチャのスライス",
-  "item.deep_aether.purple_squash_slice": "紫のカボチャのスライス",
-
+  "item.deep_aether.blue_squash_slice": "青いカボチャの薄切り",
+  "item.deep_aether.green_squash_slice": "緑のカボチャの薄切り",
+  "item.deep_aether.purple_squash_slice": "紫のカボチャの薄切り",
   "item.deep_aether.golden_grass_seeds": "黄金の草の種",
   "lore.item.deep_aether.golden_grass_seeds": "黄金の草の種。スェットボールと組み合わせると、金スェットボールができる。",
   "item.deep_aether.golden_swet_ball": "金のスェットボール",
   "lore.item.deep_aether.golden_swet_ball": "スェットボールと黄金の草の種を合わせたネバネバした球体。エーテルの土を黄金の草に変えることができる。",
-
   "biomes.deep_aether.aerglow_forest": "エアグロウの森",
   "biomes.deep_aether.blue_aerglow_forest": "青いエアグロウの森",
   "biomes.deep_aether.mystic_aerglow_forest": "神秘的なエアグロウの森",
@@ -700,15 +679,9 @@
   "biome.deep_aether.aerlavender_fields": "エアラベンダーの草原",
   "biome.deep_aether.yagroot_swamp": "ヤグルートの沼地",
   "biome.deep_aether.golden_heights": "黄金の高地",
-
   "fluid_type.deep_aether.poison_fluid": "毒",
-
-
-
-
   "item.deep_aether.skyjade_shield": "スカイジェイドの盾",
   "item.deep_aether.stratus_shield": "層雲の盾",
-
   "block.deep_aether.roseroot_log_wall": "ローズルートの原木の塀",
   "block.deep_aether.stripped_roseroot_log_wall": "樹皮を剥いだローズルートの塀",
   "block.deep_aether.cruderoot_log_wall": "クルードルートの原木の塀",
@@ -720,4 +693,3 @@
   "block.deep_aether.sunroot_log_wall": "サンルートの原木の塀",
   "block.deep_aether.stripped_sunroot_log_wall": "樹皮を剥いだサンルートの原木の塀"
 }
-
