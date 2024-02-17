@@ -1,0 +1,16 @@
+{
+    "added": [
+        {
+            "stack": "item:twilightdelight:ironwood_leaves",
+            "after": "item:twilightforest:hollow_oak_sapling"
+        },
+        {
+            "stack": "item:twilightdelight:ironwood_log",
+            "after": "item:twilightdelight:ironwood_leaves"
+        },
+        {
+            "stack": "item:twilightdelight:ironwood_sapling",
+            "after": "item:twilightdelight:ironwood_leaves"
+        }
+    ]
+}
