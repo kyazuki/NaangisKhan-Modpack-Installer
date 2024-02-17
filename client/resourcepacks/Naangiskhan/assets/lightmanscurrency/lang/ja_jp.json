@@ -71,7 +71,7 @@
     "item.lightmanscurrency.coin_chest_magnet_upgrade_3": "収集アップグレード(金)",
     "item.lightmanscurrency.coin_chest_magnet_upgrade_4": "収集アップグレード(エメラルド)",
     "item.lightmanscurrency.coin_chest_security_upgrade": "セキュリティアップグレード",
-    "item.lightmanscurrency.upgrade_smithing_template": "アップグレードの基盤",
+    "item.lightmanscurrency.upgrade_smithing_template": "鍛冶型",
     "item.lightmanscurrency.upgrade_smithing_template.tooltip": "ナン取引に関わるアイテムのアップグレードに使用する",
     "item.lightmanscurrency.generic.plural": "%ss",
     "block.lightmanscurrency.coinpile_copper": "ナンの山",
