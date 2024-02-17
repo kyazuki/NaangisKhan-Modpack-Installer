@@ -18,7 +18,7 @@
   "item.artifacts.shock_pendant": "電撃のペンダント",
   "gamerule.artifacts.diggingClaws.digSpeedBonus": "アーティファクト: 掘削爪の掘削速度",
   "gamerule.artifacts.diggingClaws.toolTier": "アーティファクト: 掘削爪の採掘レベル",
-    "gamerule.artifacts.charmOfSinking.enabled": "アーティファクト: 沈没のネックレスを有効化",
+  "gamerule.artifacts.charmOfSinking.enabled": "アーティファクト: 沈没のネックレスを有効化",
   "gamerule.artifacts.eternalSteak.cooldown": "アーティファクト: 永遠のステーキを食べる際ののクールダウン",
   "gamerule.artifacts.eternalSteak.enabled": "アーティファクト: 永遠のステーキを有効化",
   "gamerule.artifacts.everlastingBeef.cooldown": "アーティファクト: 無限の牛肉のクールダウン",
@@ -43,5 +43,9 @@
   "gamerule.artifacts.scarfOfInvisibility.enabled": "アーティファクト: 透明スカーフの有効化",
   "artifacts.tooltip.item.flame_pendant.fire_resistance": "攻撃されると火をつけて反撃し、自身は火炎耐性を得る",
   "artifacts.tooltip.item.flame_pendant.strike_chance": "攻撃者されると火をつけて反撃することがある",
-  "gamerule.artifacts.snorkel.waterBreathingDuration": "アーティファクト: シュノーケルの水中呼吸持続時間"
+  "gamerule.artifacts.snorkel.waterBreathingDuration": "アーティファクト: シュノーケルの水中呼吸持続時間",
+  "gamerule.artifacts.cloudInABottle.enabled": "アーティファクト: 雲入り瓶のアクセサリーが有効化",
+  "gamerule.artifacts.cloudInABottle.sprintJumpHorizontalVelocity": "アーティファクト: 雲入り瓶のアクセサリーのスプリント ジャンプの水平速度",
+  "gamerule.artifacts.cloudInABottle.sprintJumpVerticalVelocity": "アーティファクト: 雲入り瓶のアクセサリーのスプリント ジャンプの垂直速度",
+  "item.artifacts.cloud_in_a_bottle": "雲入り瓶のアクセサリー"
 }

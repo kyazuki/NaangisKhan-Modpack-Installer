@@ -1,0 +1,12 @@
+{
+    "added": [
+        {
+            "stack": "item:quark:ravager_hide",
+            "after": "item:minecraft:leather"
+        },
+        {
+            "stack": "item:quark:bonded_ravager_hide",
+            "after": "item:quark:ravager_hide"
+        }
+    ]
+}

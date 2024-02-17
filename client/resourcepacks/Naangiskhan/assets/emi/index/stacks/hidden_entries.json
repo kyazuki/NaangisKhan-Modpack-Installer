@@ -18,6 +18,7 @@
         "/creative/",
         "/command_block/",
         "/spawn_egg/",
+        "/spawnegg/",
         "/lightmanscurrency:coin_chocolate/"
     ]
 }
