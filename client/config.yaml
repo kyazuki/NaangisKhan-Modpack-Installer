@@ -261,6 +261,10 @@ CurseForgeMods:
   projectId: 437717
   fileId: 4804824
 # Required Dependencies
+- name: YUNG's v4.0.3
+  # https://www.curseforge.com/minecraft/mc-mods/yungs-api/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 421850
+  fileId: 5070641
 - name: GeckoLib v4.4.2
   # https://www.curseforge.com/minecraft/mc-mods/geckolib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 388172
