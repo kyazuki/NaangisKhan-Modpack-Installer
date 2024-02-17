@@ -1,0 +1,8 @@
+{
+    "rideableravagers.midnightconfig.title": "ライダブル・ラベジャー",
+    "rideableravagers.midnightconfig.requiresRestart": "再起動が必要",
+    "rideableravagers.midnightconfig.spawnInSavannah": "サバンナにラベジャーを湧かせるかどうか",
+    "rideableravagers.midnightconfig.spawnWeight": "スポーン率",
+    "rideableravagers.midnightconfig.spawnMinGroupSize": "最小グループサイズ",
+    "rideableravagers.midnightconfig.spawnMaxGroupSize": "最大グループサイズ"
+}
