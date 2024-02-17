@@ -19,6 +19,7 @@
         "/command_block/",
         "/spawn_egg/",
         "/spawnegg/",
-        "/lightmanscurrency:coin_chocolate/"
+        "/lightmanscurrency:coin_chocolate/",
+        "/railways:/_incomplete_/"
     ]
 }
