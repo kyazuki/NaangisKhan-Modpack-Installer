@@ -1,0 +1,11 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quark"
+        }
+    ],
+    "tip": {
+        "translate": "tips.tip.quark.item_share"
+    }
+}

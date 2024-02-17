@@ -11,5 +11,6 @@
     "tips.tip.rideablepolarbears.tame": "シロクマは魚で飼い慣らすことができる。サドルをつければ乗ることも可能だ。",
     "tips.tip.rideableravagers.tame": "ラベジャーはステーキで繁殖させることができる。子供は飼い慣らすことができ、成長すればサドルをつけて乗ることが可能だ。 ",
     "tips.tip.twilightforest.dimension": "黄昏の森では基本的に地表より上には敵が湧かない。悠久の黄昏時を満喫しよう。",
-    "tips.tip.twilightforest.portal": "4マスの水を花で囲い、ダイヤモンドを投げ入れると異次元への道が開く。"
+    "tips.tip.twilightforest.portal": "4マスの水を花で囲い、ダイヤモンドを投げ入れると異次元への道が開く。",
+    "tips.tip.quark.item_share": "アイテムにカーソルを合わせ、[Shift + T]でアイテム情報をチャットに送信できる。"
 }
