@@ -124,6 +124,14 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/shiny-horses-forge-enchantable-horse-armor/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 674456
   fileId: 4757027
+- name: Better Archeology v1.2
+  # https://www.curseforge.com/minecraft/mc-mods/better-archeology/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 835687
+  fileId: 5088423
+- name: The Outer End v1.0.4
+  # https://www.curseforge.com/minecraft/mc-mods/the-outer-end/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 430404
+  fileId: 5112273
 - name: RideableRavagers v1.0.2
   # https://www.curseforge.com/minecraft/mc-mods/rideableravagers/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 928703
@@ -321,6 +329,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 454372
   fileId: 5102258
+- name: Blueprint v7.0.0
+  # https://www.curseforge.com/minecraft/mc-mods/blueprint/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 382216
+  fileId: 4594238
 # Optional Dependencies
 - name: Curios API v5.7.0
   # https://www.curseforge.com/minecraft/mc-mods/curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
