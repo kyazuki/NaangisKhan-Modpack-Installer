@@ -6,11 +6,18 @@
     "tips.tip.carryon.ride": "チェストや動物を抱えた状態でも、馬に乗ることができる。",
     "tips.tip.cloudstorage.introduction": "チェストがたくさんあって管理が大変？クラウドストレージを使ってみよう！",
     "tips.tip.create.train": "Createの列車はネザーゲートを通れる。",
-    "tips.tip.general.advancements": "進捗にはMODのヒントがたくさん！ポーズメニューから確認してみよう。",
+    "tips.tip.general.advlancements": "進捗にはMODのヒントがたくさん！ポーズメニューから確認してみよう。",
     "tips.tip.jei.introduction": "インベントリを開くと表示されるアイテムリストを使いこなそう！各アイテムの作り方や入手法、何に使われるかを確認できる。新しいアイテムを手に入れたらチェックしてみよう。",
     "tips.tip.rideablepolarbears.tame": "シロクマは魚で飼い慣らすことができる。サドルをつければ乗ることも可能だ。",
     "tips.tip.rideableravagers.tame": "ラベジャーはステーキで繁殖させることができる。子供は飼い慣らすことができ、成長すればサドルをつけて乗ることが可能だ。 ",
     "tips.tip.twilightforest.dimension": "黄昏の森では基本的に地表より上には敵が湧かない。悠久の黄昏時を満喫しよう。",
     "tips.tip.twilightforest.portal": "4マスの水を花で囲い、ダイヤモンドを投げ入れると異次元への道が開く。",
-    "tips.tip.quark.item_share": "アイテムにカーソルを合わせ、[Shift + T]でアイテム情報をチャットに送信できる。"
+    "tips.tip.quark.item_share": "アイテムにカーソルを合わせ、[Shift + T]でアイテム情報をチャットに送信できる。",
+    "naan.chain.main": "ナン",
+    "naangiskhan.naan.naan": "ナン",
+    "naangiskhan.naan.bag": "ナンの袋",
+    "naangiskhan.naan.box": "ナンの箱",
+    "naangiskhan.naan.naan.initial": "枚",
+    "naangiskhan.naan.bag.initial": "袋",
+    "naangiskhan.naan.box.initial": "箱"
 }

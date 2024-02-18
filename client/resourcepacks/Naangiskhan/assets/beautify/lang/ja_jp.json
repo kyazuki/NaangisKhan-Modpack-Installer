@@ -1,14 +1,11 @@
 {
 	"itemGroup.beautify": "ビューティファイ",
-
 	"tooltip.shift": "Shiftを押して詳細を表示",
 	"tooltip.control": "Ctrlを押して植えられる植物の一覧を表示",
-
 	"block.beautify.rope": "ロープ",
 	"rope.description1": "鎖のように設置でき、登ることができる",
 	"rope.description2": "吊り鉢をぶらさげることができる",
-
-	"block.beautify.hanging_pot": "釣り鉢",
+	"block.beautify.hanging_pot": "吊り鉢",
 	"hanging_pot.description1": "天井やロープ、地面に設置できる",
 	"hanging_pot.description2": "植えたい植物で右クリックして使用",
 	"hanging_pot.description3": "骨粉やハサミも可能",
@@ -17,7 +14,6 @@
 	"block.beautify.bookstack": "積み上げられた本",
 	"bookstack.description1": "Shift+右クリックで配置を変えられる",
 	"bookstack.description2": "エンチャント台には本棚として認識される",
-
 	"block.beautify.oak_picture_frame": "オーク写真立て",
 	"block.beautify.birch_picture_frame": "シラカバの写真立て",
 	"block.beautify.spruce_picture_frame": "トウヒの写真立て",
@@ -30,20 +26,16 @@
 	"block.beautify.quartz_picture_frame": "クォーツの写真立て",
 	"frame.description1": "ランダムな写真の入った写真立て",
 	"frame.description2": "Shift+右クリックで写真が変わる",
-
 	"block.beautify.lamp_light_bulb": "電球",
 	"light_bulb.description1": "ランタンのように天井や地面に設置できる",
 	"light_bulb.description2": "右クリックでスイッチが切り替わる",
-
 	"block.beautify.lamp_bamboo": "竹のランプ",
 	"bamboo_lamp.description1": "ランタンのように天井や地面に設置できる",
 	"bamboo_lamp.description2": "右クリックでスイッチが切り替わる",
-
 	"block.beautify.lamp_jar": "グロウストーンエッセンスランプ",
 	"glowstone_essence_lamp.description1": "ランタンのように天井や地面に設置できる",
 	"glowstone_essence_lamp.description2": "グロウストーンダストを右クリックして入れる",
 	"glowstone_essence_lamp.description3": "素手で右クリックしてグロウストーンを取り出す",
-
 	"block.beautify.lamp_candelabra": "キャンドルスタンド",
 	"block.beautify.lamp_candelabra_light_blue": "空色のキャンドルスタンド",
 	"block.beautify.lamp_candelabra_light_gray": "薄灰色のキャンドルスタンド",
@@ -64,7 +56,6 @@
 	"candelabra.description1": "ランタンのように天井や地面に設置できる",
 	"candelabra.description2": "素手で右クリックして火を消す",
 	"candelabra.description3": "火打石と打ち金で右クリックして火を灯す",
-
 	"block.beautify.oak_blinds": "オークのブラインド",
 	"block.beautify.spruce_blinds": "トウヒのブラインド",
 	"block.beautify.birch_blinds": "シラカバのブラインド",
@@ -77,7 +68,6 @@
 	"block.beautify.iron_blinds": "鉄のブラインド",
 	"blinds.description1": "右クリックで隣接するブラインドをまとめて開閉する",
 	"blinds.description2": "縦に並んだブラインドは一度閉じると連結される",
-
 	"block.beautify.oak_trellis": "オークのラティス",
 	"block.beautify.spruce_trellis": "トウヒのラティス",
 	"block.beautify.birch_trellis": "シラカバのラティス",
@@ -91,10 +81,8 @@
 	"trellis.description2": "植物で右クリックして植える",
 	"trellis.list1": "植えられる植物:",
 	"trellis.list2": "バラの低木、ライラック、ボタン、ヒマワリ、ツタ、しだれツタ、ねじれツタ、ヒカリゴケ",
-
 	"block.beautify.botanist_workbench": "生物学者の作業台",
 	"botanist_workbench.description": "生物学者の村人が使う作業台",
-
 	"entity.minecraft.villager.beautify.botanist": "生物学者",
 	"sounds.beautify.bookstack_break": "本の山が壊れる",
 	"sounds.beautify.bookstack_step": "本の山の上を歩く",

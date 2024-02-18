@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "naangiskhan:block/crate_bottom",
+        "side": "naangiskhan:block/naan_crate_side",
+        "top": "naangiskhan:block/naan_crate_top"
+    }
+}
