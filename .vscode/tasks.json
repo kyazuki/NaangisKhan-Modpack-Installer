@@ -20,7 +20,7 @@
             "command": "zip",
             "args": [
                 "-r",
-                "${workspaceFolder}/NaangisKhan.zip",
+                "${workspaceFolder}/client/resourcepacks/NaangisKhan.zip",
                 ".",
             ],
             "group": "build",
@@ -52,7 +52,8 @@
             "type": "shell",
             "command": "rm",
             "args": [
-                "*.zip",
+                "client.zip,",
+                "client/resourcepacks/NaangisKhan.zip",
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
