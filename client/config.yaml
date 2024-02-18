@@ -198,6 +198,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/quark/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 243121
   fileId: 5093415
+- name: Polymorph v0.49.2
+  # https://www.curseforge.com/minecraft/mc-mods/polymorph/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 388800
+  fileId: 4928442
 # Client Only Mods
 - name: Controlling v12.0.2
   # https://www.curseforge.com/minecraft/mc-mods/controlling/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1

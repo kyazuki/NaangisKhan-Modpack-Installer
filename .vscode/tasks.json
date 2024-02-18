@@ -2,6 +2,21 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Create NaangisKhan.zip",
+            "type": "shell",
+            "command": "zip",
+            "args": [
+                "-r",
+                "${workspaceFolder}/NaangisKhan.zip",
+                ".",
+            ],
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}/client/resourcepacks/NaangisKhan"
+            },
+            "dependsOn": "Clean",
+        },
+        {
             "label": "Create client.zip",
             "type": "shell",
             "command": "zip",
@@ -27,7 +42,7 @@
             "type": "shell",
             "command": "rm",
             "args": [
-                "client.zip",
+                "*.zip",
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
