@@ -1,11 +1,11 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 REM "文字コードをUTF-8に設定"
 chcp 65001 > nul
-echo "アップデートを開始します..."
+echo アップデートを開始します...
 REM "専用リソースパックをダウンロード"
 if exist resourcepacks\NaangisKhan (
-    del /q resourcepacks\Naangiskhan > nul 2>&1
+    rmdir /q /s resourcepacks\Naangiskhan > nul 2>&1
     set OLD_RESOURCES=1
 )
 if exist resourcepacks\Naan.zip (
@@ -28,9 +28,9 @@ if defined OLD_RESOURCES (
     for /f "tokens=* USEBACKQ" %%F in (`findstr /b resourcePacks options.txt`) do (
         set "RESOURCE_PACKS=%%F"
     )
-    set RESOURCE_PACKS=%RESOURCE_PACKS:~15,-1%
+    set RESOURCE_PACKS=!RESOURCE_PACKS:~15,-1!
     set AFTER_RESOURCE_PACKS=
-    set left=%RESOURCE_PACKS%
+    set left=!RESOURCE_PACKS!
     :loop
     for /f "tokens=1* delims=," %%a in ("%left%") do (
         if not %%a == "file/Naangiskhan" if not %%a == "file/Naan.zip" (
