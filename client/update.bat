@@ -13,7 +13,7 @@ if exist resourcepacks\Naan.zip (
     set OLD_RESOURCES=1
 )
 REM "最新のリソースパックをダウンロード"
-bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.15/NaangisKhan.zip "%CD%\resourcepacks\NaangisKhan.zip" > nul
+bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.17/NaangisKhan.zip "%CD%\resourcepacks\NaangisKhan.zip" > nul
 REM "不足しているMODをダウンロード"
 if not exist mods\polymorph*.jar (
     bitsadmin /transfer installer /priority FOREGROUND https://www.curseforge.com/api/v1/mods/388800/files/4928442/download "%CD%\mods\polymorph-forge-0.49.2+1.20.1.jar" > nul

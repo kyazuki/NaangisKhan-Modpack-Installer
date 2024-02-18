@@ -2,6 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Build All",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Clean",
+                "Create NaangisKhan.zip",
+                "Create client.zip"
+            ],
+        },
+        {
             "label": "Create NaangisKhan.zip",
             "type": "shell",
             "command": "zip",
@@ -14,7 +27,6 @@
             "options": {
                 "cwd": "${workspaceFolder}/client/resourcepacks/NaangisKhan"
             },
-            "dependsOn": "Clean",
         },
         {
             "label": "Create client.zip",
@@ -25,17 +37,15 @@
                 "../client.zip",
                 ".",
                 "-x",
-                "Installer.bat",
-                "Installer.sh",
+                "resourcepacks/NaangisKhan/*",
                 "run.bat",
                 "run.sh",
-                "serversDat.ps1",
+                "update.bat",
             ],
             "group": "build",
             "options": {
                 "cwd": "${workspaceFolder}/client"
             },
-            "dependsOn": "Clean",
         },
         {
             "label": "Clean",
