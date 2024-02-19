@@ -1,3 +1,3 @@
-modifyRecipes();
-modifyTooltips();
-setHarvestingHoes();
+modifyItems();
+//modifyEntities();
+//modifyBlocks();

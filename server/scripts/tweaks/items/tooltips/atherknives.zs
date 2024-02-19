@@ -1,7 +1,7 @@
 import crafttweaker.api.text.Component;
 import crafttweaker.api.text.MutableComponent;
 
-public function modifyTooltips() as void {
+public function fixAtherDelightKnives() as void {
     replaceTooltip(<item:aetherdelight:holystone_knife>,
         "Chance to get ambrosia dew from slain mobs", "tooltip.aetherdelight.holystone_knife"
     );

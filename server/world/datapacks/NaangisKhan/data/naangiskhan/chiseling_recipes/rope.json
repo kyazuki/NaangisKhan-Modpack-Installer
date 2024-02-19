@@ -1,0 +1,12 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        {
+            "item": "supplementaries:rope"
+        },
+        {
+            "item": "farmersdelight:rope"
+        }
+    ],
+    "overwrite": false
+}

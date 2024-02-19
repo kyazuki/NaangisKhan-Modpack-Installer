@@ -1,0 +1,205 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#lightmanscurrency:traders/freezer",
+            "required": false
+        },
+        {
+            "id": "#lightmanscurrency:traders/vending_machine",
+            "required": false
+        },
+        {
+            "id": "#lightmanscurrency:traders/large_vending_machine",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:trading_core",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinmint",
+            "required": false
+        },
+        {
+            "id": "#lightmanscurrency:atm",
+            "required": false
+        },
+        {
+            "id": "#lightmanscurrency:trading_terminal",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:item_trader_interface",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:tax_block",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:slot_machine",
+            "required": false
+        },
+        {
+            "id": "#lightmanscurrency:trader_network",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:ticket_kiosk",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_chest",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:ticket_machine",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:paygate",
+            "required": false
+        },
+        {
+            "id": "#curios:wallet",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:cash_register",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:item_capacity_upgrade_3",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:item_capacity_upgrade_2",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:item_capacity_upgrade_1",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:speed_upgrade_5",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:speed_upgrade_4",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:speed_upgrade_3",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:speed_upgrade_2",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:speed_upgrade_1",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:network_upgrade",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:hopper_upgrade",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_chest_exchange_upgrade",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_chest_security_upgrade",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_chest_magnet_upgrade_4",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_chest_magnet_upgrade_3",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_chest_magnet_upgrade_2",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_chest_magnet_upgrade_1",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_iron",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_gold",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_emerald",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_diamond",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_netherite",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinpile_iron",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinpile_gold",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinpile_emerald",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinpile_diamond",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinpile_netherite",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinpile_copper",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinblock_iron",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinblock_gold",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinblock_emerald",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinblock_diamond",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinblock_netherite",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinblock_copper",
+            "required": false
+        }
+    ]
+}

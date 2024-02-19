@@ -1,0 +1,15 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        {
+            "item": "createdeco:iron_ladder"
+        },
+        {
+            "item": "quark:iron_ladder"
+        },
+        {
+            "item": "twilightforest:iron_ladder"
+        }
+    ],
+    "overwrite": false
+}

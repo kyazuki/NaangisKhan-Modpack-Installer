@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "lightmanscurrency:coin_emerald",
+        "lightmanscurrency:coin_diamond",
+        "lightmanscurrency:coin_netherite"
+    ]
+}

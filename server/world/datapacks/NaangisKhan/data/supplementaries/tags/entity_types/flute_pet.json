@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    {
+        "id":"minecraft:polar_bear",
+        "required":false
+    },
+    {
+        "id":"minecraft:ravager",
+        "required":false
+    },
+    {
+        "id":"aether:black_moa",
+        "required":false
+    },
+    {
+        "id":"aether:blue_moa",
+        "required":false
+    },
+    {
+        "id":"aether:white_moa",
+        "required":false
+    }
+  ]
+}
+

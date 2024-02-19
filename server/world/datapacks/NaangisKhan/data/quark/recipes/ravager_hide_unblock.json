@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1"
+    ],
+    "key": {
+        "1": {
+            "item": "quark:bonded_ravager_hide"
+        }
+    },
+    "result": {
+        "item": "quark:ravager_hide",
+        "count": 9
+    }
+}

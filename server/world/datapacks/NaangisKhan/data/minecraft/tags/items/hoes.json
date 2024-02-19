@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "tofucraft:tofu_kinu_hoe",
+            "required": false
+        },
+        {
+            "id": "tofucraft:tofu_metal_hoe",
+            "required": false
+        },
+        {
+            "id": "tofucraft:tofu_momen_hoe",
+            "required": false
+        },
+        {
+            "id": "tofucraft:tofu_solid_hoe",
+            "required": false
+        },
+        {
+            "id": "tofucraft:tofu_diamond_hoe",
+            "required": false
+        },
+        {
+            "id": "deep_aether:skyjade_hoe",
+            "required": false
+        },
+        {
+            "id": "deep_aether:stratus_hoe",
+            "required": false
+        }
+    ]
+}

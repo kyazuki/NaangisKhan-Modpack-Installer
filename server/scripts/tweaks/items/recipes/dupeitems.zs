@@ -5,15 +5,32 @@ import crafttweaker.api.recipe.CraftingTableRecipeManager;
 import crafttweaker.api.recipe.IRecipeComponent;
 import crafttweaker.api.recipe.replacement.ITargetingStrategy;
 import crafttweaker.api.recipe.replacement.Replacer;
+import crafttweaker.api.recipe.replacement.IFilteringRule;
+import crafttweaker.api.recipe.replacement.ITargetingFilter;
+import crafttweaker.api.recipe.replacement.type.NameFilteringRule;
+import mods.farmersdelight.CookingPot;
+import mods.create.CrushingManager;
 
-public function modifyRecipes() as void {
+public function fixDupeItems() as void {
     val empty = IIngredientEmpty.INSTANCE;
-
+    //重複アイテムの統一・調整
     // TofuCraftReloadの米をFarmer's Delightの米に統一
     hideIndexs([
         <item:tofucraft:seeds_rice>,
         <item:tofucraft:rice>
     ]);
+    recipes.remove(<item:tofucraft:rice>);
+    recipes.remove(<item:tofucraft:rice_block>);
+    craftingTable.addShapeless(
+        "naangiskhan/tofucraft/rice",
+        <item:farmersdelight:rice> * 4,
+        [<item:tofucraft:rice_block>]
+    );
+    craftingTable.addShapeless(
+        "naangiskhan/tofucraft/rice_convert",
+        <item:farmersdelight:rice> * 1,
+        [<item:tofucraft:rice>]
+    );
 
     // Beautify!のロープを削除し、SupplementariesとFarmer's Delightのロープを統一。(データパックでChisel)
     // SupplementariesロープをFarmer's Delightロープレシピに、
@@ -21,6 +38,7 @@ public function modifyRecipes() as void {
     hideIndex(<item:beautify:rope>);
     recipes.remove(<item:beautify:rope>);
     recipes.remove(<item:farmersdelight:rope>);
+    recipes.remove(<item:supplementaries:rope>);
     recipes.remove(<item:quark:rope>);
     craftingTable.addShaped(
         "naangiskhan/supplementaries/rope",
@@ -59,11 +77,44 @@ public function modifyRecipes() as void {
         [empty, <item:quark:rope>, empty],
         [empty, <item:create:iron_sheet>, empty]]
     );
+    //beautifyの吊り鉢の素材をSupplementariesロープに変更
+    recipes.remove(<item:beautify:hanging_pot>);
+    craftingTable.addShaped(
+        "naangiskhan/beautify/hanging_pot",
+        <item:beautify:hanging_pot> * 1,
+        [[<item:supplementaries:rope>,empty,empty],
+        [<item:minecraft:flower_pot>,empty,empty],
+        [empty,empty,empty]]
+    );
 
     // 鉄はしごの通常レシピを削除 (データパックでChiselに追加済み)
     craftingTable.remove(<item:quark:iron_ladder>);
     craftingTable.remove(<item:twilightforest:iron_ladder>);
 
-    // 銅コインの山のレシピを削除
-    recipes.remove(<item:lightmanscurrency:coinpile_copper>);
+    //farmersdelightのココアをcreate confectioneryに統一
+    hideIndexs([
+        <item:farmersdelight:hot_cocoa>
+    ]);
+    <recipetype:farmersdelight:cooking>.remove(<item:farmersdelight:hot_cocoa>);
+    <recipetype:farmersdelight:cooking>.addRecipe(
+        "naangiskhan/create_confectionery/hot_chocolate_bottle",
+        <item:create_confectionery:hot_chocolate_bottle>,
+        [<tag:items:forge:milk>,<item:minecraft:sugar>,<item:minecraft:cocoa_beans>,<item:minecraft:cocoa_beans>],<constant:farmersdelight:cooking_pot_recipe_book_tab:misc>,
+        <item:minecraft:glass_bottle>,
+        1, 200);
+
+
+    // Replacer
+    // Replacer.create()
+    // .replace<IItemStack>(
+    //     <recipecomponent:crafttweaker:input/ingredients>,
+    //     <item:naangiskhan:before>,
+    //     <item:naangiskhan:after>
+    // )
+    // .replace<IItemStack>(
+    //     <recipecomponent:crafttweaker:output/items>,
+    //     <item:naangiskhan:before>,
+    //     <item:naangiskhan:after>
+    // )
+    // .execute();
 }

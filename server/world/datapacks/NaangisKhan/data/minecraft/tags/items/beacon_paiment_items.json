@@ -1,0 +1,53 @@
+{
+    "replace": true,
+    "values": [
+        {
+            "id": "minecraft:netherite_ingot",
+            "required": false
+        },
+        {
+            "id": "minecraft:emerald",
+            "required": false
+        },
+        {
+            "id": "minecraft:diamond",
+            "required": false
+        },
+        {
+            "id": "minecraft:gold_ingot",
+            "required": false
+        },
+        {
+            "id": "minecraft:iron_ingot",
+            "required": false
+        },
+        {
+            "id": "aether:zanite_gemstone",
+            "required": false
+        },
+        {
+            "id": "aether:enchanted_gravitite",
+            "required": false
+        },
+        {
+            "id": "ars_nouveau:source_gem",
+            "required": false
+        },
+        {
+            "id": "create:andesite_alloy",
+            "required": false
+        },
+        {
+            "id": "create:zinc_ingot",
+            "required": false
+        },
+        {
+            "id": "create:brass_ingot",
+            "required": false
+        },
+        {
+            "id": "createdeco:industrial_iron_ingot",
+            "required": false
+        }
+    ]
+}

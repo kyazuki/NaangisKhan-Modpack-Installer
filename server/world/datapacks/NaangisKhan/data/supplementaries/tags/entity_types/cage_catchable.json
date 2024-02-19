@@ -1,0 +1,73 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:allay",
+      "required": false
+    },
+    {
+      "id": "minecraft:bat",
+      "required": false
+    },
+    {
+      "id": "minecraft:donkey",
+      "required": false
+    },
+    {
+      "id": "minecraft:frog",
+      "required": false
+    },
+    {
+      "id": "minecraft:horse",
+      "required": false
+    },
+    {
+      "id": "minecraft:mule",
+      "required": false
+    },
+    {
+      "id": "minecraft:parrot",
+      "required": false
+    },
+    {
+      "id": "minecraft:rabbit",
+      "required": false
+    },
+    {
+      "id": "minecraft:skeleton_horse",
+      "required": false
+    },
+    {
+      "id": "minecraft:strider",
+      "required": false
+    },
+    {
+      "id": "minecraft:turtle",
+      "required": false
+    },
+    {
+    "id":"minecraft:ravager",
+        "required":false
+    },
+    {
+        "id":"minecraft:polar_bear",
+        "required":false
+    },
+    {
+        "id":"minecraft:ravager",
+        "required":false
+    },
+    {
+        "id":"aether:black_moa",
+        "required":false
+    },
+    {
+        "id":"aether:blue_moa",
+        "required":false
+    },
+    {
+        "id":"aether:white_moa",
+        "required":false
+    }
+  ]
+}
