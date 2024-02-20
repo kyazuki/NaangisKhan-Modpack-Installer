@@ -379,7 +379,7 @@
 		unbound_radius = 64
 		#Max distance at which a bound flute will allow a pet to teleport
 		#Range: 0 ~ 500
-		bound_distance = 64
+		bound_distance = 500
 
 	[tools.bomb]
 		enabled = true
