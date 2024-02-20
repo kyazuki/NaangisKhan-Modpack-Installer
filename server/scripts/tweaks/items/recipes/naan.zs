@@ -9,14 +9,15 @@ import crafttweaker.api.recipe.replacement.type.NameFilteringRule;
 //import crafttweaker.api.recipe.replacement.type.CustomFilteringRule;
 //import crafttweaker.api.recipe.type.Recipe;
 import crafttweaker.api.recipe.SmithingRecipeManager; 
- 
+import crafttweaker.api.food.FoodProperties;
+    
 public function naanCurrency() as void {
     val empty = IIngredientEmpty.INSTANCE;
 
-    //ナンを追加
-    //var naan = mods.contenttweaker.VanillaFactory.createItemFood("naangiskhan.naan.naan", 0.5);
-    //naan.setSaturation(0.5);
-    //naan.setAlwaysEdible(true);
+    //ナンを可食に
+    <item:lightmanscurrency:coin_iron>.setFood(
+        FoodProperties.create(1, 0)
+    );
 
     // 銅コインのレシピを削除
     recipes.removeByInput(<item:lightmanscurrency:coin_iron>);
@@ -31,11 +32,11 @@ public function naanCurrency() as void {
         <item:lightmanscurrency:coin_copper> * 10,
         [<item:lightmanscurrency:coinblock_copper>]
     );
-    //craftingTable.addShapeless(
-    //    "naangiskhan/naan/uncraft_bag",
-    //    <item:lightmanscurrency:coin_iron> * 10,
-    //    [<item:lightmanscurrency:coin_copper>]
-    //);
+    craftingTable.addShapeless(
+        "naangiskhan/naan/uncraft_bag",
+        <item:lightmanscurrency:coin_iron> * 10,
+        [<item:lightmanscurrency:coin_copper>]
+    );
 
     //各種財布のレシピを削除
     recipes.remove(<item:lightmanscurrency:wallet_copper>);

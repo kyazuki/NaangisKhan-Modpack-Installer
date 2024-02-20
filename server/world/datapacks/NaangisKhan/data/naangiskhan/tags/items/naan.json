@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "lightmanscurrency:coin_copper",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coin_iron",
+            "required": false
+        },
+        {
+            "id": "lightmanscurrency:coinblock_copper",
+            "required": false
+        }
+    ]
+}

@@ -11,9 +11,9 @@ import crafttweaker.api.recipe.replacement.type.NameFilteringRule;
 import mods.farmersdelight.CookingPot;
 import mods.create.CrushingManager;
 
-public function fixDupeItems() as void {
+public function fixDupeItems() as void {//重複アイテムの統一・調整
     val empty = IIngredientEmpty.INSTANCE;
-    //重複アイテムの統一・調整
+    
     // TofuCraftReloadの米をFarmer's Delightの米に統一
     hideIndexs([
         <item:tofucraft:seeds_rice>,
@@ -92,9 +92,7 @@ public function fixDupeItems() as void {
     craftingTable.remove(<item:twilightforest:iron_ladder>);
 
     //farmersdelightのココアをcreate confectioneryに統一
-    hideIndexs([
-        <item:farmersdelight:hot_cocoa>
-    ]);
+    hideIndex(<item:farmersdelight:hot_cocoa>);
     <recipetype:farmersdelight:cooking>.remove(<item:farmersdelight:hot_cocoa>);
     <recipetype:farmersdelight:cooking>.addRecipe(
         "naangiskhan/create_confectionery/hot_chocolate_bottle",
@@ -102,6 +100,23 @@ public function fixDupeItems() as void {
         [<tag:items:forge:milk>,<item:minecraft:sugar>,<item:minecraft:cocoa_beans>,<item:minecraft:cocoa_beans>],<constant:farmersdelight:cooking_pot_recipe_book_tab:misc>,
         <item:minecraft:glass_bottle>,
         1, 200);
+
+    //ブラックストーンのかまどをquarkに統一(チセル)
+    craftingTable.removeByInput(<item:quark:blackstone_furnace>);//通常blast_furnaceなどへの進化を削除
+    craftingTable.addShaped(
+        "naangiskhan/nethersdelight/blackstone_blast_furnace",
+        <item:nethersdelight:blackstone_blast_furnace> * 1,
+        [[<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],
+        [<item:minecraft:iron_ingot>,<item:quark:blackstone_furnace>,<item:minecraft:iron_ingot>],
+        [<item:minecraft:polished_blackstone>,<item:minecraft:polished_blackstone>,<item:minecraft:polished_blackstone>]]
+    );
+    craftingTable.addShaped(
+        "naangiskhan/nethersdelight/nether_brick_smoker",
+        <item:nethersdelight:nether_brick_smoker> * 1,
+        [[empty,<item:minecraft:nether_bricks>,empty],
+        [<item:minecraft:nether_bricks>,<item:quark:blackstone_furnace>,<item:minecraft:nether_bricks>],
+        [empty,<item:minecraft:polished_blackstone>,empty]]
+    ); 
 
 
     // Replacer
