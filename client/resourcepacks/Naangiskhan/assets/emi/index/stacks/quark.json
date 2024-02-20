@@ -7,6 +7,10 @@
         {
             "stack": "item:quark:bonded_ravager_hide",
             "after": "item:quark:ravager_hide"
+        },
+        {
+            "stack": "item:quark:gravisand",
+            "after": "aether:enchanted_gravitite"
         }
     ]
 }
