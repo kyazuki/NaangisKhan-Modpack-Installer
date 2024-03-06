@@ -3,7 +3,7 @@ setlocal
 REM "文字コードをUTF-8に設定"
 chcp 65001 > nul
 REM "インストール済みかチェック"
-if exist mods\ (
+if exist "shaderpacks\Sildur's Vibrant Shaders v1.51 Lite.zip" (
     REM "アップデート処理に切り替え"
     bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/update.bat "%CD%\update.bat" > nul
     call update.bat
