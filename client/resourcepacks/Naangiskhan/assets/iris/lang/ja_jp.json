@@ -13,7 +13,7 @@
     "iris.unsupported.irisorpc": "オキュラスまたはお使いのコンピューター",
     "iris.unsupported.iris": "オキュラス",
     "iris.unsupported.pack.macos": "\nMacOSは多くのシェーダーで問題を抱えていることが知られています。",
-    "options.iris.shadowDistance.sodium_tooltip": "影の描画距離は、影を描画する地形を距離で制限します。距離が短いほど描画される影が減り、フレームレートが向上します。この設定は、影の描画距離が固定されているシェーダーでは変更できません。実際の影の描画距離は、描画距離設定を超えることはありません。",
+    "options.iris.shadowDistance.sodium_tooltip": "影の最大描画距離は、影を描画する地形を距離で制限します。距離が短いほど描画される影が減り、フレームレートが向上します。この設定は、影の描画距離が固定されているシェーダーでは変更できません。実際の影の描画距離は、描画距離設定を超えることはありません。",
     "options.iris.colorSpace": "色空間",
     "options.iris.colorSpace.sodium_tooltip": "画面を変換する色空間。シェーダーパックの上で動作します。不明な場合はSRGBを使用してください。"
 }
