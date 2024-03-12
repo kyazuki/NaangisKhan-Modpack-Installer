@@ -145,14 +145,14 @@
     "item.outer_end.music_disc_unknown_frontier.desc": "Pyrocide - Unknown Frontier",
     "item.outer_end.spectrafly_spawn_egg": "スペクトラフライのスポーンエッグ",
     "item.outer_end.himmelite_spawn_egg": "ヒンメライトのスポーンエッグ",
-    "item.outer_end.purpur_golem_spawn_egg": "パーピュアゴーレムのスポーンエッグ",
+    "item.outer_end.purpur_golem_spawn_egg": "プルプァゴーレムのスポーンエッグ",
     "item.outer_end.stalker_spawn_egg": "ストーカーのスポーンエッグ",
     "item.outer_end.entombed_spawn_egg": "エントゥームドのスポーンエッグ",
     "item.outer_end.chorus_squid_spawn_egg": "コーラススクイッドのスポーンエッグ",
     "item.outer_end.sinker_spawn_egg": "シンカーのスポーンエッグ",
     "entity.outer_end.spectrafly": "スペクトラフライ",
     "entity.outer_end.himmelite": "ヒンメライト",
-    "entity.outer_end.purpur_golem": "パーピュアゴーレム",
+    "entity.outer_end.purpur_golem": "プルプァゴーレム",
     "entity.outer_end.stalker": "ストーカー",
     "entity.outer_end.entombed": "エントゥームド",
     "entity.outer_end.chorus_squid": "コーラススクイッド",
@@ -171,5 +171,10 @@
     "advancements.end.find_catacombs.description": "地下墓地を見つける",
     "advancements.end.explore_end.title": "虚空を超えて",
     "advancements.end.explore_end.description": "エンドのバイオームをすべて探索する",
-    "itemGroup.outer_end": "アウター・エンド"
+    "itemGroup.outer_end": "アウター・エンド",
+    "tips.tip.catacombs": "地下墓地は、ジ・エンドにある危険な地下迷路である。",
+    "tips.tip.crystal_rods": "ブレイズロッドの代わりにクリスタルの破片を使ってエンドロッドを作成できる。",
+    "tips.tip.end_towers": "ジ・エンドで稀に見つかるエンドタワーには、迷路状の巨大な地下室がある。",
+    "tips.tip.purpur_golems": "プルプァゴーレムはエンドシティを守っている。",
+    "tips.tip.tangled_violite": "クリスタルが入り混じった結晶は、それぞれの結晶を増やすのに使える。"
 }
