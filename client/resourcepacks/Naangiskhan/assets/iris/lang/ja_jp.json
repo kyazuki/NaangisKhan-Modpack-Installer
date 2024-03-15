@@ -1,0 +1,19 @@
+{
+    "iris.load.failure.shader": "シェーダーの読み込みに失敗しました。シェーダーの開発者に報告してください。",
+    "iris.load.failure.generic": "シェーダーの読み込み中に問題が発生しました。オキュラスの開発者に報告してください。",
+    "iris.shaders.ssbofailure": "このシェーダーはお使いのグラフィックボードに搭載されていない機能を要求しているため、正常に動作しない可能性があります。",
+    "iris.keybind.wireframe": "ワイヤーフレーム (シングルプレイ限定)",
+    "iris.keybinds": "オキュラス",
+    "iris.sodium.failure.title": "オキュラスの読み込みに失敗しました！",
+    "iris.sodium.failure.download": "ルビジウムをダウンロード",
+    "iris.sodium.failure.reason.notFound": "パフォーマンス向上のため、オキュラスを使用するにはルビジウムが必要です。 ルビジウムをダウンロードし、modsフォルダーに導入してから、ゲームを再起動してください。",
+    "iris.sodium.failure.reason.incompatible": "互換性のないバージョンのルビジウムが検出されました。 対応しているバージョンのルビジウムをダウンロードし、modsフォルダーに導入してから、ゲームを再起動してください。",
+    "iris.nec.failure.title": "[%s] ノット・イナフ・クラッシュが検出されました。",
+    "iris.nec.failure.description": "ノット・イナフ・クラッシュはゲームを壊す可能性があり、また正しいクラッシュ原因を出力しない可能性があります。より正確なクラッシュ原因を得るためにミキシントレースの使用を推奨します。",
+    "iris.unsupported.irisorpc": "オキュラスまたはお使いのコンピューター",
+    "iris.unsupported.iris": "オキュラス",
+    "iris.unsupported.pack.macos": "\nMacOSは多くのシェーダーで問題を抱えていることが知られています。",
+    "options.iris.shadowDistance.sodium_tooltip": "影の最大描画距離は、影を描画する地形を距離で制限します。距離が短いほど描画される影が減り、フレームレートが向上します。この設定は、影の描画距離が固定されているシェーダーでは変更できません。実際の影の描画距離は、描画距離設定を超えることはありません。",
+    "options.iris.colorSpace": "色空間",
+    "options.iris.colorSpace.sodium_tooltip": "画面を変換する色空間。シェーダーパックの上で動作します。不明な場合はSRGBを使用してください。"
+}

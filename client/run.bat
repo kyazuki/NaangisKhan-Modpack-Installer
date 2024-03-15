@@ -2,8 +2,15 @@
 setlocal
 REM "文字コードをUTF-8に設定"
 chcp 65001 > nul
-REM "インストール済みかチェック"
-if exist mods\ (
+REM "インストール済みバージョンを検証"
+set LATEST_VERSION=1.0.18
+if exist naangiskhan_version.txt (
+    set /p INSTALLED_VERSION=< naangiskhan_version.txt
+) else if exist "shaderpacks\Sildur's Vibrant Shaders v1.51 Lite.zip" (
+    REM "シェーダーパックがあるときはインストール済みとみなす(互換性維持)"
+    set INSTALLED_VERSION=1.0.0
+)
+if defined INSTALLED_VERSION (
     REM "アップデート処理に切り替え"
     bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/update.bat "%CD%\update.bat" > nul
     call update.bat
@@ -41,7 +48,7 @@ if not %errorlevel% == 0 (
 )
 REM "設定ファイル・リソースをダウンロードして展開"
 echo リソースをダウンロード中...
-bitsadmin /transfer resources /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.0.18/client.zip "%CD%\client.zip" > nul
+bitsadmin /transfer resources /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v%LATEST_VERSION%/client.zip "%CD%\client.zip" > nul
 if errorlevel 1 (
     echo リソースのダウンロードに失敗しました。 1>&2
     pause
@@ -73,5 +80,14 @@ if defined JAVA (
     %JAVA% -jar minecraft-modpack-installer.jar
 ) else (
     java -jar minecraft-modpack-installer.jar
+)
+if errorlevel 1 (
+    echo インストールに失敗しました。 1>&2
+    pause
+    exit 1
+) else (
+    echo インストールが完了しました。 1>&2
+    echo %LATEST_VERSION%> naangiskhan_version.txt
+    exit /b 0
 )
 endlocal
