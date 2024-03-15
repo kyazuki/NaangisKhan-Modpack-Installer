@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "lightmanscurrency:block/block1_2",
+	"textures": {
+		"main": "naangiskhan:block/ngk_atm",
+		"particle":"create:block/brass_casing"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 2],
+			"to": [15, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 7, 7, 15], "texture": "#main"},
+				"east": {"uv": [0, 7, 7, 15], "texture": "#main"},
+				"south": {"uv": [0, 7, 7, 15], "texture": "#main"},
+				"west": {"uv": [0, 7, 7, 15], "texture": "#main"},
+				"up": {"uv": [7, 7, 0, 0], "rotation": 180, "texture": "#main"},
+				"down": {"uv": [13.5, 0, 6.5, 7], "rotation": 180, "texture": "#main"}
+			}
+		},
+		{
+			"from": [14.01, 2, 4],
+			"to": [15.01, 5, 9],
+			"faces": {
+				"north": {"uv": [14, 9, 16, 9.5], "rotation": 90, "texture": "#main"},
+				"east": {"uv": [14, 7, 16, 10.5], "rotation": 270, "texture": "#main"},
+				"south": {"uv": [14, 7, 16, 7.5], "rotation": 270, "texture": "#main"},
+				"up": {"uv": [15.5, 7, 16, 10.5], "texture": "#main"},
+				"down": {"uv": [14, 7, 14.5, 10.5], "texture": "#main"}
+			}
+		}
+	]
+}

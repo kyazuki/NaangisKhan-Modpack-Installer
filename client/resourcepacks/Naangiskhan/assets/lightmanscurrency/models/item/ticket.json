@@ -1,0 +1,6 @@
+{
+    "parent": "naangiskhan:item/naan_card",
+    "textures": {
+        "base": "naangiskhan:item/ticket"
+    }
+}
