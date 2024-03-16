@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","file/Twilight Forest Patch","mod_resources","file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip","Moonlight Mods Dynamic Assets","builtin/DAGoldenSwetBallFixClient","builtin/aether_tips","builtin/overrides_pack","file/NaangisKhan.zip"]
+resourcePacks:["vanilla","file/Twilight Forest Patch","mod_resources","file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip","Moonlight Mods Dynamic Assets","builtin/DAGoldenSwetBallFixClient","builtin/aether_tips","builtin/overrides_pack","builtin/resource/overrides_pack","builtin/resource/redux_tips","file/NaangisKhan.zip"]
 incompatibleResourcePacks:["file/Ars Nouveau Brass-ified Create-Style - ANBICS.zip","builtin/DAGoldenSwetBallFixClient"]
 lastServer:
 lang:ja_jp
