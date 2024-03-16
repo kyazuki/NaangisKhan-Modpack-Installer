@@ -109,6 +109,8 @@
     "enchantment.betterarcheology.seas_bounty.desc": "海からより多くの種類のお宝を手に入れます。",
     "enchantment.betterarcheology.soaring_winds": "飛翔",
     "enchantment.betterarcheology.soaring_winds.desc": "エリトラの初速が増加します。",
-    "enchantment.betterarcheology.tunneling": "坑道",
-    "enchantment.betterarcheology.tunneling.desc": "採掘したブロックの下にあるブロックも同時に破壊します。"
+    "enchantment.betterarcheology.tunneling": "坑道採掘",
+    "enchantment.betterarcheology.tunneling.desc": "採掘したブロックの下にあるブロックも同時に破壊します。",
+    "filled_map.catacombs": "地下墳墓の探検家の地図",
+    "filled_map.light": "光の神殿の探検家の地図"
 }

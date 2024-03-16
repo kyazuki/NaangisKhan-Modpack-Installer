@@ -25,9 +25,9 @@
     "tooltip.craftingtweaks.clear": "グリッドをクリア",
     "tooltip.craftingtweaks.forceClear": "強制的にグリッドをクリア",
     "tooltip.craftingtweaks.forceClearInfo": "溢れたアイテムはその場にドロップします",
-    "config.craftingtweaks.title": "Crafting Tweaks",
+    "config.craftingtweaks.title": "クラフト・ツイークス",
     "config.craftingtweaks.common": "共通",
-    "config.craftingtweaks.common.compressRequiresCraftingGrid": "Compress Requires Crafting Grid",
+    "config.craftingtweaks.common.compressRequiresCraftingGrid": "圧縮に作業台を要求",
     "config.craftingtweaks.common.compressRequiresCraftingGrid.tooltip": "Set this to false if you want the (de)compress feature to work outside of crafting GUIs (only works if installed on server while in the player inventory)",
     "config.craftingtweaks.common.compressDenylist": "Compress Denylist",
     "config.craftingtweaks.common.compressDenylist.tooltip": "A list of modid:name entries that will not be crafted by the compress key.",
@@ -39,5 +39,5 @@
     "config.craftingtweaks.client.mode": "モード",
     "config.craftingtweaks.client.mode.tooltip": "DEFAULTでボタンとショートカットの両方を使用します。BUTTONSでボタンのみを使用します。HOTKEYSでショートカットのみを使用します。DISABLEDで完全に無効化します。",
     "config.craftingtweaks.client.disabledAddons": "無効化されたアドオン",
-    "config.craftingtweaks.client.disabledAddons.tooltip": "Crafting Tweaksを使用しないようにするMODを記載します"
+    "config.craftingtweaks.client.disabledAddons.tooltip": "クラフト・ツイークスを使用しないようにするMODを記載します"
 }

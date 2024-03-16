@@ -129,5 +129,7 @@
     "subtitle.entity.friendsandfoes.wildfire.shoot": "ワイルドファイヤーが発射する",
     "subtitle.entity.friendsandfoes.wildfire.step": "足音",
     "subtitle.entity.friendsandfoes.wildfire.summon_blaze": "ワイルドファイヤーが召喚する",
-    "trinkets.slot.charm.charm": "チャーム"
+    "trinkets.slot.charm.charm": "チャーム",
+    "text.betterf3.line.glares": "グレア",
+    "text.betterf3.line.rascals": "ラスカル"
 }

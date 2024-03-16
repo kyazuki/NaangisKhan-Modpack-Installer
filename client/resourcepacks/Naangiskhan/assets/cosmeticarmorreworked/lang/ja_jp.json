@@ -1,0 +1,7 @@
+{
+    "cos.key.opencosarmorinventory": "外見装備を開く",
+    "cos.gui.buttoncos": "外見装備",
+    "cos.gui.buttonnormal": "通常装備",
+    "cos.command.clearcosarmor.success.single": "プレイヤー %2$s の外見装備から %1$s 個のアイテムを消去しました",
+    "cos.command.clearcosarmor.success.multiple": "%2$s 人のプレイヤーの外見装備から %1$s 個のアイテムを消去しました"
+}

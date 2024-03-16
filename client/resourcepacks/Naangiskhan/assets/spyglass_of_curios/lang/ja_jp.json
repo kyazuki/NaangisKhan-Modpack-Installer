@@ -1,0 +1,10 @@
+{
+    "curios.identifier.spyglass": "望遠鏡",
+    "category.spyglass_of_curios": "キュリオス望遠鏡",
+    "key.spyglass_of_curios.use": "望遠鏡を覗く",
+    "tooltip.spyglass_of_curios.multiplier": "§7§o倍率: %s",
+    "tooltip.spyglass_of_curios.default_multiplier": "§7§o倍率: %s",
+    "switch.spyglass_of_curios.head": "§6描画位置: §f頭",
+    "switch.spyglass_of_curios.back_waist": "§6描画位置: §f腰",
+    "switch.spyglass_of_curios.indescribable": "§6描画位置: §f説明不能"
+}
