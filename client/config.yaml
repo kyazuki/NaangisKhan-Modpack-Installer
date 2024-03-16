@@ -112,10 +112,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 227639
   fileId: 5071019
-- name: Friends&Foes v2.0.9
+- name: Friends&Foes v2.0.10
   # https://www.curseforge.com/minecraft/mc-mods/friends-and-foes-forge/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 602059
-  fileId: 5073597
+  fileId: 5184455
 - name: Nether Depths Upgrade v3.1.3
   # https://www.curseforge.com/minecraft/mc-mods/nether-depths-upgrade/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 670011
