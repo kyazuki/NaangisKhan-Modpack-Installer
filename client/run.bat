@@ -15,12 +15,13 @@ if defined INSTALLED_VERSION (
     bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/update.bat "%CD%\update.bat" > nul
     call update.bat
     if errorlevel 1 (
-        echo アップデートに失敗しました。 1>&2
+        echo アップデートに失敗しました。この画面を撮影して管理者に報告してください。 1>&2
         pause
         exit 1
     ) else (
         echo アップデートが完了しました。 1>&2
         echo %LATEST_VERSION%> naangiskhan_version.txt
+        pause
         exit /b 0
     )
 )
@@ -90,6 +91,7 @@ if errorlevel 1 (
 ) else (
     echo インストールが完了しました。 1>&2
     echo %LATEST_VERSION%> naangiskhan_version.txt
+    pause
     exit /b 0
 )
 endlocal

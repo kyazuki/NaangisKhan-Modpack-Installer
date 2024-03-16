@@ -51,23 +51,29 @@ if defined OLD_RESOURCES (
 )
 REM "最新のリソースパックをダウンロード"
 echo リソースパックを更新中...
-bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v%LATEST_VERSION%/NaangisKhan.zip "%CD%\resourcepacks\NaangisKhan.zip" > nul
+if defined LATEST_VERSION (
+    bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v%LATEST_VERSION%/NaangisKhan.zip "%CD%\resourcepacks\NaangisKhan.zip" > nul
+) else (
+    bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/NaangisKhan.zip "%CD%\resourcepacks\NaangisKhan.zip" > nul
+)
 if errorlevel 1 (
     echo リソースパックのダウンロードに失敗しました。 1>&2
     pause
     exit 1
 )
 REM "マイグレーション処理"
-echo アップデート中...
 REM "v1.0.15アップデート"
 call :is_old_version 1.0.15
 if not errorlevel 1 (
+    echo v1.0.15アップデートの適用を開始します...
+    echo 追加Modをインストール中...
     call :download_file "%CD%\mods\polymorph-forge-0.49.2+1.20.1.jar" 388800 4928442
 )
 REM "v1.1.0アップデート"
 call :is_old_version 1.1.0
 if not errorlevel 1 (
-    REM "既存Modのアップデート"
+    echo v1.1.0アップデートの適用を開始します...
+    echo Modをアップデート中...
     del /q "%CD%\mods\supplementaries-1.20-2.7.35.jar" > nul 2>&1
     call :download_file "%CD%\mods\supplementaries-1.20-2.8.6.jar" 412082 5154529
     del /q "%CD%\mods\handcrafted-forge-1.20.1-3.0.5.jar" > nul 2>&1
@@ -136,6 +142,7 @@ if not errorlevel 1 (
     call :download_file "%CD%\mods\blueprint-1.20.1-7.0.1.jar" 382216 5147442
     del /q "%CD%\mods\curios-forge-5.7.0+1.20.1.jar" > nul 2>&1
     call :download_file "%CD%\mods\curios-forge-5.7.2+1.20.1.jar" 309927 5175956
+    echo リソースパックを整理中...
     REM "リソースパックの設定を差し替える"
     if not exist options.txt (
         echo 設定ファイルが存在しません。 1>&2
@@ -175,6 +182,45 @@ if not errorlevel 1 (
         )
     )
     move /y options.txt.tmp options.txt > nul 2>&1
+    echo エーテルの設定を変更中...
+    REM "タイトル画面で、Aetherのtoggle world/quick loadボタンを除去"
+    if exist config\aether-client.toml (
+        del /q config\aether-client.toml.tmp > nul 2>&1
+        for /f "delims=" %%L in (config\aether-client.toml) do (
+            set "line=%%L"
+            echo !line! | find "Enables toggle world button" > nul 2>&1
+            if not errorlevel 1 (
+                (echo !line:true=false!) >> config\aether-client.toml.tmp
+            ) else (
+                echo !line! | find "Enables quick load button" > nul 2>&1
+                if not errorlevel 1 (
+                    (echo !line:true=false!) >> config\aether-client.toml.tmp
+                ) else (
+                    (echo !line!) >> config\aether-client.toml.tmp
+                )
+            )
+        )
+        move /y config\aether-client.toml.tmp config\aether-client.toml > nul 2>&1
+    ) else (
+        echo エーテルの設定ファイルが見つかりません。 1>&2
+    )
+    echo エーテル・リダックスの設定を変更中...
+    REM "Aether Reduxのタイトル画面変更を抑止"
+    if exist config\cumulus_menus-client.toml (
+        del /q config\cumulus_menus-client.toml.tmp > nul 2>&1
+        for /f "delims=" %%L in (config\cumulus_menus-client.toml) do (
+            set "line=%%L"
+            echo !line! | find "Enable Menu API" > nul 2>&1
+            if not errorlevel 1 (
+                (echo !line:true=false!) >> config\cumulus_menus-client.toml.tmp
+            ) else (
+                (echo !line!) >> config\cumulus_menus-client.toml.tmp
+            )
+        )
+        move /y config\cumulus_menus-client.toml.tmp config\cumulus_menus-client.toml > nul 2>&1
+    ) else (
+        echo タイトルメニューAPIの設定ファイルが見つかりません。 1>&2
+    )
 )
 exit /b 0
 
