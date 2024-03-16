@@ -36,7 +36,7 @@ if defined OLD_RESOURCES (
         set left=%%b
     )
     if defined left goto :loop
-    REM "'Naangiskhan.zip'を末尾(優先度最高)に追加する"
+    REM "'NaangisKhan.zip'を末尾(優先度最高)に追加する"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS:~1%,"file/NaangisKhan.zip"
     del /q options.txt.tmp > nul 2>&1
     for /f "delims=" %%L in (options.txt) do (
@@ -150,10 +150,10 @@ if not errorlevel 1 (
     set RESOURCE_PACKS=!RESOURCE_PACKS:~15,-1!
     set AFTER_RESOURCE_PACKS=
     set left=!RESOURCE_PACKS!
-    REM "'Naangiskhan.zip'と本アプデで追加されるパック以外を順に取り出して列挙"
+    REM "'NaangisKhan.zip'と本アプデで追加されるパック以外を順に取り出して列挙"
     :v1.1.0loop
     for /f "tokens=1* delims=," %%a in ("%left%") do (
-        if not %%a == "builtin/resource/overrides_pack" if not %%a == "builtin/resource/redux_tips" if not %%a == "file/Naangiskhan.zip" (
+        if not %%a == "builtin/resource/overrides_pack" if not %%a == "builtin/resource/redux_tips" if not %%a == "file/NaangisKhan.zip" (
             set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,%%a
         )
         set left=%%b
@@ -161,7 +161,7 @@ if not errorlevel 1 (
     if defined left goto :v1.1.0loop
     REM "先頭の','を削除"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS:~1%
-    REM "'Naangiskhan.zip'を末尾(優先度最高)に追加する"
+    REM "'NaangisKhan.zip'を末尾(優先度最高)に追加する"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"builtin/resource/overrides_pack"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"builtin/resource/redux_tips"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"file/NaangisKhan.zip"
