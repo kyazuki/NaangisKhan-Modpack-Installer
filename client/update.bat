@@ -19,12 +19,15 @@ if defined OLD_RESOURCES (
         pause
         exit 1
     )
+    REM "'resourcePacks'の行を抽出"
     for /f "tokens=* USEBACKQ" %%F in (`findstr /b resourcePacks options.txt`) do (
         set "RESOURCE_PACKS=%%F"
     )
+    REM "'resourcePacks'の配列値を抽出"
     set RESOURCE_PACKS=!RESOURCE_PACKS:~15,-1!
     set AFTER_RESOURCE_PACKS=
     set left=!RESOURCE_PACKS!
+    REM "'Naangiskhan'と'Naan.zip'以外を順に取り出して列挙"
     :loop
     for /f "tokens=1* delims=," %%a in ("%left%") do (
         if not %%a == "file/Naangiskhan" if not %%a == "file/Naan.zip" (
@@ -33,6 +36,7 @@ if defined OLD_RESOURCES (
         set left=%%b
     )
     if defined left goto :loop
+    REM "'Naangiskhan.zip'を末尾(優先度最高)に追加する"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS:~1%,"file/NaangisKhan.zip"
     del /q options.txt.tmp > nul 2>&1
     for /f "delims=" %%L in (options.txt) do (
