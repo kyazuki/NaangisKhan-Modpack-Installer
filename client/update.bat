@@ -90,7 +90,7 @@ if not errorlevel 1 (
     del "%CD%\mods\ars_creo-1.20.1-4.0.1.jar"
     call :download_file "%CD%\mods\ars_creo-1.20.1-4.1.0.jar" 575698 5171755
     del "%CD%\mods\voicechat-forge-1.20.1-2.5.2.jar"
-    call :download_file "%CD%\mods\voicechat-forge-1.20.1-2.5.8.jar.jar" 416089 5164154
+    call :download_file "%CD%\mods\voicechat-forge-1.20.1-2.5.8.jar" 416089 5164154
     del "%CD%\mods\lightmanscurrency-1.20.1-2.2.0.3c.jar"
     call :download_file "%CD%\mods\lightmanscurrency-1.20.1-2.2.1.0b.jar" 472521 5127058
     del "%CD%\mods\jei-1.20.1-forge-15.3.0.1.jar"
