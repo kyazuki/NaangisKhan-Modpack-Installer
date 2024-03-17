@@ -184,8 +184,16 @@ if not errorlevel 1 (
     REM "'NaangisKhan.zip'と本アプデで追加されるパック以外を順に取り出して列挙"
     :v1.1.0loop
     for /f "tokens=1* delims=," %%a in ("%left%") do (
-        if not %%a == "builtin/resource/overrides_pack" if not %%a == "builtin/resource/redux_tips" if not %%a == "file/NaangisKhan.zip" (
-            set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,%%a
+        if not %%a == "builtin/resource/overrides_pack" (
+            if not %%a == "builtin/resource/redux_tips" (
+                if not %%a == "file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip" (
+                    if not %%a == "file/Nehter\u0027s_Delight_crops_3D_1.3.zip" (
+                        if not %%a == "file/NaangisKhan.zip" (
+                            set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,%%a
+                        )
+                    )
+                )
+            )
         )
         set left=%%b
     )
@@ -195,6 +203,8 @@ if not errorlevel 1 (
     REM "'NaangisKhan.zip'を末尾(優先度最高)に追加する"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"builtin/resource/overrides_pack"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"builtin/resource/redux_tips"
+    set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip"
+    set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"file/Nehter\u0027s_Delight_crops_3D_1.3.zip"
     set AFTER_RESOURCE_PACKS=%AFTER_RESOURCE_PACKS%,"file/NaangisKhan.zip"
     del /q options.txt.tmp > nul 2>&1
     for /f "delims=" %%L in (options.txt) do (
