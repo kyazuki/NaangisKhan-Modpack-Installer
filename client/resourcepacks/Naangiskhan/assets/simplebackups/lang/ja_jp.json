@@ -1,0 +1,8 @@
+{
+    "simplebackups.backup_started": "バックアップを開始...",
+    "simplebackups.backup_finished": "バックアップ完了 %s (%s | %s)",
+    "simplebackups.backups_paused": "バックアップを中断",
+    "simplebackups.commands.only_modified": "全てのファイルをバックアップしています。詳細は設定を確認してください。",
+    "simplebackups.commands.is_merging": "マージは既に進行中です。",
+    "simplebackups.commands.finished": "バックアップのマージが完了しました。"
+}
