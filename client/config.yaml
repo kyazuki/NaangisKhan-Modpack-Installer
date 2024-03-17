@@ -33,6 +33,18 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/rechiseled/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 558998
   fileId: 4872892
+- name: Amendments v1.1.10
+  # https://www.curseforge.com/minecraft/mc-mods/amendments/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 896746
+  fileId: 5176182
+- name: Copper & Tuff Backport v1.2
+  # https://www.curseforge.com/minecraft/mc-mods/copper-tuff-backport-fabric/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 950738
+  fileId: 5081431
+- name: "Create: Copycats+ v1.2.4"
+  # https://www.curseforge.com/minecraft/mc-mods/copycats/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 968398
+  fileId: 5187796
 # 工業/回路
 - name: Botania v443
   # https://www.curseforge.com/minecraft/mc-mods/botania/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
@@ -95,6 +107,34 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/aether-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 961108
   fileId: 5029396
+- name: Create Central Kitchen v1.3.10
+  # https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 820977
+  fileId: 5132704
+- name: Croptopia v3.0.4
+  # https://www.curseforge.com/minecraft/mc-mods/croptopia/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 415438
+  fileId: 4997459
+- name: Delightful v3.5.2
+  # https://www.curseforge.com/minecraft/mc-mods/delightful/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 637529
+  fileId: 5167936
+- name: End's Delight v1.0.1
+  # https://www.curseforge.com/minecraft/mc-mods/ends-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 662675
+  fileId: 4678069
+- name: Miner's Delight + v1.2.3
+  # https://www.curseforge.com/minecraft/mc-mods/miners-delight-plus/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 689630
+  fileId: 5038950
+- name: Ocean's Delight v1.0.2
+  # https://www.curseforge.com/minecraft/mc-mods/oceans-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 841262
+  fileId: 4652060
+- name: Undergarden Delight v1.0.0
+  # https://www.curseforge.com/minecraft/mc-mods/undergarden-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 960662
+  fileId: 5023548
 # 探検/移動
 - name: JourneyMap v5.9.18p1
   # https://www.curseforge.com/minecraft/mc-mods/journeymap/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
@@ -148,6 +188,18 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/aether-redux/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 867237
   fileId: 5173184
+- name: Immersive Aircraft v0.7.5
+  # https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 666014
+  fileId: 5168708
+- name: The Undergarden v0.8.14
+  # https://www.curseforge.com/minecraft/mc-mods/the-undergarden/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 379849
+  fileId: 5182632
+- name: Backported Wolves v1.0.3
+  # https://www.curseforge.com/minecraft/mc-mods/backported-wolves/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 984037
+  fileId: 5166541
 # 戦闘/魔法
 - name: Immersive Armors v1.6.1
   # https://www.curseforge.com/minecraft/mc-mods/immersive-armors/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
@@ -202,6 +254,22 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/polymorph/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 388800
   fileId: 4928442
+- name: Spyglass of Curios v0.49.2
+  # https://www.curseforge.com/minecraft/mc-mods/spyglass-of-curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 941332
+  fileId: 5062462
+- name: Cosmetic Armor Reworked v0.49.2
+  # https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 237307
+  fileId: 4600191
+- name: Curios Quark Oddities Backpack v1.2.5
+  # https://www.curseforge.com/minecraft/mc-mods/curios-quark-oddities-backpack/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 445208
+  fileId: 5085092
+- name: Quark Oddities
+  # https://www.curseforge.com/minecraft/mc-mods/quark-oddities/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 301051
+  fileId: 5070502
 # Client Only Mods
 - name: Controlling v12.0.2
   # https://www.curseforge.com/minecraft/mc-mods/controlling/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
@@ -341,16 +409,34 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/blueprint/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 382216
   fileId: 5147442
-# Optional Dependencies
 - name: Curios API v5.7.2
   # https://www.curseforge.com/minecraft/mc-mods/curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 309927
   fileId: 5175956
+- name: EpheroLib v1.2.0
+  # https://www.curseforge.com/minecraft/mc-mods/epherolib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 885449
+  fileId: 4889101
 OtherMods:
 - name: Conditional Tips v1.0.1
   # https://github.com/kyazuki/ConditionalTips/releases
   url: https://github.com/kyazuki/ConditionalTips/releases/download/v1.0.1/conditional_tips-1.0.1.jar
+- name: NaangisKhan v1.0.0
+  # https://github.com/medi-torimorta/naangiskhanSMPMod/releases
+  url: https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.0/naangiskhan-1.0.0+1.20.1.jar
 CurseForgeResources:
+# Resource Packs
+- name: Nether's Delight crops 3D v1.3
+  # https://www.curseforge.com/minecraft/texture-packs/nethers-delight-crops-3d/files/all?page=1&pageSize=20&version=1.20.1
+  projectId: 965057
+  fileId: 5122924
+  directory: resourcepacks
+- name: Create Immersive Aircrafts v2.0
+  # https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack/files/all?page=1&pageSize=20&version=1.20.1
+  projectId: 821020
+  fileId: 5096356
+  directory: resourcepacks
+# Shaders
 - name: BSL Shaders v8.2.08
   # https://www.curseforge.com/minecraft/shaders/bsl-shaders/files/all?page=1&pageSize=20&version=Iris
   projectId: 322506
