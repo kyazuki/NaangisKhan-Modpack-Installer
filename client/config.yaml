@@ -79,10 +79,6 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/tofu-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 835619
   fileId: 5112167
-- name: Maturi Delight v3.0.0
-  # https://www.curseforge.com/minecraft/mc-mods/maturi-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
-  projectId: 850610
-  fileId: 5092519
 - name: Twilight's Flavors & Delight v2.0.7
   # https://www.curseforge.com/minecraft/mc-mods/twilights-flavors-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 871735

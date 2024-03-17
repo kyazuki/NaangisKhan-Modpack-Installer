@@ -73,6 +73,7 @@ REM "v1.1.0アップデート"
 call :is_old_version 1.1.0
 if not errorlevel 1 (
     echo v1.1.0アップデートの適用を開始します...
+    del /q "%CD%\mods\maturidelight-1.20.1-3.0.0.jar" > nul 2>&1
     echo Modをアップデート中...
     del /q "%CD%\mods\supplementaries-1.20-2.7.35.jar" > nul 2>&1
     call :download_curseforge_file "%CD%\mods\supplementaries-1.20-2.8.6.jar" 412082 5154529
