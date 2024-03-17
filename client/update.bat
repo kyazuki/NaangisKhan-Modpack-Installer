@@ -261,6 +261,14 @@ if not errorlevel 1 (
         type nul > .qmenu_opened.marker
     )
 )
+REM "v1.1.1アップデート"
+call :is_old_version 1.1.1
+if not errorlevel 1 (
+    echo v1.1.1アップデートの適用を開始します...
+    echo Modをアップデート中...
+    del /q "%CD%\mods\naangiskhan-1.0.0+1.20.1.jar" > nul 2>&1
+    call :download_file "%CD%\mods\naangiskhan-1.0.1+1.20.1.jar" https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.1/naangiskhan-1.0.1+1.20.1.jar
+)
 exit /b 0
 
 REM "現行バージョンが指定されたバージョンより古いかを判定するサブルーチン"
