@@ -3,7 +3,7 @@ setlocal
 REM "文字コードをUTF-8に設定"
 chcp 65001 > nul
 REM "インストール済みバージョンを検証"
-set LATEST_VERSION=1.1.1
+set LATEST_VERSION=1.1.2
 if exist naangiskhan_version.txt (
     set /p INSTALLED_VERSION=< naangiskhan_version.txt
 ) else if exist "shaderpacks\Sildur's Vibrant Shaders v1.51 Lite.zip" (
