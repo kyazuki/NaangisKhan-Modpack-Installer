@@ -576,7 +576,7 @@
     "tooltip.lightmanscurrency.coinworth.down": "%1$s %2$s相当",
     "tooltip.lightmanscurrency.coinworth.up": "%1$s個で%2$s1個分",
     "tooltip.lightmanscurrency.coinworth.value": "%s相当",
-    "tooltip.lightmanscurrency.coinworth.value.stack": "1スタックで%s相当",
+    "tooltip.lightmanscurrency.coinworth.value.stack": "合計%s相当",
     "tooptip.lightmanscurrency.cash_register": "%s個の商品棚とリンクしています",
     "tooptip.lightmanscurrency.cash_register.holdshift": "[Shift]を長押しして詳細を表示",
     "tooptip.lightmanscurrency.cash_register.instructions": "[Shift]を押しながら商品棚を右クリックでリンク",

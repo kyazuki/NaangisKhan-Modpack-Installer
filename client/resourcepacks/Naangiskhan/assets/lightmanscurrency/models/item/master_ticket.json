@@ -1,6 +1,7 @@
 {
     "parent": "naangiskhan:item/naan_card",
     "textures": {
+    	"base": "naangiskhan:item/ticket",
         "overlay": "naangiskhan:item/card_overlay_naangiskhan"
     }
 }
