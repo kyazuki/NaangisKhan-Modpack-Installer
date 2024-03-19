@@ -266,6 +266,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/quark-oddities/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 301051
   fileId: 5070502
+- name: EMIffect
+  # https://www.curseforge.com/minecraft/mc-mods/emiffect-status-effects-emi-plugin/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 735528
+  fileId: 4901311
 # Client Only Mods
 - name: Controlling v12.0.2
   # https://www.curseforge.com/minecraft/mc-mods/controlling/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
@@ -417,9 +421,9 @@ OtherMods:
 - name: Conditional Tips v1.0.1
   # https://github.com/kyazuki/ConditionalTips/releases
   url: https://github.com/kyazuki/ConditionalTips/releases/download/v1.0.1/conditional_tips-1.0.1.jar
-- name: NaangisKhan v1.0.0
+- name: NaangisKhan v1.0.1
   # https://github.com/medi-torimorta/naangiskhanSMPMod/releases
-  url: https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.0/naangiskhan-1.0.0+1.20.1.jar
+  url: https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.1/naangiskhan-1.0.1+1.20.1.jar
 CurseForgeResources:
 # Resource Packs
 - name: Nether's Delight crops 3D v1.3
