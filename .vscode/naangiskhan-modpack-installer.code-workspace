@@ -4,5 +4,9 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"rust-analyzer.linkedProjects": [
+			"${workspaceFolder}/client/updater/Cargo.toml"
+		]
+	}
 }

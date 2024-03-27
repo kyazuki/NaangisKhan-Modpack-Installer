@@ -38,6 +38,7 @@
                 ".",
                 "-x",
                 "resourcepacks/NaangisKhan/*",
+                "updater/*",
                 "run.bat",
                 "run.sh",
                 "update.bat",
