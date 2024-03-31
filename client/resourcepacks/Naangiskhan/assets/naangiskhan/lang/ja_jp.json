@@ -53,5 +53,6 @@
     "effect.twilightforest.frosted.description": "足が遅くなり、体に氷が張り付く。",
     "effect.netherdepthsupgrade.lava_vision.description": "溶岩の中でもはっきりと見通すことができる。",
     "effect.create_confectionery.stimulation.description": "移動速度低下や採掘速度低下に対する耐性を与える。",
-    "effect.create_confectionery.rest.description": "周囲にファントムがスポーンしなくなる。"
+    "effect.create_confectionery.rest.description": "周囲にファントムがスポーンしなくなる。",
+    "item.croptopia.the_big_breakfast.tooltip": "なんて贅沢なんでしょう！"
 }
