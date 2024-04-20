@@ -1,0 +1,67 @@
+[
+    {
+        "emi:info": {
+            "order": -250
+        }
+    },
+    {
+        "minecraft:crafting": {
+            "order": -200
+        }
+    },
+    {
+        "create:automatic_shaped": {
+            "order": -199
+        }
+    },
+    {
+        "create:automatic_shapeless": {
+            "order": -198
+        }
+    },
+    {
+        "create:automatic_packing": {
+            "order": -197
+        }
+    },
+    {
+        "farmersdelight:cooking": {
+            "order": -190
+        }
+    },
+    {
+        "miners_delight:cooking": {
+            "order": -189
+        }
+    },
+    {
+        "farmersdelight:cutting": {
+            "order": -180
+        }
+    },
+    {
+        "create_central_kitchen:cutting_board_deploying": {
+            "order": -179
+        }
+    },
+    {
+        "jeresources:dungeon": {
+            "order": 200
+        }
+    },
+    {
+        "jeresources:mob": {
+            "order": 201
+        }
+    },
+    {
+        "jeresources:worldgen": {
+            "order": 202
+        }
+    },
+    {
+        "jeresources:villager": {
+            "order": 203
+        }
+    }
+]

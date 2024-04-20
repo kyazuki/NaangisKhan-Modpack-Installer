@@ -16,7 +16,7 @@
     "commands.curios.replace.success": "%sのスロット( %s )を%sに置き換え",
     "argument.entity.options.curios.description": "装飾品インベントリ",
     "argument.curios.type.unknown": "不明な装飾品タイプ%s",
-    "curios.identifier.curio": "装飾品",
+    "curios.identifier.curio": "自由",
     "curios.identifier.necklace": "ネックレス",
     "curios.identifier.ring": "指輪",
     "curios.identifier.head": "頭",
