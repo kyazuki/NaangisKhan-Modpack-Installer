@@ -67,7 +67,7 @@ call :is_old_version 1.0.15
 if not errorlevel 1 (
     echo v1.0.15アップデートの適用を開始します...
     echo 追加Modをインストール中...
-    call :download_file "%CD%\mods\polymorph-forge-0.49.2+1.20.1.jar" 388800 4928442
+    call :download_curseforge_file "%CD%\mods\polymorph-forge-0.49.2+1.20.1.jar" 388800 4928442
 )
 REM "v1.1.0アップデート"
 call :is_old_version 1.1.0
