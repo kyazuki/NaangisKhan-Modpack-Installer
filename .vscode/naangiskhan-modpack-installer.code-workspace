@@ -4,5 +4,68 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+    "settings": {},
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Build All",
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "dependsOrder": "sequence",
+                "dependsOn": [
+                    "Clean",
+                    "Create NaangisKhan.zip",
+                    "Create client.zip"
+                ],
+            },
+            {
+                "label": "Create NaangisKhan.zip",
+                "type": "shell",
+                "command": "zip",
+                "args": [
+                    "-r",
+                    "${workspaceFolder}/client/resourcepacks/NaangisKhan.zip",
+                    ".",
+                ],
+                "group": "build",
+                "options": {
+                    "cwd": "${workspaceFolder}/client/resourcepacks/NaangisKhan"
+                },
+            },
+            {
+                "label": "Create client.zip",
+                "type": "shell",
+                "command": "zip",
+                "args": [
+                    "-r",
+                    "../client.zip",
+                    ".",
+                    "-x",
+                    "resourcepacks/NaangisKhan/*",
+                    "run.bat",
+                    "run.sh",
+                    "update.bat",
+                ],
+                "group": "build",
+                "options": {
+                    "cwd": "${workspaceFolder}/client"
+                },
+            },
+            {
+                "label": "Clean",
+                "type": "shell",
+                "command": "rm",
+                "args": [
+                    "client.zip,",
+                    "client/resourcepacks/NaangisKhan.zip",
+                ],
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+            }
+        ]
+    }
 }
