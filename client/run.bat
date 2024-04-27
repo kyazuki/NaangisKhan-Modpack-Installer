@@ -12,8 +12,8 @@ if exist naangiskhan_version.txt (
 )
 if defined INSTALLED_VERSION (
     REM "アップデート処理に切り替え"
-    bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/update.bat "%CD%\update.bat" > nul
-    call update.bat
+    bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/updater.exe "%CD%\updater.exe" > nul
+    call updater.exe %INSTALLED_VERSION%
     if errorlevel 1 (
         echo アップデートに失敗しました。この画面を撮影して管理者に報告してください。 1>&2
         pause
