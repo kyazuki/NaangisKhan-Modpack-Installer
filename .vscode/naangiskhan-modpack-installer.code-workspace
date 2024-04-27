@@ -1,10 +1,31 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		}
-	],
-    "settings": {},
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "rust-analyzer.linkedProjects": [
+            "${workspaceFolder}/client/updater/Cargo.toml"
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "lldb",
+                "request": "launch",
+                "name": "Updater",
+                "program": "${workspaceFolder}/client/updater/target/debug/updater.exe",
+                "args": [],
+                "cwd": "${workspaceFolder}/test/",
+                "preLaunchTask": "Build Updater Debug",
+                "sourceLanguages": [
+                    "rust"
+                ]
+            }
+        ]
+    },
     "tasks": {
         "version": "2.0.0",
         "tasks": [
@@ -17,6 +38,7 @@
                 "dependsOrder": "sequence",
                 "dependsOn": [
                     "Clean",
+                    "Build Updater",
                     "Create NaangisKhan.zip",
                     "Create client.zip"
                 ],
@@ -45,6 +67,7 @@
                     ".",
                     "-x",
                     "resourcepacks/NaangisKhan/*",
+                    "updater/*",
                     "run.bat",
                     "run.sh",
                     "update.bat",
@@ -52,6 +75,33 @@
                 "group": "build",
                 "options": {
                     "cwd": "${workspaceFolder}/client"
+                },
+            },
+            {
+                "label": "Build Updater",
+                "type": "cargo",
+                "command": "build",
+                "args": [
+                    "--release"
+                ],
+                "problemMatcher": [
+                    "$rustc"
+                ],
+                "group": "build",
+                "options": {
+                    "cwd": "${workspaceFolder}/client/updater/"
+                },
+            },
+            {
+                "label": "Build Updater Debug",
+                "type": "cargo",
+                "command": "build",
+                "problemMatcher": [
+                    "$rustc"
+                ],
+                "group": "build",
+                "options": {
+                    "cwd": "${workspaceFolder}/client/updater/"
                 },
             },
             {
