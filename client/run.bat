@@ -3,7 +3,7 @@ setlocal
 REM "文字コードをUTF-8に設定"
 chcp 65001 > nul
 REM "インストール済みバージョンを検証"
-set LATEST_VERSION=1.1.3
+set LATEST_VERSION=1.1.4
 if exist naangiskhan_version.txt (
     set /p INSTALLED_VERSION=< naangiskhan_version.txt
 ) else if exist "shaderpacks\Sildur's Vibrant Shaders v1.51 Lite.zip" (
@@ -12,6 +12,9 @@ if exist naangiskhan_version.txt (
 )
 if defined INSTALLED_VERSION (
     REM "アップデート処理に切り替え"
+    if exist update.bat (
+        del /q update.bat > nul 2>&1
+    )
     bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/updater.exe "%CD%\updater.exe" > nul
     call updater.exe %INSTALLED_VERSION%
     if errorlevel 1 (
