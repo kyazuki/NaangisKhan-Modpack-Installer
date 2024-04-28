@@ -190,7 +190,7 @@
     "effect.farmersdelight.comfort.0.desc": "空腹、移動速度低下、弱体化に対しての耐性を与える",
     "enchantment.farmersdelight.backstabbing": "不意打ち",
     "enchantment.farmersdelight.backstabbing.desc": "背後から攻撃した際のダメージを増加させます。",
-    "itemGroup.farmersdelight": "Farmer's Delight",
+    "itemGroup.farmersdelight": "ファーマーズ・デライト",
     "farmersdelight.container.recipe_book.cookable": "料理可能なアイテムを表示中",
     "farmersdelight.container.cooking_pot": "鍋",
     "farmersdelight.container.cooking_pot.served_on": "%sで保存",
