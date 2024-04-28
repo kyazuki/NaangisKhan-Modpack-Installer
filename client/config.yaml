@@ -254,6 +254,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/quark/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 243121
   fileId: 5151658
+- name: Server Redirect v1.4.5
+  # https://www.curseforge.com/minecraft/mc-mods/server-redirect/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 295232
+  fileId: 4683939
 - name: Spyglass of Curios v0.49.2
   # https://www.curseforge.com/minecraft/mc-mods/spyglass-of-curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 941332

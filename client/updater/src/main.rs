@@ -15,7 +15,7 @@ use simplelog::*;
 
 use version::Version;
 
-const LATEST_VERSION: Version = Version::new(1, 1, 4);
+const LATEST_VERSION: Version = Version::new(1, 1, 5);
 
 fn initialize_logger(path: &str) -> Result<(), Box<dyn error::Error>> {
     let log_path = Path::new(path);
@@ -735,6 +735,18 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
         download_file(
             "mods/naangiskhan-1.1.0+1.20.1.jar",
             "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.3/naangiskhan-1.1.0+1.20.1.jar",
+            is_force_update,
+        )?;
+    }
+    // v1.1.5アップデート
+    if is_old_version(&version, &"1.1.5".try_into()?) {
+        info!("Starting migration for v1.1.5...");
+        println!("v1.1.5アップデートの適用を開始します...");
+        println!("追加Modをインストール中...");
+        download_curseforge_file(
+            "mods/ServerRedirect-ForgeMC20-1.4.5.jar",
+            295232,
+            4683939,
             is_force_update,
         )?;
     }
