@@ -203,13 +203,6 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
         // Maturi Delightを削除
         remove_file_if_exist("mods/maturidelight-1.20.1-3.0.0.jar")?;
         println!("Modをアップデート中...");
-        remove_file_if_exist("mods/supplementaries-1.20-2.7.35.jar")?;
-        download_curseforge_file(
-            "mods/supplementaries-1.20-2.8.6.jar",
-            412082,
-            5154529,
-            is_force_update,
-        )?;
         remove_file_if_exist("mods/handcrafted-forge-1.20.1-3.0.5.jar")?;
         download_curseforge_file(
             "mods/handcrafted-forge-1.20.1-3.0.6.jar",
@@ -217,11 +210,32 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5118729,
             is_force_update,
         )?;
+        remove_file_if_exist("mods/supplementaries-1.20-2.7.35.jar")?;
+        download_curseforge_file(
+            "mods/supplementaries-1.20-2.8.6.jar",
+            412082,
+            5154529,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/ars_creo-1.20.1-4.0.1.jar")?;
+        download_curseforge_file(
+            "mods/ars_creo-1.20.1-4.1.0.jar",
+            575698,
+            5171755,
+            is_force_update,
+        )?;
         remove_file_if_exist("mods/TofuCraftReload-1.20.1-5.9.0.1.jar")?;
         download_curseforge_file(
             "mods/TofuCraftReload-1.20.1-5.10.4.1.jar",
             317469,
             5181742,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/tofucreate-1.20.1-0.1.0.jar")?;
+        download_curseforge_file(
+            "mods/tofucreate-1.20.1-0.2.0.jar",
+            924197,
+            5109349,
             is_force_update,
         )?;
         remove_file_if_exist("mods/tofudelight-1.20.1-2.4.1.jar")?;
@@ -238,39 +252,11 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5116432,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/tofucreate-1.20.1-0.1.0.jar")?;
-        download_curseforge_file(
-            "mods/tofucreate-1.20.1-0.2.0.jar",
-            924197,
-            5109349,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/journeymap-1.20.1-5.9.18-forge.jar")?;
-        download_curseforge_file(
-            "mods/journeymap-1.20.1-5.9.18p1-forge.jar",
-            32274,
-            5157733,
-            is_force_update,
-        )?;
         remove_file_if_exist("mods/artifacts-forge-9.2.2.jar")?;
         download_curseforge_file(
             "mods/artifacts-forge-9.3.0.jar",
             312353,
             5152057,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/friendsandfoes-forge-mc1.20.1-2.0.9.jar")?;
-        download_curseforge_file(
-            "mods/friendsandfoes-forge-mc1.20.1-2.0.10.jar",
-            602059,
-            5184455,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/netherdepthsupgrade-3.1.3-1.20.jar")?;
-        download_curseforge_file(
-            "mods/netherdepthsupgrade-3.1.4-1.20.jar",
-            670011,
-            5150560,
             is_force_update,
         )?;
         remove_file_if_exist("mods/betterarcheology-1.1.5-1.20.1.jar")?;
@@ -280,11 +266,25 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5158209,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/TheOuterEnd-1.0.4.jar")?;
+        remove_file_if_exist("mods/friendsandfoes-forge-mc1.20.1-2.0.9.jar")?;
         download_curseforge_file(
-            "mods/TheOuterEnd-1.0.6.jar",
-            430404,
-            5158921,
+            "mods/friendsandfoes-forge-mc1.20.1-2.0.10.jar",
+            602059,
+            5184455,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/journeymap-1.20.1-5.9.18-forge.jar")?;
+        download_curseforge_file(
+            "mods/journeymap-1.20.1-5.9.18p1-forge.jar",
+            32274,
+            5157733,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/netherdepthsupgrade-3.1.3-1.20.jar")?;
+        download_curseforge_file(
+            "mods/netherdepthsupgrade-3.1.4-1.20.jar",
+            670011,
+            5150560,
             is_force_update,
         )?;
         remove_file_if_exist("mods/aether-redux-1.3.4-1.20.1-neoforge.jar")?;
@@ -294,11 +294,11 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5173184,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/ars_creo-1.20.1-4.0.1.jar")?;
+        remove_file_if_exist("mods/TheOuterEnd-1.0.4.jar")?;
         download_curseforge_file(
-            "mods/ars_creo-1.20.1-4.1.0.jar",
-            575698,
-            5171755,
+            "mods/TheOuterEnd-1.0.6.jar",
+            430404,
+            5158921,
             is_force_update,
         )?;
         remove_file_if_exist("mods/voicechat-forge-1.20.1-2.5.2.jar")?;
@@ -338,27 +338,6 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5108615,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/embeddium-0.3.1+mc1.20.1.jar")?;
-        download_curseforge_file(
-            "mods/embeddium-0.3.9+mc1.20.1.jar",
-            908741,
-            5175031,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/Tips-Forge-1.20.1-12.0.4.jar")?;
-        download_curseforge_file(
-            "mods/Tips-Forge-1.20.1-12.0.5.jar",
-            306549,
-            5134760,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/craftingtweaks-forge-1.20-18.2.2.jar")?;
-        download_curseforge_file(
-            "mods/craftingtweaks-forge-1.20.1-18.2.3.jar",
-            233071,
-            5140224,
-            is_force_update,
-        )?;
         remove_file_if_exist("mods/CraftTweaker-forge-1.20.1-14.0.33.jar")?;
         download_curseforge_file(
             "mods/CraftTweaker-forge-1.20.1-14.0.36.jar",
@@ -378,6 +357,13 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             "mods/YungsApi-1.20-Forge-4.0.4.jar",
             421850,
             5147001,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/curios-forge-5.7.0+1.20.1.jar")?;
+        download_curseforge_file(
+            "mods/curios-forge-5.7.2+1.20.1.jar",
+            309927,
+            5175956,
             is_force_update,
         )?;
         remove_file_if_exist("mods/citadel-2.5.3-1.20.1.jar")?;
@@ -424,11 +410,25 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5147442,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/curios-forge-5.7.0+1.20.1.jar")?;
+        remove_file_if_exist("mods/embeddium-0.3.1+mc1.20.1.jar")?;
         download_curseforge_file(
-            "mods/curios-forge-5.7.2+1.20.1.jar",
-            309927,
-            5175956,
+            "mods/embeddium-0.3.9+mc1.20.1.jar",
+            908741,
+            5175031,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/Tips-Forge-1.20.1-12.0.4.jar")?;
+        download_curseforge_file(
+            "mods/Tips-Forge-1.20.1-12.0.5.jar",
+            306549,
+            5134760,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/craftingtweaks-forge-1.20-18.2.2.jar")?;
+        download_curseforge_file(
+            "mods/craftingtweaks-forge-1.20.1-18.2.3.jar",
+            233071,
+            5140224,
             is_force_update,
         )?;
         println!("追加Modをインストール中...");
