@@ -301,18 +301,11 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5158921,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/voicechat-forge-1.20.1-2.5.2.jar")?;
+        remove_file_if_exist("mods/emi-1.1.1+1.20.1+forge.jar")?;
         download_curseforge_file(
-            "mods/voicechat-forge-1.20.1-2.5.8.jar",
-            416089,
-            5164154,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/lightmanscurrency-1.20.1-2.2.0.3c.jar")?;
-        download_curseforge_file(
-            "mods/lightmanscurrency-1.20.1-2.2.1.0b.jar",
-            472521,
-            5127058,
+            "mods/emi-1.1.3+1.20.1+forge.jar",
+            580555,
+            5172928,
             is_force_update,
         )?;
         remove_file_if_exist("mods/jei-1.20.1-forge-15.3.0.1.jar")?;
@@ -322,20 +315,20 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5101366,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/emi-1.1.1+1.20.1+forge.jar")?;
+        remove_file_if_exist("mods/lightmanscurrency-1.20.1-2.2.0.3c.jar")?;
         download_curseforge_file(
-            "mods/emi-1.1.3+1.20.1+forge.jar",
-            580555,
-            5172928,
+            "mods/lightmanscurrency-1.20.1-2.2.1.0b.jar",
+            472521,
+            5127058,
             is_force_update,
         )?;
         remove_file_if_exist("mods/Quark-4.0-436.jar")?;
         download_curseforge_file("mods/Quark-4.0-438.jar", 243121, 5151658, is_force_update)?;
-        remove_file_if_exist("mods/oculus-mc1.20.1-1.6.15.jar")?;
+        remove_file_if_exist("mods/voicechat-forge-1.20.1-2.5.2.jar")?;
         download_curseforge_file(
-            "mods/oculus-mc1.20.1-1.6.15a.jar",
-            581495,
-            5108615,
+            "mods/voicechat-forge-1.20.1-2.5.8.jar",
+            416089,
+            5164154,
             is_force_update,
         )?;
         remove_file_if_exist("mods/CraftTweaker-forge-1.20.1-14.0.33.jar")?;
@@ -352,34 +345,6 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5116404,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/YungsApi-1.20-Forge-4.0.3.jar")?;
-        download_curseforge_file(
-            "mods/YungsApi-1.20-Forge-4.0.4.jar",
-            421850,
-            5147001,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/curios-forge-5.7.0+1.20.1.jar")?;
-        download_curseforge_file(
-            "mods/curios-forge-5.7.2+1.20.1.jar",
-            309927,
-            5175956,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/citadel-2.5.3-1.20.1.jar")?;
-        download_curseforge_file(
-            "mods/citadel-2.5.4-1.20.1.jar",
-            331936,
-            5143956,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/moonlight-1.20-2.9.12-forge.jar")?;
-        download_curseforge_file(
-            "mods/moonlight-1.20-2.11.4-forge.jar",
-            499980,
-            5180872,
-            is_force_update,
-        )?;
         remove_file_if_exist("mods/architectury-9.1.13-forge.jar")?;
         download_curseforge_file(
             "mods/architectury-9.2.14-forge.jar",
@@ -387,20 +352,11 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5137938,
             is_force_update,
         )?;
-        remove_file_if_exist("mods/Zeta-1.0-13.jar")?;
-        download_curseforge_file("mods/Zeta-1.0-14.jar", 968868, 5151582, is_force_update)?;
         remove_file_if_exist("mods/balm-forge-1.20.1-7.2.1.jar")?;
         download_curseforge_file(
             "mods/balm-forge-1.20.1-7.2.2.jar",
             531761,
             5140912,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/fusion-1.1.0c-forge-mc1.20.1.jar")?;
-        download_curseforge_file(
-            "mods/fusion-1.1.1-forge-mc1.20.1.jar",
-            854949,
-            5129294,
             is_force_update,
         )?;
         remove_file_if_exist("mods/blueprint-1.20.1-7.0.0.jar")?;
@@ -410,6 +366,50 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5147442,
             is_force_update,
         )?;
+        remove_file_if_exist("mods/citadel-2.5.3-1.20.1.jar")?;
+        download_curseforge_file(
+            "mods/citadel-2.5.4-1.20.1.jar",
+            331936,
+            5143956,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/curios-forge-5.7.0+1.20.1.jar")?;
+        download_curseforge_file(
+            "mods/curios-forge-5.7.2+1.20.1.jar",
+            309927,
+            5175956,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/fusion-1.1.0c-forge-mc1.20.1.jar")?;
+        download_curseforge_file(
+            "mods/fusion-1.1.1-forge-mc1.20.1.jar",
+            854949,
+            5129294,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/moonlight-1.20-2.9.12-forge.jar")?;
+        download_curseforge_file(
+            "mods/moonlight-1.20-2.11.4-forge.jar",
+            499980,
+            5180872,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/YungsApi-1.20-Forge-4.0.3.jar")?;
+        download_curseforge_file(
+            "mods/YungsApi-1.20-Forge-4.0.4.jar",
+            421850,
+            5147001,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/Zeta-1.0-13.jar")?;
+        download_curseforge_file("mods/Zeta-1.0-14.jar", 968868, 5151582, is_force_update)?;
+        remove_file_if_exist("mods/craftingtweaks-forge-1.20-18.2.2.jar")?;
+        download_curseforge_file(
+            "mods/craftingtweaks-forge-1.20.1-18.2.3.jar",
+            233071,
+            5140224,
+            is_force_update,
+        )?;
         remove_file_if_exist("mods/embeddium-0.3.1+mc1.20.1.jar")?;
         download_curseforge_file(
             "mods/embeddium-0.3.9+mc1.20.1.jar",
@@ -417,18 +417,18 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             5175031,
             is_force_update,
         )?;
+        remove_file_if_exist("mods/oculus-mc1.20.1-1.6.15.jar")?;
+        download_curseforge_file(
+            "mods/oculus-mc1.20.1-1.6.15a.jar",
+            581495,
+            5108615,
+            is_force_update,
+        )?;
         remove_file_if_exist("mods/Tips-Forge-1.20.1-12.0.4.jar")?;
         download_curseforge_file(
             "mods/Tips-Forge-1.20.1-12.0.5.jar",
             306549,
             5134760,
-            is_force_update,
-        )?;
-        remove_file_if_exist("mods/craftingtweaks-forge-1.20-18.2.2.jar")?;
-        download_curseforge_file(
-            "mods/craftingtweaks-forge-1.20.1-18.2.3.jar",
-            233071,
-            5140224,
             is_force_update,
         )?;
         println!("追加Modをインストール中...");
@@ -493,6 +493,12 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             is_force_update,
         )?;
         download_curseforge_file(
+            "mods/backported_wolves-1.0.3-1.20.1.jar",
+            984037,
+            5166541,
+            is_force_update,
+        )?;
+        download_curseforge_file(
             "mods/immersive_aircraft-0.7.5+1.20.1-forge.jar",
             666014,
             5168708,
@@ -502,18 +508,6 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             "mods/The_Undergarden-1.20.1-0.8.14.jar",
             379849,
             5182632,
-            is_force_update,
-        )?;
-        download_curseforge_file(
-            "mods/backported_wolves-1.0.3-1.20.1.jar",
-            984037,
-            5166541,
-            is_force_update,
-        )?;
-        download_curseforge_file(
-            "mods/spyglass_of_curios-forge-1.20.1-1.7.2.jar",
-            941332,
-            5062462,
             is_force_update,
         )?;
         download_curseforge_file(
@@ -535,6 +529,12 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             is_force_update,
         )?;
         download_curseforge_file(
+            "mods/spyglass_of_curios-forge-1.20.1-1.7.2.jar",
+            941332,
+            5062462,
+            is_force_update,
+        )?;
+        download_curseforge_file(
             "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar",
             885449,
             4889101,
@@ -543,15 +543,15 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
         download_file("mods/naangiskhan-1.0.0+1.20.1.jar", "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.0/naangiskhan-1.0.0+1.20.1.jar", is_force_update)?;
         println!("追加リソースパックをインストール中...");
         download_curseforge_file(
-            "resourcepacks/Nehter's_Delight_crops_3D_1.3.zip",
-            965057,
-            5122924,
-            is_force_update,
-        )?;
-        download_curseforge_file(
             "resourcepacks/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip",
             821020,
             5096356,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "resourcepacks/Nehter's_Delight_crops_3D_1.3.zip",
+            965057,
+            5122924,
             is_force_update,
         )?;
         {
@@ -747,6 +747,24 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             "mods/ServerRedirect-ForgeMC20-1.4.5.jar",
             295232,
             4683939,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/simpleafk-1.1.2.jar",
+            908384,
+            5218384,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/watut-forge-1.20.1-1.1.1.jar",
+            945479,
+            5267703,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/coroutil-forge-1.20.1-1.3.7.jar",
+            237749,
+            5096038,
             is_force_update,
         )?;
     }
