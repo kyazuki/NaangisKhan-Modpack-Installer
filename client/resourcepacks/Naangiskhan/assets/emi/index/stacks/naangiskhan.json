@@ -3,6 +3,10 @@
         {
             "stack": "item:naangiskhan:event_package",
             "after": "item:naangiskhan:naan_card"
+        },
+        {
+            "stack": "item:naangiskhan:event_package_placeable",
+            "after": "item:naangiskhan:event_package"
         }
     ]
 }
