@@ -783,7 +783,7 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
         remove_file_if_exist("mods/naangiskhan-1.2.0+1.20.1.jar")?;
         download_file(
             "mods/naangiskhan-1.2.1+1.20.1.jar",
-            "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.5/naangiskhan-1.2.1+1.20.1.jar",
+            "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.6/naangiskhan-1.2.1+1.20.1.jar",
             is_force_update,
         )?;
     }
