@@ -1,0 +1,8 @@
+{
+    "added": [
+        {
+            "stack": "item:naangiskhan:event_package",
+            "after": "item:naangiskhan:naan_card"
+        }
+    ]
+}
