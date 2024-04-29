@@ -742,6 +742,13 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
     if is_old_version(&version, &"1.1.5".try_into()?) {
         info!("Starting migration for v1.1.5...");
         println!("v1.1.5アップデートの適用を開始します...");
+        println!("Modをアップデート中...");
+        remove_file_if_exist("mods/naangiskhan-1.1.0+1.20.1.jar")?;
+        download_file(
+            "mods/naangiskhan-1.2.0+1.20.1.jar",
+            "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.5/naangiskhan-1.2.0+1.20.1.jar",
+            is_force_update,
+        )?;
         println!("追加Modをインストール中...");
         download_curseforge_file(
             "mods/ServerRedirect-ForgeMC20-1.4.5.jar",
