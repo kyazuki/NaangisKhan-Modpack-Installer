@@ -749,6 +749,24 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             4683939,
             is_force_update,
         )?;
+        download_curseforge_file(
+            "mods/simpleafk-1.1.2.jar",
+            908384,
+            5218384,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/watut-forge-1.20.1-1.1.1.jar",
+            945479,
+            5267703,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/coroutil-forge-1.20.1-1.3.7.jar",
+            237749,
+            5096038,
+            is_force_update,
+        )?;
     }
 
     Ok(())

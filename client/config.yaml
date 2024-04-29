@@ -270,10 +270,18 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 416089
   fileId: 5164154
+- name: SimpleAFK v1.1.2
+  # https://www.curseforge.com/minecraft/mc-mods/simpleafk/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 908384
+  fileId: 5218384
 - name: Spyglass of Curios v0.49.2
   # https://www.curseforge.com/minecraft/mc-mods/spyglass-of-curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 941332
   fileId: 5062462
+- name: What Are They Up To (Watut) v1.1.1
+  # https://www.curseforge.com/minecraft/mc-mods/what-are-they-up-to/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 945479
+  fileId: 5267703
 # その他
 - name: CraftTweaker v14.0.36
   # https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
@@ -312,6 +320,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 348521
   fileId: 4973441
+- name: CoroUtil v1.3.7
+  # https://www.curseforge.com/minecraft/mc-mods/coroutil/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 237749
+  fileId: 5096038
 - name: Curios API v5.7.2
   # https://www.curseforge.com/minecraft/mc-mods/curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 309927
