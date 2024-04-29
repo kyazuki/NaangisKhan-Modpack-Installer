@@ -49,6 +49,12 @@ fn download_file(path: &str, url: &str, is_force: bool) -> Result<(), Box<dyn er
         false => {
             info!("Downloading: {:?} -> {:?}", url, path.display());
             let response = reqwest::blocking::get(url)?;
+            if !response.status().is_success() {
+                return Err(Box::new(io::Error::new(
+                    ErrorKind::Other,
+                    format!("Failed to download: {:?}", response.status()),
+                )));
+            }
             let temp_path = path
                 .parent()
                 .unwrap_or_else(|| Path::new(""))
