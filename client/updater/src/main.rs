@@ -15,7 +15,7 @@ use simplelog::*;
 
 use version::Version;
 
-const LATEST_VERSION: Version = Version::new(1, 1, 5);
+const LATEST_VERSION: Version = Version::new(1, 1, 6);
 
 fn initialize_logger(path: &str) -> Result<(), Box<dyn error::Error>> {
     let log_path = Path::new(path);
@@ -772,6 +772,18 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             "mods/coroutil-forge-1.20.1-1.3.7.jar",
             237749,
             5096038,
+            is_force_update,
+        )?;
+    }
+    // v1.1.6アップデート
+    if is_old_version(&version, &"1.1.6".try_into()?) {
+        info!("Starting migration for v1.1.6...");
+        println!("v1.1.6アップデートの適用を開始します...");
+        println!("Modをアップデート中...");
+        remove_file_if_exist("mods/naangiskhan-1.2.0+1.20.1.jar")?;
+        download_file(
+            "mods/naangiskhan-1.2.1+1.20.1.jar",
+            "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.5/naangiskhan-1.2.1+1.20.1.jar",
             is_force_update,
         )?;
     }
