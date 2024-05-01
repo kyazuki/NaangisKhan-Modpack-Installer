@@ -186,7 +186,7 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
     // リソースパックを更新
     if is_old_version(&version, &LATEST_VERSION) {
         println!("リソースパックを更新中...");
-        download_file("resourcepacks/NaangisKhan.zip", &format!("https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v{}/NaangisKhan.zip", &LATEST_VERSION), is_force_update)?;
+        download_file("resourcepacks/NaangisKhan.zip", &format!("https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v{}/NaangisKhan.zip", &LATEST_VERSION), true)?;
     }
 
     // マイグレーション処理
