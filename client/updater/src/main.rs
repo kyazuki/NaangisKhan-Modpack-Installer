@@ -15,7 +15,7 @@ use simplelog::*;
 
 use version::Version;
 
-const LATEST_VERSION: Version = Version::new(1, 1, 6);
+const LATEST_VERSION: Version = Version::new(1, 1, 7);
 
 fn initialize_logger(path: &str) -> Result<(), Box<dyn error::Error>> {
     let log_path = Path::new(path);
