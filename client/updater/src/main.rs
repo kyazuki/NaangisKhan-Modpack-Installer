@@ -15,7 +15,7 @@ use simplelog::*;
 
 use version::Version;
 
-const LATEST_VERSION: Version = Version::new(1, 1, 7);
+const LATEST_VERSION: Version = Version::new(1, 1, 8);
 
 fn initialize_logger(path: &str) -> Result<(), Box<dyn error::Error>> {
     let log_path = Path::new(path);
@@ -762,12 +762,7 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             4683939,
             is_force_update,
         )?;
-        download_curseforge_file(
-            "mods/simpleafk-1.1.2.jar",
-            908384,
-            5218384,
-            is_force_update,
-        )?;
+        download_curseforge_file("mods/simpleafk-1.1.2.jar", 908384, 5218384, is_force_update)?;
         download_curseforge_file(
             "mods/watut-forge-1.20.1-1.1.1.jar",
             945479,
@@ -790,6 +785,19 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
         download_file(
             "mods/naangiskhan-1.2.1+1.20.1.jar",
             "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.6/naangiskhan-1.2.1+1.20.1.jar",
+            is_force_update,
+        )?;
+    }
+    // v1.1.8アップデート
+    if is_old_version(&version, &"1.1.8".try_into()?) {
+        info!("Starting migration for v1.1.8...");
+        println!("v1.1.8アップデートの適用を開始します...");
+        println!("Modをアップデート中...");
+        remove_file_if_exist("mods/tofucreate-1.20.1-0.2.0.jar")?;
+        download_curseforge_file(
+            "mods/tofucreate-1.20.1-0.2.1.jar",
+            924197,
+            5253655,
             is_force_update,
         )?;
     }
