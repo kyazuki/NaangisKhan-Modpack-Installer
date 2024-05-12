@@ -6,7 +6,7 @@
     ],
     "settings": {
         "rust-analyzer.linkedProjects": [
-            "${workspaceFolder}/client/updater/Cargo.toml"
+            "${workspaceFolder}/client/gui-updater/src-tauri/Cargo.toml",
         ]
     },
     "launch": {
@@ -16,7 +16,7 @@
                 "type": "lldb",
                 "request": "launch",
                 "name": "Updater",
-                "program": "${workspaceFolder}/client/updater/target/debug/updater.exe",
+                "program": "${workspaceFolder}/client/gui-updater/src-tauri/target/debug/gui-updater.exe",
                 "args": [],
                 "cwd": "${workspaceFolder}/test/",
                 "preLaunchTask": "Build Updater Debug",
@@ -80,28 +80,29 @@
             {
                 "label": "Build Updater",
                 "type": "cargo",
-                "command": "build",
+                "command": "tauri",
                 "args": [
+                    "build",
                     "--release"
                 ],
-                "problemMatcher": [
-                    "$rustc"
-                ],
+                "problemMatcher": [],
                 "group": "build",
                 "options": {
-                    "cwd": "${workspaceFolder}/client/updater/"
+                    "cwd": "${workspaceFolder}/client/gui-updater/"
                 },
             },
             {
                 "label": "Build Updater Debug",
                 "type": "cargo",
-                "command": "build",
-                "problemMatcher": [
-                    "$rustc"
+                "command": "tauri",
+                "args": [
+                    "build",
+                    "--debug"
                 ],
+                "problemMatcher": [],
                 "group": "build",
                 "options": {
-                    "cwd": "${workspaceFolder}/client/updater/"
+                    "cwd": "${workspaceFolder}/client/gui-updater/"
                 },
             },
             {
