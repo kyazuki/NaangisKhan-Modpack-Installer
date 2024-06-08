@@ -875,6 +875,12 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             is_force_update,
         )?;
         download_curseforge_file(
+            "mods/Galosphere-1.20.1-1.4.1-Forge.jar",
+            631098,
+            4983871,
+            is_force_update,
+        )?;
+        download_curseforge_file(
             "mods/modernfix-forge-5.18.0+mc1.20.1.jar",
             790626,
             5399361,

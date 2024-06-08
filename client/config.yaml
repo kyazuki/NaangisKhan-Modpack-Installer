@@ -160,6 +160,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/friends-and-foes-forge/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 602059
   fileId: 5184455
+- name: Galosphere v1.4.1
+  # https://www.curseforge.com/minecraft/mc-mods/galosphere/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
+  projectId: 631098
+  fileId: 4983871
 - name: Immersive Aircraft v0.7.5
   # https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 666014
