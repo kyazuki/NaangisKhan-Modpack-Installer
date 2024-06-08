@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        [
+            {
+                "item": "croptopia:calamari"
+            },
+            {
+                "item": "croptopia:glowing_calamari"
+            },
+            {
+                "item": "miners_delight:tentacles"
+            },
+            {
+                "item": "oceansdelight:tentacles"
+            }
+        ]
+    ],
+    "result": {
+        "item": "oceansdelight:tentacle_on_a_stick"
+    }
+}

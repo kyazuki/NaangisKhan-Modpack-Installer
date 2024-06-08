@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 6.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "croptopia:apricot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "tofucraft:bottle_soyoil",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "croptopia:apricot_sapling",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

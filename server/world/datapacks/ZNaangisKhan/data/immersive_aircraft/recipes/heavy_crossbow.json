@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IMI",
+        "SHS",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "tag": "quark:posts"
+        },
+        "M": {
+            "item": "twilightforest:ironwood_block"
+        },
+        "S": {
+            "item": "supplementaries:rope"
+        },
+        "H": {
+            "item": "minecraft:crossbow"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:heavy_crossbow"
+    }
+}

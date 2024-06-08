@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:olives"
+    }
+  ],
+  "result": {
+    "item": "croptopia:olive_seed"
+  }
+}

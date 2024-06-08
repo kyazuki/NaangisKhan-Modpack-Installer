@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "undergarden:barren_abyss",
+      "required": false
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "TradesLevel1": [
-      {
+    {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_gold",
-        "Count": 64
+        "ID": "lightmanscurrency:coinblock_copper",
+        "Count": 5
       },
       "Sell": {
         "ID": "minecraft:enchanted_book",

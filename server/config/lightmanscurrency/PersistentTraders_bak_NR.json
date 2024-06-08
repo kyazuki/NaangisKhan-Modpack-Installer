@@ -1,0 +1,794 @@
+{
+  "Traders": [
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps1",
+      "Name": "[常設]デイリーボーナス",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 1,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          },
+          "Price": {
+            "Free": true,
+            "type": "lightmanscurrency:null"
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "ForgetTime": 86400000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 1,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "cloudstorage:balloon_bit",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 1,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "minecraft:experience_bottle",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 6,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_prevention",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 15,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps2",
+      "Name": "[常設]会員証",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:membership_card",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "minecraft:spruce_pressure_plate",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_copper",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:membership_card_silver",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "naangiskhan:membership_card",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_copper",
+            "Count": 3
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:membership_card_gold",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "naangiskhan:membership_card_silver",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coinblock_copper",
+            "Count": 1
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps3",
+      "Name": "[常設]ナンケース用品",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "lightmanscurrency:wallet_copper",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_basic",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_capacity",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_efficiency",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_reduction",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              },
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_prevention",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps5",
+      "Name": "[常設]高級品",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "quark:seed_pouch",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:red_bed",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "croptopia:the_big_breakfast",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ars_nouveau:novice_spell_book",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:tome_of_binding",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:totem_of_holding",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bundle",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "quark:backpack",
+            "Count": 1,
+            "Tag": "{Inventory:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coinblock_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ars_nouveau:warp_scroll",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coinblock_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps4",
+      "Name": "[常設]基本素材",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:copper_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:iron_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              },
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "create:zinc_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              },
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "create:andesite_alloy",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              },
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:gold_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:grass_block",
+            "Count": 64
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:stone",
+            "Count": 64
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "botania:black_lotus",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "cloudstorage:balloon_bit",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "cloudstorage:cloud",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ev1",
+      "Name": "[イベント]線路の納品(NR)",
+      "OwnerName": "買取",
+      "Trades": [
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "naangiskhan:event_package",
+            "Count": 1,
+            "Tag": "{content:\"広い鉄道用線路\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Rules": [
+            {
+              "Limit": 10,
+              "ForgetTime": 72000000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "naangiskhan:event_package",
+            "Count": 1,
+            "Tag": "{content:\"透明な鉄道用線路\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 8
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Rules": [
+            {
+              "Limit": 10,
+              "ForgetTime": 72000000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ev2",
+      "Name": "[イベント]鉄道機材の納品(NR)",
+      "OwnerName": "販売/買取",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:event_package_placeable",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Rules": [
+            {
+              "Limit": 5,
+              "ForgetTime": 72000000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "naangiskhan:event_package",
+            "Count": 1,
+            "Tag": "{content:\"鉄道用機材1\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Rules": [
+            {
+              "Limit": 5,
+              "ForgetTime": 72000000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "naangiskhan:event_package",
+            "Count": 1,
+            "Tag": "{content:\"鉄道用機材2\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Rules": [
+            {
+              "Limit": 5,
+              "ForgetTime": 72000000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "naangiskhan:event_package",
+            "Count": 2,
+            "Tag": "{content:\"鉄道用機材3\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Rules": [
+            {
+              "Limit": 5,
+              "ForgetTime": 72000000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "naangiskhan:event_package",
+            "Count": 1,
+            "Tag": "{content:\"鉄道用精密機材\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Rules": [
+            {
+              "Limit": 100,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Auctions": []
+}

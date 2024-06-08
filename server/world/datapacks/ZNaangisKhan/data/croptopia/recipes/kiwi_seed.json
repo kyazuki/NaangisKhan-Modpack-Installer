@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:kiwis"
+    }
+  ],
+  "result": {
+    "item": "croptopia:kiwi_seed"
+  }
+}

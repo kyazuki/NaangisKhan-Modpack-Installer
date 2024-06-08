@@ -78,12 +78,12 @@
 	#The lowest level wallet capable of automatically collecting coins while equipped.
 	#0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet; 6-No Wallet
 	#Range: 0 -> 6
-	pickupLevel=2
+	pickupLevel=6
 	
 	#The lowest level wallet capable of allowing transfers to/from your bank account.
 	#0-Copper Wallet; 1-Iron Wallet; 2-Gold Wallet; 3-Emerald Wallet; 4-Diamond Wallet; 5-Netherite Wallet; 6-No Wallet
 	#Range: 0 -> 6
-	bankLevel=5
+	bankLevel=6
 	
 #Upgrade Settings
 [upgrades]
@@ -122,7 +122,7 @@
 #Enchantment Settings
 [enchantments]
 	#The cost required to repair a single item durability point with the Money Mending enchantment.
-	moneyMendingRepairCost="coin;1-lightmanscurrency:coin_copper"
+	moneyMendingRepairCost="coin;8-naangiskhan:naan_card"
 	
 	#The coin collection radius of the Coin Magnet I enchantment.
 	#Range: 1 -> 50
@@ -203,7 +203,7 @@
 		allowClaimPurchase=false
 		
 		#The price per claim chunk purchased.
-		claimPrice="coin;10-lightmanscurrency:coinblock_copper"
+		claimPrice="coin;1-lightmanscurrency:coin_copper"
 		
 		#The maximum number of extra claim chunks allowed to be purchased with this command.
 		#Note: This count includes extra claim chunks given to the player/team via normal FTB Chunks methods as well (if applicable).
@@ -214,7 +214,7 @@
 		allowForceloadPurchase=false
 		
 		#The price per forceload chunk purchased.
-		forceloadPrice="coin;100000-lightmanscurrency:coinblock_copper"
+		forceloadPrice="coin;1000-lightmanscurrency:coinblock_copper"
 		
 		#The maximum number of extra forceload chunks allowed to be purchased with this command.
 		#Note: This count includes extra forceload chunks given to the player/team via normal FTB Chunks methods as well (if applicable).

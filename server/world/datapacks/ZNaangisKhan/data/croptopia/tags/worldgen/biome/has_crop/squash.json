@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "undergarden:ink_mushroom_bog",
+      "required": false
+    }
+  ]
+}

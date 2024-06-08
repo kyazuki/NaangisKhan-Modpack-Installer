@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:mustard"
+    }
+  ],
+  "result": {
+    "item": "croptopia:mustard_seed"
+  }
+}

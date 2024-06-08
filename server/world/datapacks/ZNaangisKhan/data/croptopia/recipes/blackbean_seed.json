@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:blackbeans"
+    }
+  ],
+  "result": {
+    "item": "croptopia:blackbean_seed"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "miners_delight:add_items",
+    "conditions": [
+        {
+            "condition": "forge:false"
+        }
+    ],
+    "item": "miners_delight:tentacles",
+    "min": 0,
+    "max": 0
+}

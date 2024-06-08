@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "twilightforest:spooky_forest",
+      "required": false
+    }
+  ]
+}

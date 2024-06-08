@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:gingers"
+    }
+  ],
+  "result": {
+    "item": "croptopia:ginger_seed"
+  }
+}

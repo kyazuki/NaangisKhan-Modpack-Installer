@@ -1,6 +1,6 @@
 public function modifyItems() as void {
-    modifyRecipes();
     modifyTags();
+    modifyRecipes();
     modifyTooltips();
     modifyFoods();
 }

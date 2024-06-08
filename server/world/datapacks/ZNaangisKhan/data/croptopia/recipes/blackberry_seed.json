@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:blackberries"
+    }
+  ],
+  "result": {
+    "item": "croptopia:blackberry_seed"
+  }
+}

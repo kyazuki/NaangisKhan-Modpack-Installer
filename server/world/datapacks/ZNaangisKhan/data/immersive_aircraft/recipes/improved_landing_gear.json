@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " L ",
+        "C-C"
+    ],
+    "key": {
+        "L": {
+            "item": "createdeco:iron_support_wedge"
+        },
+        "C": {
+            "item": "createdeco:industrial_iron_coin"
+        },
+        "-": {
+            "item": "quark:iron_rod"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:improved_landing_gear"
+    }
+}

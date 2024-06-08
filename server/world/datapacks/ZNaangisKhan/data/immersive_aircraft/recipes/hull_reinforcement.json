@@ -1,0 +1,120 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "immersive_aircraft:hull"
+    },
+    "loops": 4,
+    "results": [
+        {
+            "chance": 50.0,
+            "item": "immersive_aircraft:hull_reinforcement"
+        },
+        {
+            "chance": 25.0,
+            "item": "immersive_aircraft:hull"
+        },
+        {
+            "chance": 12.5,
+            "item": "create:andesite_casing"
+        },
+        {
+            "chance": 8,
+            "item": "create:sturdy_sheet"
+        },
+        {
+            "chance": 4.5,
+            "item": "create:andesite_alloy"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "immersive_aircraft:hull"
+                },
+                {
+                    "item": "undergarden:cloggrum_ingot"
+                }
+            ],
+            "results": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ],
+            "results": [
+                {
+                    "item": "create:andesite_casing"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ],
+            "results": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ]
+        },
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "immersive_aircraft:hull"
+                },
+                {
+                    "amount": 500,
+                    "fluid": "minecraft:water",
+                    "nbt": {}
+                }
+            ],
+            "results": [
+                {
+                    "item": "create:andesite_casing"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ],
+            "results": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ],
+            "results": [
+                {
+                    "item": "immersive_aircraft:hull"
+                }
+            ]
+        }
+    ],
+    "transitionalItem": {
+        "item": "immersive_aircraft:hull"
+    }
+}

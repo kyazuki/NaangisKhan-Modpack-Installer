@@ -1,0 +1,261 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "railways:track_create_andesite_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_create_andesite_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_monorail",
+            "required": false
+        },
+        {
+            "id": "railways:track_phantom",
+            "required": false
+        },
+        {
+            "id": "railways:track_acacia",
+            "required": false
+        },
+        {
+            "id": "railways:track_acacia_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_acacia_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_birch",
+            "required": false
+        },
+        {
+            "id": "railways:track_birch_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_birch_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_blackstone",
+            "required": false
+        },
+        {
+            "id": "railways:track_blackstone_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_blackstone_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_crimson",
+            "required": false
+        },
+        {
+            "id": "railways:track_crimson_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_crimson_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_dark_oak",
+            "required": false
+        },
+        {
+            "id": "railways:track_dark_oak_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_dark_oak_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_ender",
+            "required": false
+        },
+        {
+            "id": "railways:track_ender_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_ender_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_jungle",
+            "required": false
+        },
+        {
+            "id": "railways:track_jungle_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_jungle_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_mangrove",
+            "required": false
+        },
+        {
+            "id": "railways:track_mangrove_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_mangrove_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_oak",
+            "required": false
+        },
+        {
+            "id": "railways:track_oak_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_oak_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_spruce",
+            "required": false
+        },
+        {
+            "id": "railways:track_spruce_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_spruce_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_tieless",
+            "required": false
+        },
+        {
+            "id": "railways:track_tieless_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_tieless_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_warped",
+            "required": false
+        },
+        {
+            "id": "railways:track_warped_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_warped_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_canopy",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_canopy_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_canopy_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_darkwood",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_darkwood_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_darkwood_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_mangrove",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_mangrove_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_mangrove_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_minewood",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_minewood_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_minewood_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_sortingwood",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_sortingwood_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_sortingwood_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_timewood",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_timewood_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_timewood_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_transwood",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_transwood_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_transwood_wide",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_twilight_oak",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_twilight_oak_narrow",
+            "required": false
+        },
+        {
+            "id": "railways:track_twilightforest_twilight_oak_wide",
+            "required": false
+        }
+    ]
+}

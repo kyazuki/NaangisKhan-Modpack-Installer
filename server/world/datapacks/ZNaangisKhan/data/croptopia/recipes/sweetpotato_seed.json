@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:sweetpotatos"
+    }
+  ],
+  "result": {
+    "item": "croptopia:sweetpotato_seed"
+  }
+}

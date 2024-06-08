@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "immersive_aircraft:boiler"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        {
+          "item": "create:blaze_burner"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        {
+          "item": "create:fluid_tank"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        {
+          "item": "create:steam_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_casing"
+        },
+        {
+          "item": "create:speedometer"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create:copper_casing"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smelting",
+    "category": "food",
+    "cookingtime": 200,
+    "experience": 0.2,
+    "ingredient": [
+        {
+            "item": "croptopia:calamari"
+        },
+        {
+            "item": "croptopia:glowing_calamari"
+        }
+    ],
+    "result": "croptopia:cooked_calamari"
+}

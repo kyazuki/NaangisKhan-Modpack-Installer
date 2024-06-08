@@ -1,0 +1,16 @@
+#Whether the soulbound effect will be removed when the player respawns with the bound item.
+removeSoulBoundOnUse = true
+#The XP cost for soulbinding an item with the tome item
+#Range: > 1
+soulBoundCraftingCost = 1
+#A list of items to have built-in soulbound.
+soulboundBuiltin = ["naangiskhan:membership_card_gold", "naangiskhan:tome_of_binding"]
+#A list of items that cannot be soulbound.
+soulboundBlacklist = ["naangiskhan:totem_of_holding"]
+#Items to consider as event payout upon consistant traders bartering.
+eventPayoutItems = ["naangiskhan:naan_card"]
+#The item required in curios slots to enable Totem of Holding.
+totemItem = "naangiskhan:totem_of_holding"
+#The item used to soulbind an item.
+tomeItem = "naangiskhan:tome_of_binding"
+

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:pepper"
+    }
+  ],
+  "result": {
+    "item": "croptopia:pepper_seed"
+  }
+}

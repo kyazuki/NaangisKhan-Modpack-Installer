@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "twilightforest:enchanted_forest",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:basil"
+    }
+  ],
+  "result": {
+    "item": "croptopia:basil_seed"
+  }
+}

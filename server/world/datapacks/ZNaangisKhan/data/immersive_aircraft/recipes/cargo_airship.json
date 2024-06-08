@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SSSS",
+    "C~AC",
+    "HCCH"
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "immersive_aircraft:hull"
+      }
+    ],
+    "A": [
+      {
+        "item": "immersive_aircraft:airship"
+      }
+    ],
+    "S": [
+      {
+        "item": "immersive_aircraft:sail"
+      }
+    ],
+    "~": [
+      {
+        "item": "cloudstorage:happy_cloud_in_a_bottle"
+      }
+    ],
+    "C": [
+      {
+        "tag": "forge:chests/wooden"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:cargo_airship"
+  },
+  "acceptMirrored": true
+}

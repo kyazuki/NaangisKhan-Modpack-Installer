@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:grapes"
+    }
+  ],
+  "result": {
+    "item": "croptopia:grape_seed"
+  }
+}

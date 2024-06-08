@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:cantaloupes"
+    }
+  ],
+  "result": {
+    "item": "croptopia:cantaloupe_seed"
+  }
+}

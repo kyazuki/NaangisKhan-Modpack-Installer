@@ -1,0 +1,109 @@
+{
+  "properties": {
+    "fuel": 1.5,
+    "stabilizer": 0.2,
+    "yawSpeed": 3.0,
+    "pitchSpeed": 3.0,
+    "engineSpeed": 0.3,
+    "pushSpeed": 0.001,
+    "verticalSpeed": 0.003,
+    "driftDrag": 0.01,
+    "lift": 0.1,
+    "rollFactor": 26.0,
+    "wind": 0.2,
+    "mass": 4.0,
+    "groundFriction": 0.4,
+    "horizontalDecay": 0.925,
+    "verticalDecay": 1,
+    "durability": 0.1
+  },
+  "inventorySlots": [
+    {
+      "type": "inventory",
+      "x": 62,
+      "y": 8,
+      "cols": 4,
+      "rows": 1
+    }
+  ],
+  "weaponMounts": [],
+  "passengerPositions": [
+    [
+      {
+        "x": 0.0,
+        "y": -0.1,
+        "z": 0.3
+      }
+    ],
+    [
+      {
+        "x": 0.0,
+        "y": -0.1,
+        "z": 0.3
+      },
+      {
+        "x": 0.0,
+        "y": -0.1,
+        "z": -0.6
+      }
+    ]
+  ],
+  "boundingBoxes": [
+    {
+      "width": 1.0,
+      "height": 0.1,
+      "x": 1.0,
+      "y": 0.25,
+      "z": 0.125
+    },
+    {
+      "width": 1.0,
+      "height": 0.1,
+      "x": 1.85,
+      "y": 0.25,
+      "z": 0.125
+    },
+    {
+      "width": 1.0,
+      "height": 0.1,
+      "x": 0.0,
+      "y": 0.25,
+      "z": 0.125
+    },
+    {
+      "width": 1.0,
+      "height": 0.1,
+      "x": -1.0,
+      "y": 0.25,
+      "z": 0.125
+    },
+    {
+      "width": 1.0,
+      "height": 0.1,
+      "x": -1.85,
+      "y": 0.25,
+      "z": 0.125
+    },
+    {
+      "width": 0.8,
+      "height": 0.4,
+      "x": 0.0,
+      "y": 0.2,
+      "z": 1.1
+    },
+    {
+      "width": 0.4,
+      "height": 0.3,
+      "x": 0.0,
+      "y": 0.15,
+      "z": 1.6
+    },
+    {
+      "width": 0.4,
+      "height": 0.3,
+      "x": 0.0,
+      "y": 0.15,
+      "z": 2.1
+    }
+  ]
+}

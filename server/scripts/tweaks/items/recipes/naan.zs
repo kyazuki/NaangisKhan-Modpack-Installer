@@ -37,6 +37,11 @@ public function naanCurrency() as void {
         <item:lightmanscurrency:coin_iron> * 10,
         [<item:lightmanscurrency:coin_copper>]
     );
+    craftingTable.addShapeless(
+        "naangiskhan/naan/uncraft_naan",
+        <item:naangiskhan:naan_card> * 10,
+        [<item:lightmanscurrency:coin_iron>]
+    );
 
     //各種財布のレシピを削除
     recipes.remove(<item:lightmanscurrency:wallet_copper>);
@@ -48,14 +53,6 @@ public function naanCurrency() as void {
     //アップグレード作成レシピ削除
     recipes.removeByInput(<item:lightmanscurrency:upgrade_smithing_template>);
     smithing.removeByModid("lightmanscurrency");
-    //財布レシピ追加
-    smithing.addTransformRecipe(
-        "naangiskhan/lightmanscurrency/iron_wallet",
-        <item:lightmanscurrency:wallet_iron>,
-        <item:lightmanscurrency:upgrade_smithing_template>,
-        <item:lightmanscurrency:wallet_copper>,
-        <item:lightmanscurrency:coin_iron>
-     );
 
     //trading coreのレシピを削除
     recipes.remove(<item:lightmanscurrency:trading_core>);
@@ -63,7 +60,15 @@ public function naanCurrency() as void {
     //mintingレシピを削除
     recipes.remove(<item:lightmanscurrency:coinmint>);
     <recipetype:lightmanscurrency:coin_mint>.removeAll();
-
+    //atmのレシピを削除
+    recipes.remove(<item:lightmanscurrency:atm>);
+    //自販機のレシピを削除
+    recipes.remove(<item:lightmanscurrency:vending_machine>);
+    recipes.removeByInput(<item:lightmanscurrency:vending_machine_large>);
+    recipes.remove(<item:lightmanscurrency:vending_machine_large>);
+    recipes.removeByInput(<item:lightmanscurrency:vending_machine_large>);
+    //portable gem terminalのレシピを削除
+    recipes.remove(<item:lightmanscurrency:portable_gem_terminal>);
 
     //作成して欲しいトレーダーのみナンで作成可能にする
     Replacer.create().filter(
@@ -81,4 +86,6 @@ public function naanCurrency() as void {
          <item:lightmanscurrency:coin_copper>
     ).execute();
     recipes.removeByInput(<item:lightmanscurrency:trading_core>);
+    craftingTable.remove(<item:lightmanscurrency:ticket_machine>);
+    craftingTable.remove(<item:lightmanscurrency:portable_terminal>);
 }

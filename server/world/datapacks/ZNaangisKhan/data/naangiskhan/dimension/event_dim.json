@@ -1,0 +1,30 @@
+{
+	"type": "naangiskhan:event_dim_type",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"layers": [
+				{
+					"height": 1,
+					"block": "minecraft:bedrock"
+				},
+				{
+					"height": 31,
+					"block": "minecraft:stone"
+				},
+				{
+					"height": 31,
+					"block": "minecraft:dirt"
+				},
+				{
+					"height": 1,
+					"block": "minecraft:grass_block"
+				}
+			],
+			"biome": "naangiskhan:event_area",
+			"lakes": false,
+			"features": false,
+			"structure_overrides": []
+		}
+	}
+}

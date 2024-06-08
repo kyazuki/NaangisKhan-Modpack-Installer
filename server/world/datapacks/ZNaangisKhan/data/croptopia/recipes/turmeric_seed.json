@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:turmeric"
+    }
+  ],
+  "result": {
+    "item": "croptopia:turmeric_seed"
+  }
+}

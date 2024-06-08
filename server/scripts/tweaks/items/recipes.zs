@@ -3,4 +3,8 @@ public function modifyRecipes() as void {
     naanCurrency();
     patch();
     balanceChanges();
+    tweaks();
+    ctopiaRecipes();
+    eventRecipes();
+    juicefluids();
 }

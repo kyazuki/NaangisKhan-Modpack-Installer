@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:celery"
+    }
+  ],
+  "result": {
+    "item": "croptopia:celery_seed"
+  }
+}

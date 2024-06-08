@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "undergarden:smog_spires",
+      "required": false
+    }
+  ]
+}

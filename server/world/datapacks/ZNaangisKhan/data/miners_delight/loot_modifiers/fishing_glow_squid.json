@@ -1,0 +1,11 @@
+{
+    "type": "miners_delight:replace_items",
+    "conditions": [
+        {
+            "condition": "forge:false"
+        }
+    ],
+    "item": "miners_delight:squid",
+    "min": 0,
+    "max": 0
+}

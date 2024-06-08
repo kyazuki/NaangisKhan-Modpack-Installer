@@ -5,37 +5,27 @@
             "name": {
                 "translate": "naangiskhan.naan.chain.main"
             },
-            "displayType": "lightmanscurrency:coin",
+            "displayType": "lightmanscurrency:number",
             "InputType": "DEFAULT",
+            "displayFormat": {
+                "text": " {value}ナン"
+            },
             "CoreChain": [
                 {
+                    "Coin": "naangiskhan:naan_card"
+                },
+                {
                     "Coin": "lightmanscurrency:coin_iron",
-                    "initial": {
-                        "translate": "naangiskhan.naan.naan.initial"
-                    },
-                    "plural": {
-                        "translate": "naangiskhan.naan.naan.initial"
-                    }
+                    "exchangeRate": 10,
+                    "baseUnit": true
                 },
                 {
                     "Coin": "lightmanscurrency:coin_copper",
-                    "exchangeRate": 10,
-                    "initial": {
-                        "translate": "naangiskhan.naan.bag.initial"
-                    },
-                    "plural": {
-                        "translate": "naangiskhan.naan.bag.initial"
-                    }
+                    "exchangeRate": 10
                 },
                 {
                     "Coin": "lightmanscurrency:coinblock_copper",
-                    "exchangeRate": 10,
-                    "initial": {
-                        "translate": "naangiskhan.naan.box.initial"
-                    },
-                    "plural": {
-                        "translate": "naangiskhan.naan.box.initial"
-                    }
+                    "exchangeRate": 10
                 }
             ],
             "ATMData": {
@@ -44,24 +34,140 @@
                         "x": 5,
                         "y": 34,
                         "width": 82,
+                        "command": "exchangeAllDown",
+                        "icons": [
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 1,
+                                "y": 1,
+                                "item": "naangiskhan:naan_card"
+                            },
+                            {
+                                "type": "lightmanscurrency:small_arrow",
+                                "x": 18,
+                                "y": 6,
+                                "direction": "LEFT"
+                            },
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 27,
+                                "y": 0,
+                                "item": "lightmanscurrency:coin_iron"
+                            },
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 45,
+                                "y": 0,
+                                "item": "lightmanscurrency:coin_copper"
+                            },
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 64,
+                                "y": 1,
+                                "item": "lightmanscurrency:coinblock_copper"
+                            }
+                        ]
+                    },
+                    {
+                        "x": 89,
+                        "y": 34,
+                        "width": 82,
                         "command": "exchangeAllUp",
                         "icons": [
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": -2,
+                                "x": 1,
                                 "y": 1,
+                                "item": "naangiskhan:naan_card"
+                            },
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 18,
+                                "y": 0,
                                 "item": "lightmanscurrency:coin_iron"
                             },
                             {
+                                "type": "lightmanscurrency:item",
+                                "x": 36,
+                                "y": 0,
+                                "item": "lightmanscurrency:coin_copper"
+                            },
+                            {
                                 "type": "lightmanscurrency:small_arrow",
-                                "x": 10,
+                                "x": 55,
                                 "y": 6,
                                 "direction": "RIGHT"
                             },
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": 12,
+                                "x": 64,
                                 "y": 1,
+                                "item": "lightmanscurrency:coinblock_copper"
+                            }
+                        ]
+                    },
+                    {
+                        "x": 5,
+                        "y": 61,
+                        "width": 53,
+                        "command": "exchangeUp-naangiskhan:naan_card",
+                        "icons": [
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 1,
+                                "y": 1,
+                                "item": "naangiskhan:naan_card"
+                            },
+                            {
+                                "type": "lightmanscurrency:small_arrow",
+                                "x": 22,
+                                "y": 6,
+                                "direction": "RIGHT"
+                            },
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 34,
+                                "y": 0,
+                                "item": "lightmanscurrency:coin_iron"
+                            }
+                        ]
+                    },
+                    {
+                        "x": 61,
+                        "y": 61,
+                        "width": 53,
+                        "command": "exchangeUp-lightmanscurrency:coin_iron",
+                        "icons": [
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 2,
+                                "y": 0,
+                                "item": "lightmanscurrency:coin_iron"
+                            },
+                            {
+                                "type": "lightmanscurrency:small_arrow",
+                                "x": 23,
+                                "y": 6,
+                                "direction": "RIGHT"
+                            },
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 34,
+                                "y": 0,
+                                "item": "lightmanscurrency:coin_copper"
+                            }
+                        ]
+                    },
+                    {
+                        "x": 118,
+                        "y": 61,
+                        "width": 53,
+                        "command": "exchangeUp-lightmanscurrency:coin_copper",
+                        "icons": [
+                            {
+                                "type": "lightmanscurrency:item",
+                                "x": 3,
+                                "y": 0,
                                 "item": "lightmanscurrency:coin_copper"
                             },
                             {
@@ -72,157 +178,87 @@
                             },
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": 26,
+                                "x": 35,
                                 "y": 1,
                                 "item": "lightmanscurrency:coinblock_copper"
-                            },
-                            {
-                                "type": "lightmanscurrency:small_arrow",
-                                "x": 38,
-                                "y": 6,
-                                "direction": "RIGHT"
                             }
                         ]
                     },
                     {
-                        "x": 89,
-                        "y": 34,
-                        "width": 82,
-                        "command": "exchangeAllDown",
-                        "icons": [
-                            {
-                                "type": "lightmanscurrency:item",
-                                "x": 40,
-                                "y": 1,
-                                "item": "lightmanscurrency:coinblock_copper"
-                            },
-                            {
-                                "type": "lightmanscurrency:small_arrow",
-                                "x": 52,
-                                "y": 6,
-                                "direction": "RIGHT"
-                            },
-                            {
-                                "type": "lightmanscurrency:item",
-                                "x": 54,
-                                "y": 1,
-                                "item": "lightmanscurrency:coin_copper"
-                            },
-                            {
-                                "type": "lightmanscurrency:small_arrow",
-                                "x": 66,
-                                "y": 6,
-                                "direction": "RIGHT"
-                            },
-                            {
-                                "type": "lightmanscurrency:item",
-                                "x": 68,
-                                "y": 1,
-                                "item": "lightmanscurrency:coin_iron"
-                            }
-                        ]
-                    },
-                    {
-                        "x": 6,
-                        "y": 61,
-                        "width": 26,
+                        "x": 5,
+                        "y": 88,
+                        "width": 53,
                         "command": "exchangeDown-lightmanscurrency:coin_iron",
                         "icons": [
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": -2,
+                                "x": 1,
                                 "y": 1,
-                                "item": "lightmanscurrency:coin_copper"
+                                "item": "naangiskhan:naan_card"
                             },
                             {
                                 "type": "lightmanscurrency:small_arrow",
-                                "x": 10,
+                                "x": 22,
                                 "y": 6,
-                                "direction": "RIGHT"
+                                "direction": "LEFT"
                             },
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": 12,
-                                "y": 1,
+                                "x": 34,
+                                "y": 0,
                                 "item": "lightmanscurrency:coin_iron"
                             }
                         ]
                     },
                     {
-                        "x": 6,
+                        "x": 61,
                         "y": 88,
-                        "width": 26,
-                        "command": "exchangeUp-lightmanscurrency:coin_iron",
+                        "width": 53,
+                        "command": "exchangeDown-lightmanscurrency:coin_copper",
                         "icons": [
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": -2,
-                                "y": 1,
+                                "x": 2,
+                                "y": 0,
                                 "item": "lightmanscurrency:coin_iron"
                             },
                             {
                                 "type": "lightmanscurrency:small_arrow",
-                                "x": 10,
+                                "x": 23,
                                 "y": 6,
-                                "direction": "RIGHT"
+                                "direction": "LEFT"
                             },
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": 12,
-                                "y": 1,
+                                "x": 34,
+                                "y": 0,
                                 "item": "lightmanscurrency:coin_copper"
                             }
                         ]
                     },
                     {
-                        "x": 41,
-                        "y": 61,
-                        "width": 26,
-                        "command": "exchangeDown-lightmanscurrency:coinpile_copper",
-                        "icons": [
-                            {
-                                "type": "lightmanscurrency:item",
-                                "x": -2,
-                                "y": 1,
-                                "item": "lightmanscurrency:coin_pile_copper"
-                            },
-                            {
-                                "type": "lightmanscurrency:small_arrow",
-                                "x": 10,
-                                "y": 6,
-                                "direction": "RIGHT"
-                            },
-                            {
-                                "type": "lightmanscurrency:item",
-                                "x": 12,
-                                "y": 1,
-                                "item": "lightmanscurrency:coin_copper"
-                            }
-                        ]
-                    },
-                    {
-                        "x": 41,
+                        "x": 118,
                         "y": 88,
-                        "width": 26,
-                        "command": "exchangeUp-lightmanscurrency:coin_copper",
+                        "width": 53,
+                        "command": "exchangeDown-lightmanscurrency:coinblock_copper",
                         "icons": [
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": -2,
-                                "y": 1,
+                                "x": 3,
+                                "y": 0,
                                 "item": "lightmanscurrency:coin_copper"
                             },
                             {
                                 "type": "lightmanscurrency:small_arrow",
-                                "x": 10,
+                                "x": 24,
                                 "y": 6,
-                                "direction": "RIGHT"
+                                "direction": "LEFT"
                             },
                             {
                                 "type": "lightmanscurrency:item",
-                                "x": 12,
+                                "x": 35,
                                 "y": 1,
-                                "item": "lightmanscurrency:coinpile_copper"
+                                "item": "lightmanscurrency:coinblock_copper"
                             }
                         ]
                     }

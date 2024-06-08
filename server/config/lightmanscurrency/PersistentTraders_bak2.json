@@ -1,0 +1,3577 @@
+{
+  "Traders": [
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps1",
+      "Name": "[常設]デイリーボーナス",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 1,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          },
+          "Price": {
+            "Free": true,
+            "type": "lightmanscurrency:null"
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "ForgetTime": 86400000,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 1,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "cloudstorage:balloon_bit",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 1,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "minecraft:experience_bottle",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 6,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_prevention",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:ticket",
+            "Count": 15,
+            "Tag": "{TicketColor:16777215,TicketID:0L,display:{Name:'{\"text\":\"ログインチケット\"}'}}"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps2",
+      "Name": "[常設]会員証",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:membership_card",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "minecraft:spruce_pressure_plate",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_copper",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:membership_card_silver",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "naangiskhan:membership_card",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_copper",
+            "Count": 3
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:membership_card_gold",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "naangiskhan:membership_card_silver",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coinblock_copper",
+            "Count": 1
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps3",
+      "Name": "[常設]ナンケース用品",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "lightmanscurrency:wallet_copper",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_basic",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_capacity",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_efficiency",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_reduction",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              },
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:wallet_upgrade_prevention",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps5",
+      "Name": "[常設]高級品",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "quark:seed_pouch",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:red_bed",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "croptopia:the_big_breakfast",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ars_nouveau:novice_spell_book",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:tome_of_binding",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naangiskhan:totem_of_holding",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bundle",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "quark:backpack",
+            "Count": 1,
+            "Tag": "{Inventory:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coinblock_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "ars_nouveau:warp_scroll",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coinblock_copper",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps4",
+      "Name": "[常設]基本素材",
+      "OwnerName": "販売",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:copper_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:iron_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              },
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "create:zinc_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              },
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "create:andesite_alloy",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              },
+              {
+                "Coin": "naangiskhan:naan_card",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:gold_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:grass_block",
+            "Count": 64
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:stone",
+            "Count": 64
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "botania:black_lotus",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "cloudstorage:balloon_bit",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "cloudstorage:cloud",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps_ev0",
+      "Name": "[限定]料理",
+      "OwnerName": "イベント買取",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "nethersdelight:strider_moss_stew",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:apple_cider",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:melon_juice",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:barbecue_stick",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 9
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:apple_pie",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 9
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:sweet_berry_cheesecake",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 9
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:chocolate_pie",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:bone_broth",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:glow_berry_custard",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 7
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:fruit_salad",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:hamburger",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:fried_rice",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:roasted_mutton_chops",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:vegetable_soup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:chicken_soup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:dumplings",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:vegetable_noodles",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:steak_and_potatoes",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:ratatouille",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:pumpkin_soup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:baked_cod_stew",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:noodle_soup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:bacon_and_eggs",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:pasta_with_meatballs",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "nethersdelight:grilled_strider",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "nethersdelight:warped_moldy_meat",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "nethersdelight:stuffed_hoglin",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "nethersdelight:nether_skewer",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:mushroom_rice",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:pasta_with_mutton_chop",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "delightful:matcha_ice_cream",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "delightful:salmonberry_ice_cream",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 9
+          },
+          "BarterItem": {
+            "ID": "delightful:salmonberry_pie",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:stuffed_pumpkin_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:shepherds_pie_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:roast_chicken_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:honey_glazed_ham_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 9
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:rice_roll_medley_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "delightful:matcha_latte",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "delightful:stuffed_cantaloupe_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "delightful:berry_matcha_latte",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "delightful:ender_nectar",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "delightful:rock_candy",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "delightful:cactus_steak",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "delightful:crab_rangoon",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 7
+          },
+          "BarterItem": {
+            "ID": "delightful:sinigang",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 7
+          },
+          "BarterItem": {
+            "ID": "delightful:field_salad",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "delightful:cheeseburger",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 9
+          },
+          "BarterItem": {
+            "ID": "delightful:deluxe_cheeseburger",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "delightful:smore",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:grilled_salmon",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:squid_ink_pasta",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:dog_food",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "farmersdelight:horse_feed",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "miners_delight:glow_ink_pasta",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "tofudelight:soy_gratin_pumpkin_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "oceansdelight:guardian_soup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "oceansdelight:cabbage_wrapped_elder_guardian",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "oceansdelight:cooked_stuffed_cod",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 2
+          },
+          "BarterItem": {
+            "ID": "oceansdelight:honey_fried_kelp",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "miners_delight:takoyaki",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:sweet_and_sour_soup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 2
+          },
+          "BarterItem": {
+            "ID": "miners_delight:squid_sandwich",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:swet_syrup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:aetherflower_tea",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:quail_stew",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:goldenleaf_salad",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "miners_delight:weird_caviar",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "miners_delight:insect_sandwich",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps_ev1",
+      "Name": "[限定]料理2",
+      "OwnerName": "イベント買取",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "nethersdelight:magma_gelatin",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 9
+          },
+          "BarterItem": {
+            "ID": "tofudelight:ttt_burger",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "miners_delight:insect_stew",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "miners_delight:improvised_barbecue_stick",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 12
+          },
+          "BarterItem": {
+            "ID": "miners_delight:stuffed_squid",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "miners_delight:cave_soup",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "miners_delight:vegan_steak_and_potatoes",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "miners_delight:vegan_hamburger",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "miners_delight:vegan_wrap",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "miners_delight:pasta_with_veggieballs",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "miners_delight:seasoned_arthropods",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "create_confectionery:soothing_hot_chocolate",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "create_confectionery:caramelized_marshmellow_on_a_stick",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 3
+          },
+          "BarterItem": {
+            "ID": "create_confectionery:marshmallow",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "create:chocolate_glazed_berries",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "create:builders_tea",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 2
+          },
+          "BarterItem": {
+            "ID": "create:sweet_roll",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:ambrosia_glazed_apple",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "create_confectionery:gingerbread_man",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "create_confectionery:chocolate_candy",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:bowl_of_ginger_cookies",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 2
+          },
+          "BarterItem": {
+            "ID": "create:honeyed_apple",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "create_confectionery:honey_candy",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 7
+          },
+          "BarterItem": {
+            "ID": "create_confectionery:full_chocolate_bar",
+            "Count": 1,
+            "Tag": "{Damage:0}"
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 5
+          },
+          "BarterItem": {
+            "ID": "aetherdelight:swet_pudding",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps_ev2",
+      "Name": "[限定]レアアイテム",
+      "OwnerName": "イベント買取",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "SellItem2": {
+            "ID": "deep_aether:slider_eye",
+            "Count": 1,
+            "Tag": "{Damage:0,traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "deep_aether:slider_eye",
+            "Count": 1,
+            "Tag": "{Damage:0}"
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "SellItem2": {
+            "ID": "deep_aether:medal_of_honor",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "deep_aether:medal_of_honor",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "SellItem2": {
+            "ID": "deep_aether:sun_core",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "deep_aether:sun_core",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "artifacts:crystal_heart",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "artifacts:crystal_heart",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "artifacts:cross_necklace",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "artifacts:cross_necklace",
+            "Tag": "{CanApplyBonus:1b}",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "artifacts:antidote_vessel",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "artifacts:antidote_vessel",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "artifacts:helium_flamingo",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "artifacts:helium_flamingo",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "artifacts:lucky_scarf",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "artifacts:lucky_scarf",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "artifacts:running_shoes",
+            "Count": 1,
+            "Tag": "{traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "artifacts:running_shoes",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "betterarcheology:torrent_totem",
+            "Count": 1,
+            "Tag": "{Damage:0,traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "betterarcheology:torrent_totem",
+            "Count": 1,
+            "Tag": "{Damage:0}"
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "SellItem2": {
+            "ID": "betterarcheology:soul_totem",
+            "Count": 1,
+            "Tag": "{Damage:0,traded:1b}"
+          },
+          "BarterItem": {
+            "ID": "betterarcheology:soul_totem",
+            "Count": 1,
+            "Tag": "{Damage:0}"
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "BarterItem": {
+            "ID": "minecraft:nether_star",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "BarterItem": {
+            "ID": "undergarden:catalyst",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "BarterItem": {
+            "ID": "botania:dice",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ],
+          "IgnoreNBT": [
+            2
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "BarterItem": {
+            "ID": "betterarcheology:guardian_fossil",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "BarterItem": {
+            "ID": "betterarcheology:ocelot_fossil",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 64
+          },
+          "BarterItem": {
+            "ID": "aether_redux:cockatrice_feather",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "friendsandfoes:wildfire_crown_fragment",
+            "Count": 3
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:totem_of_undying",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "friendsandfoes:totem_of_illusion",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "friendsandfoes:totem_of_freezing",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "quark:diamond_heart",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "quark:forgotten_hat",
+            "Count": 1,
+            "Tag": "{Damage:0}"
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:heart_of_the_sea",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:nautilus_shell",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:goat_horn",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ],
+          "IgnoreNBT": [
+            2
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "aether:regeneration_stone",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "aether:victory_medal",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "aether_redux:sentry_chip",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:wither_skeleton_skull",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:skeleton_skull",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:zombie_head",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:creeper_head",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "supplementaries:enderman_head",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:piglin_head",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:piglin_banner_pattern",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 32
+          },
+          "BarterItem": {
+            "ID": "minecraft:echo_shard",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "ps_ev3",
+      "Name": "[限定]冒険",
+      "OwnerName": "イベント買取",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:moss_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "aether:aether_grass_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "create:scorchia",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:magma_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:blackstone",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:basalt",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:warped_nylium",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:crimson_nylium",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:tube_coral_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:bubble_coral",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "netherdepthsupgrade:crimson_seagrass",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "netherdepthsupgrade:warped_kelp",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:dripstone_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:tuff",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:calcite",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:crying_obsidian",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "aether:holystone",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "aether:aether_dirt",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "aether:enchanted_aether_grass_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "deep_aether:golden_heights_grass_block",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "aether_redux:divinite",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "deep_aether:aether_mud",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "aether:quicksoil",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "quark:myalite",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "aether_redux:golden_clover",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:sugar_cane",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "quark:white_corundum_cluster",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:wither_rose",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:bamboo",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:dead_bush",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "deep_aether:virulent_quicksand_bucket",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "betterarcheology:rotten_log",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:spore_blossom",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:flowering_azalea",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:sculk_shrieker",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:shroomlight",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:mud",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "naangiskhan:naan_card",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "minecraft:mangrove_roots",
+            "Count": 1
+          },
+          "Rules": [
+            {
+              "Limit": 1,
+              "Type": "lightmanscurrency:player_trade_limit"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Auctions": []
+}

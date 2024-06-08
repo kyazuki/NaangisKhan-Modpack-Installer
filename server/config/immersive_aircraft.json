@@ -1,0 +1,55 @@
+{
+  "enableDropsForNonPlayer": true,
+  "enableCrashExplosion": true,
+  "enableCrashBlockDestruction": false,
+  "enableCrashFire": false,
+  "crashExplosionRadius": 2.0,
+  "crashDamage": 2.0,
+  "preventKillThroughCrash": true,
+  "healthBarRow": 0,
+  "damagePerHealthPoint": 30,
+  "separateCamera": true,
+  "useThirdPersonByDefault": true,
+  "enableTrails": true,
+  "renderDistance": 192.0,
+  "fuelConsumption": 1.0,
+  "windClearWeather": 1.0,
+  "windRainWeather": 3.0,
+  "windThunderWeather": 3.0,
+  "repairSpeed": 0.025,
+  "collisionDamage": true,
+  "burnFuelInCreative": false,
+  "acceptVanillaFuel": true,
+  "useCustomKeybindSystem": true,
+  "showHotbarEngineGauge": true,
+  "weaponsAreDestructive": false,
+  "fuelList": {
+    "minecraft:blaze_powder": 1200,
+    "create:blaze_cake": 6400
+  },
+  "validDimensions": {
+    "minecraft:the_nether": true,
+    "minecraft:overworld": true,
+    "minecraft:the_end": true
+  },
+  "gunpowderAmmunition": {
+    "minecraft:gunpowder": 100
+  },
+  "arrowAmmunition": {
+    "minecraft:tipped_arrow": 100,
+    "minecraft:arrow": 100,
+    "minecraft:spectral_arrow": 100,
+    "tofucraft:zunda_arrow": 100,
+    "outer_end:rose_crystal_arrow": 200,
+    "outer_end:mint_crystal_arrow": 200,
+    "outer_end:cobalt_crystal_arrow": 200
+  },
+  "bombBayAmmunition": {
+    "minecraft:tnt": 100,
+    "undergarden:boomgourd": 100,
+    "supplementaries:bomb": 30,
+    "supplementaries:bomb_blue": 50,
+    "betterarcheology:bomb": 50
+  },
+  "version": 1
+}

@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "twilightforest:firefly_forest",
+      "required": false
+    }
+  ]
+}

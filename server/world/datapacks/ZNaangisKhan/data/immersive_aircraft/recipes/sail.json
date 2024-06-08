@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "create:white_sail"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:sail",
+    "count": 1
+  }
+}

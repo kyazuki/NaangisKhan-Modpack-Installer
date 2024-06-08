@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "undergarden:dense_forest",
+      "required": false
+    }
+  ]
+}

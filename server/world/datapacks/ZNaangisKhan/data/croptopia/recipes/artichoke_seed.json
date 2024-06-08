@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:artichokes"
+    }
+  ],
+  "result": {
+    "item": "croptopia:artichoke_seed"
+  }
+}

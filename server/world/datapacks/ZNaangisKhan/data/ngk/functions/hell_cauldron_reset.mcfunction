@@ -1,0 +1,2 @@
+#function naangiskhan:hell_cauldron_reset
+function naangiskhan:hell_cauldron/reset

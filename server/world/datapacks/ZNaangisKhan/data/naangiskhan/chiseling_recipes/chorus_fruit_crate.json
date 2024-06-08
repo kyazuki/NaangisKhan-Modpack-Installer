@@ -1,0 +1,15 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        {
+            "item": "ends_delight:chorus_fruit_crate"
+        },
+        {
+            "item": "quark:chorus_fruit_block"
+        },
+        {
+            "item": "endersdelight:chorus_crate"
+        }
+    ],
+    "overwrite": false
+}

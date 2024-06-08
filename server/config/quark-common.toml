@@ -24,7 +24,7 @@
 	#This will have various knock-on effects but might make the Weald more common, or appear closer to modded biomes. Who knows?
 	"Terrablender Modify Vanilla Anyway" = false
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 
@@ -479,8 +479,11 @@
 
 	[tools.seed_pouch]
 		"Max Items" = 640
-		"Show All Variants In Creative" = true
+		"Show All Variants In Creative" = false
 		"Shift Range" = 3
+		#Allow putting bone meal into the Seed Pouch (or anything else in the tag 'quark:seed_pouch_fertilizers')
+		"Allow Fertilizer" = true
+		"Fertilizer Shift Range" = 3
 
 	[tools.skull_pikes]
 		"Pike Range" = 5.0
@@ -1775,11 +1778,11 @@
 
 [oddities]
 	Backpack = true
-	Crate = true
+	Crate = false
 	Magnets = true
-	"Matrix Enchanting" = true
-	Pipes = true
-	"Tiny Potato" = true
+	"Matrix Enchanting" = false
+	Pipes = false
+	"Tiny Potato" = false
 	"Totem Of Holding" = true
 
 	[oddities.backpack]
@@ -1797,7 +1800,9 @@
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
 		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
+		#Block IDs to force-allow magnetism on, regardless of their crafting recipe
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
+		#Block IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
 		"Use Pre End Recipe" = false
 
@@ -1881,7 +1886,7 @@
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
 		"Dark Souls Mode" = true
 		#Totem will always spawn if the player killer is themselves.
-		"Spawn Totem on PVP Kill" = false
+		"Spawn Totem on PVP Kill" = true
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player

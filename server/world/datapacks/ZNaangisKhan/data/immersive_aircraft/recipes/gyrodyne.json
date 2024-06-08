@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "misc",
+  "pattern": [
+    " P ",
+    "SES",
+    "H_H"
+  ],
+  "key": {
+    "S": {
+      "item": "immersive_aircraft:sail"
+    },
+    "H": {
+      "item": "create:andesite_casing"
+    },
+    "P": {
+      "item": "create:propeller"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    },
+    "_": {
+      "tag": "create:seats"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:gyrodyne",
+    "count": 1
+  }
+}

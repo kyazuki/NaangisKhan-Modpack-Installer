@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "undergarden:wigglewood_forest",
+      "required": false
+    }
+  ]
+}

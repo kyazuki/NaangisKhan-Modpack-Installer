@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aether:gingerbread_man",
+      "required": false
+    },
+    {
+      "id": "aetherdelight:oat_cookie",
+      "required": false
+    },
+    {
+      "id": "endersdelight:uncanny_cookies",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:torchberry_cookie",
+      "required": false
+    },
+    {
+      "id": "create_confectionery:gingerbread_man",
+      "required": false
+    },
+    {
+      "id": "croptopia:rhubarb_crisp",
+      "required": false
+    },
+    {
+      "id": "croptopia:lemon_coconut_bar",
+      "required": false
+    },
+    {
+      "id": "miners_delight:bat_cookie",
+      "required": false
+    },
+    {
+      "id": "ends_delight:chorus_cookie",
+      "required": false
+    }
+  ]
+}

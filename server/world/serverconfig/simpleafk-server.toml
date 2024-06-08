@@ -1,0 +1,26 @@
+#How many seconds before the player is marked as AFK
+#Range: > 5
+secondsBeforeAfk = 300
+#How many seconds before the player is kicked after being marked as AFK
+#Set to 0 to disable kicking
+#Range: > 0
+secondsBeforeKick = 0
+#How the message should be displayed when a player is marked as AFK
+#Can be edited with the regular minecraft chat codes which can be found here https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes
+#$player will be replaced with the actual player name
+#$player is required to appear in the text
+isNowAfkMessage = "§e$playerが離席中になりました"
+#How the message should be displayed when a player is no longer marked as AFK
+#Can be edited with the regular minecraft chat codes which can be found here https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes
+#$player will be replaced with the actual player name
+#$player is required to appear in the text
+isNoLongerAfkMessage = "§e$playerが離席から復帰しました"
+#How the player name should appear when a player is AFK (includes tab list and nametag above player)
+#Can be edited with the regular minecraft chat codes which can be found here https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes
+#$player will be replaced with the actual player name
+#$player is required to appear in the text
+playerNameFormat = "§7$player(離席)"
+#The message that will be sent to the player after being kicked for being AFK too long.
+#Can be edited with the regular minecraft chat codes which can be found here https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes
+afkKickMessage = "§1長時間離席が続いたため切断されました"
+
