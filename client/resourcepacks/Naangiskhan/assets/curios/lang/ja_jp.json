@@ -44,5 +44,7 @@
     "curios.modifiers.slots.take.2": "-%s%% %s スロット",
     "key.curios.category": "キュリオス",
     "key.curios.open.desc": "装飾品を開く/閉じる",
-    "gui.curios.toggle": "表示/非表示を切り替え"
+    "gui.curios.toggle": "表示/非表示を切り替え",
+    "gui.curios.toggle.cosmetics": "コスメティック表示を切り替え",
+    "gui.curios.page": "%d / %dページ"
 }
