@@ -11,7 +11,11 @@
         "item:create:handheld_worldshaper",
         "item:ars_nouveau:debug",
         "item:minecraft:spawner",
-        "item:quark:monster_box"
+        "item:quark:monster_box",
+        "item:chromaticarsenal:viewer_item",
+        "item:creatingspace:copper_oxygen_backtank_placeable",
+        "item:creatingspace:netherite_oxygen_backtank_placeable",
+        "item:creatingspace:legacy_mechanical_electrolyzer"
     ],
     "filters": [
         "/citadel:/",

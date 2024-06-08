@@ -54,5 +54,11 @@
     "effect.netherdepthsupgrade.lava_vision.description": "溶岩の中でもはっきりと見通すことができる。",
     "effect.create_confectionery.stimulation.description": "移動速度低下や採掘速度低下に対する耐性を与える。",
     "effect.create_confectionery.rest.description": "周囲にファントムがスポーンしなくなる。",
+    "effect.enlightened_end.dazed.descritpion": "",
+    "effect.enlightened_end.frigid.descritpion": "",
+    "effect.enlightened_end.suffocation.descritpion": "空気中で呼吸ができなくなり、酸素ゲージが無くなると窒息ダメージを受ける。",
+    "effect.enlightened_end.bubbling.descritpion": "攻撃した相手を浮き上がる泡に閉じ込める。泡は内側から簡単に破られる。",
+    "effect.enlightened_end.rooted.descritpion": "低い場所に引き寄せられ、1ブロック地面に埋まる。",
+    "effect.enlightened_end.enderstride.descritpion": "ランダムな間隔で視線の方向にテレポートする。",
     "item.croptopia.the_big_breakfast.tooltip": "なんて贅沢なんでしょう！"
 }

@@ -278,7 +278,7 @@
     "effect.undergarden.gooey.description": "足元にシントリングの粘液が生成されるようになる。",
     "effect.undergarden.virulence": "瘴液",
     "effect.undergarden.virulence.description": "毒に似ているが、より時間をかけて多くのダメージを与える。",
-    "effect.undergarden.virulent_resistance": "瘴液",
+    "effect.undergarden.virulent_resistance": "瘴液耐性",
     "effect.undergarden.virulent_resistance.description": "瘴液に対する耐性を得る。すでに受けていた瘴液の効果は消えない。",
     "enchantment.undergarden.longevity": "長持ち",
     "enchantment.undergarden.longevity.desc": "パチンコの最大耐久値を上げる",
