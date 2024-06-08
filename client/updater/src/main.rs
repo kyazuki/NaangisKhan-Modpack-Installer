@@ -15,7 +15,7 @@ use simplelog::*;
 
 use version::Version;
 
-const LATEST_VERSION: Version = Version::new(1, 1, 8);
+const LATEST_VERSION: Version = Version::new(1, 1, 9);
 
 fn initialize_logger(path: &str) -> Result<(), Box<dyn error::Error>> {
     let log_path = Path::new(path);
@@ -798,6 +798,86 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             "mods/tofucreate-1.20.1-0.2.1.jar",
             924197,
             5253655,
+            is_force_update,
+        )?;
+    }
+    // v1.1.9アップデート
+    if is_old_version(&version, &"1.1.9".try_into()?) {
+        info!("Starting migration for v1.1.9...");
+        println!("v1.1.9アップデートの適用を開始します...");
+        println!("Modをアップデート中...");
+        remove_file_if_exist("mods/curios-forge-5.7.2+1.20.1.jar")?;
+        download_curseforge_file(
+            "mods/curios-forge-5.9.1+1.20.1.jar",
+            309927,
+            5367944,
+            is_force_update,
+        )?;
+        remove_file_if_exist("mods/naangiskhan-1.2.1+1.20.1.jar")?;
+        download_file(
+            "mods/naangiskhan-1.3.0+1.20.1.jar",
+            "https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/download/v1.1.9/naangiskhan-1.3.0+1.20.1.jar",
+            is_force_update,
+        )?;
+        println!("追加Modをインストール中...");
+        download_curseforge_file(
+            "mods/betterchunkloading-1.20.1-4.3.jar",
+            899487,
+            5393775,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/betterfpsdist-1.20.1-4.4.jar",
+            551520,
+            5333766,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/chromaticarsenal-1.20.1-1.20.1.jar",
+            656420,
+            5369583,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/chunkloaders-1.2.8a-forge-mc1.20.1.jar",
+            402924,
+            4850872,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/clientcrafting-1.20.1-1.8.jar",
+            888790,
+            5097009,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/connectivity-1.20.1-5.5.jar",
+            470193,
+            5181534,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/cupboard-1.20.1-2.6.jar",
+            326652,
+            5170315,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/farsight-1.20.1-3.6.jar",
+            495693,
+            4870168,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/ferritecore-6.0.1-forge.jar",
+            429235,
+            4810975,
+            is_force_update,
+        )?;
+        download_curseforge_file(
+            "mods/modernfix-forge-5.18.0+mc1.20.1.jar",
+            790626,
+            5399361,
             is_force_update,
         )?;
     }
