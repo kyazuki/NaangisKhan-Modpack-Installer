@@ -18,7 +18,7 @@ if defined INSTALLED_VERSION (
     bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/updater.exe "%CD%\updater.exe" > nul
     call updater.exe %INSTALLED_VERSION%
     if errorlevel 1 (
-        echo アップデートに失敗しました。この画面を撮影して管理者に報告してください。 1>&2
+        echo アップデートに失敗しました。naangiskhan-logs/updater.logを管理者に渡してください。 1>&2
         pause
         exit 1
     ) else (
