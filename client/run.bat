@@ -75,7 +75,7 @@ if errorlevel 1 (
 del client.zip
 REM "インストーラーをダウンロードして実行"
 echo インストーラーをダウンロード中...
-bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/Minecraft-Modpack-Installer/releases/download/v2.0.0/minecraft-modpack-installer-2.0.0.jar "%CD%\minecraft-modpack-installer.jar" > nul
+bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/Minecraft-Modpack-Installer/releases/download/v2.0.1/minecraft-modpack-installer-2.0.1.jar "%CD%\minecraft-modpack-installer.jar" > nul
 if errorlevel 1 (
     echo インストーラーのダウンロードに失敗しました。 1>&2
     pause
