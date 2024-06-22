@@ -37,7 +37,9 @@ if not %errorlevel% == 0 (
         echo Javaをインストール中...
         winget install --id Microsoft.OpenJDK.17 --accept-package-agreements --accept-source-agreements > nul 2>&1
         if errorlevel 1 (
-            echo Javaのインストールに失敗しました。 1>&2
+            echo Javaのインストールに失敗しました。以下URLから手動でインストールしたのちに再度実行してください。 1>&2
+            echo https://learn.microsoft.com/ja-jp/java/openjdk/download#openjdk-17 1>&2
+            echo (Windows x64 msi推奨) 1>&2
             pause
             exit 1
         )
