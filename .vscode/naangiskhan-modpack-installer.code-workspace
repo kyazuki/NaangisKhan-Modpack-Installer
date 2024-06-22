@@ -37,7 +37,7 @@
                 },
                 "dependsOrder": "sequence",
                 "dependsOn": [
-                    "Clean",
+                    // "Clean",
                     "Build Updater",
                     "Create NaangisKhan.zip",
                     "Create client.zip"
@@ -79,9 +79,10 @@
             },
             {
                 "label": "Build Updater",
-                "type": "cargo",
-                "command": "build",
+                "type": "shell",
+                "command": "cargo",
                 "args": [
+                    "build",
                     "--release"
                 ],
                 "problemMatcher": [
@@ -94,8 +95,11 @@
             },
             {
                 "label": "Build Updater Debug",
-                "type": "cargo",
-                "command": "build",
+                "type": "shell",
+                "command": "cargo",
+                "args": [
+                    "build"
+                ],
                 "problemMatcher": [
                     "$rustc"
                 ],
