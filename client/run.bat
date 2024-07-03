@@ -48,7 +48,7 @@ if not %errorlevel% == 0 (
         exit 0
     ) else (
         REM "winget経由でインストール済みのとき"
-        echo "インストール済みのJavaを発見しました"
+        echo インストール済みのJavaを発見しました
         for /f "tokens=* USEBACKQ" %%F in (`where /r %LocalAppData%\Programs\Microsoft java.exe`) do (
             set "JAVA=%%F"
         )
