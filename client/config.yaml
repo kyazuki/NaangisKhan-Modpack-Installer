@@ -119,10 +119,10 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/tofucraftreload/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 317469
   fileId: 5181742
-- name: TofuCreate v0.2.0
+- name: TofuCreate v0.2.1
   # https://www.curseforge.com/minecraft/mc-mods/tofucreate/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 924197
-  fileId: 5109349
+  fileId: 5253655
 - name: Tofu Delight v2.5.0
   # https://www.curseforge.com/minecraft/mc-mods/tofu-delight/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 835619
