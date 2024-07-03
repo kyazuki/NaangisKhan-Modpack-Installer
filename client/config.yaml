@@ -234,7 +234,7 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/connectivity/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 470193
   fileId: 5181534
-- name: Cosmetic Armor Reworked v0.49.2
+- name: Cosmetic Armor Reworked v1a
   # https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 237307
   fileId: 4600191
@@ -290,7 +290,7 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/simpleafk/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 908384
   fileId: 5218384
-- name: Spyglass of Curios v0.49.2
+- name: Spyglass of Curios v1.7.2
   # https://www.curseforge.com/minecraft/mc-mods/spyglass-of-curios/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 941332
   fileId: 5062462
@@ -393,11 +393,11 @@ CurseForgeMods:
   # https://www.curseforge.com/minecraft/mc-mods/searchables/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 858542
   fileId: 4779110
-- name: SuperMartijn642's Config Lib v20.1.9
+- name: SuperMartijn642's Config Lib v1.1.8
   # https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 438332
   fileId: 4715408
-- name: SuperMartijn642's Core Lib v20.1.9
+- name: SuperMartijn642's Core Lib v1.1.17
   # https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
   projectId: 454372
   fileId: 5102258
