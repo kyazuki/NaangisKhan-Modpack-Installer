@@ -15,7 +15,7 @@ use simplelog::*;
 
 use version::Version;
 
-const LATEST_VERSION: Version = Version::new(1, 1, 11);
+const LATEST_VERSION: Version = Version::new(1, 2, 0);
 
 fn initialize_logger(path: &str) -> Result<(), Box<dyn error::Error>> {
     let log_path = Path::new(path);
@@ -1256,6 +1256,19 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             "mods/oculus-mc1.20.1-1.7.0.jar",
             581495,
             5299671,
+            is_force_update,
+        )?;
+    }
+    // v1.2.0アップデート
+    if is_old_version(&version, &"1.2.0".try_into()?) {
+        info!("Starting migration for v1.2.0...");
+        println!("v1.2.0アップデートの適用を開始します...");
+        println!("Modをアップデート中...");
+        remove_file_if_exist("mods/friendsandfoes-forge-mc1.20.1-2.0.10.jar")?;
+        download_curseforge_file(
+            "mods/friendsandfoes-forge-mc1.20.1-2.0.11.jar",
+            602059,
+            5499042,
             is_force_update,
         )?;
     }
