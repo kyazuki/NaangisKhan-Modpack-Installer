@@ -1,0 +1,52 @@
+name: Build Artifacts for Release
+run-name: "Build Artifacts for ${{ github.ref_name }}"
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  upload-resources:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Upload NaangisKhan.zip
+      uses: actions/upload-artifact@v4
+      with:
+        name: NaangisKhan
+        path: client/resourcepacks/Naangiskhan
+        retention-days: 1
+    - name: Archive NaangisKhan.zip for client.zip
+      run: zip -r ../NaangisKhan.zip .
+      working-directory: client/resourcepacks/Naangiskhan
+    - name: Upload client.zip
+      uses: actions/upload-artifact@v4
+      with:
+        name: client
+        path: |
+          client/
+          !client/resourcepacks/Naangiskhan/
+          !client/updater/
+          !client/run.bat
+          !client/run.sh
+          !client/update.bat
+        retention-days: 1
+  upload-updater:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: client/updater
+    env:
+      CARGO_TERM_COLOR: always
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Build for Windows
+      run: cargo build --release --target x86_64-pc-windows-msvc
+    - name: Upload updater.exe
+      uses: actions/upload-artifact@v4
+      with:
+        name: updater
+        path: client/updater/target/x86_64-pc-windows-msvc/release/updater.exe
+        retention-days: 1
