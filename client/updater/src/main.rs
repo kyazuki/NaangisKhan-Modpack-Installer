@@ -217,12 +217,12 @@ fn updater(version: Option<Version>) -> Result<(), Box<dyn error::Error>> {
             is_force_update,
         )?;
         remove_file_if_exist("mods/supplementaries-1.20-2.7.35.jar")?;
-        download_curseforge_file(
-            "mods/supplementaries-1.20-2.8.6.jar",
-            412082,
-            5154529,
-            is_force_update,
-        )?;
+        // download_curseforge_file(
+        //     "mods/supplementaries-1.20-2.8.6.jar",
+        //     412082,
+        //     5154529,
+        //     is_force_update,
+        // )?;
         remove_file_if_exist("mods/ars_creo-1.20.1-4.0.1.jar")?;
         download_curseforge_file(
             "mods/ars_creo-1.20.1-4.1.0.jar",
