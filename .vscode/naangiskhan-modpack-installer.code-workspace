@@ -16,7 +16,10 @@
                 "type": "lldb",
                 "request": "launch",
                 "name": "Updater",
-                "program": "${workspaceFolder}/client/updater/target/debug/updater.exe",
+                "program": "${workspaceFolder}/client/updater/target/debug/updater",
+                "windows": {
+                    "program": "${workspaceFolder}/client/updater/target/debug/updater.exe"
+                },
                 "args": [],
                 "cwd": "${workspaceFolder}/test/",
                 "preLaunchTask": "Build Updater Debug",

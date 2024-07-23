@@ -16,7 +16,7 @@ if defined INSTALLED_VERSION (
         del /q update.bat > nul 2>&1
     )
     bitsadmin /transfer installer /priority FOREGROUND https://github.com/kyazuki/NaangisKhan-Modpack-Installer/releases/latest/download/updater.exe "%CD%\updater.exe" > nul
-    call updater.exe %INSTALLED_VERSION%
+    call updater.exe %INSTALLED_VERSION% --is-auto-start
     if errorlevel 1 (
         echo アップデートに失敗しました。naangiskhan-logs/updater.logを管理者に渡してください。 1>&2
         pause

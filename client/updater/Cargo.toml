@@ -1,11 +1,16 @@
 [package]
 name = "updater"
 version = "0.1.0"
+authors = ["kyazuki"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-log = "^0.4"
-reqwest = { version = "0.12.3", features = ["blocking"] }
-simplelog = "^0.12.0"
+clap = { version = "^4.5.9", features = ["derive"] }
+iced = { version = "^0.12.1", features = ["image", "tokio"] }
+log = "^0.4.22"
+reqwest = { version = "^0.12.5" }
+simplelog = "^0.12.2"
+sys-locale = "^0.3.1"
+tokio = { version = "^1.38.0", features = ["full"] }
